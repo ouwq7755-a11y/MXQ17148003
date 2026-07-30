@@ -1,0 +1,8 @@
+[phases.setup]
+cmds = ["cd backend && pip install -r requirements.txt"]
+
+[phases.deploy]
+cmds = ["cd backend && python main.py"]
+
+[start]
+cmd = "cd backend && python main.py"
