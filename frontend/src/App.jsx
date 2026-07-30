@@ -9,6 +9,7 @@ import Tools from './pages/Tools'
 import SearchPage from './pages/Search'
 import AIDesign from './pages/AIDesign'
 import Profile from './pages/Profile'
+import TemplateAnalyzer from './pages/TemplateAnalyzer'
 
 export const API_BASE = import.meta.env.VITE_API_URL || '/api'
 
@@ -37,6 +38,7 @@ export default function App() {
           <Route path="/tools" element={<Tools />} />
           <Route path="/search" element={<SearchPage />} />
           <Route path="/profile" element={<Profile />} />
+          <Route path="/analyzer" element={<TemplateAnalyzer />} />
         </Routes>
       </main>
       {!isDetailPage && (

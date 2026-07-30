@@ -6,12 +6,12 @@ import { categoryIcons } from '../components/Card'
 import { SkeletonGrid } from '../components/Loader'
 
 const quickEntries = [
-  { icon: Sparkles, label: 'AI生图', bg: 'rgba(229,213,245,0.5)', color: '#9070C0', to: '/ai-design' },
-  { icon: BookOpen, label: '分步教程', bg: 'rgba(213,245,224,0.5)', color: '#5AA070', to: '/tutorials' },
-  { icon: Package, label: '耗材清单', bg: 'rgba(213,229,245,0.5)', color: '#5088B0', to: '/materials' },
-  { icon: Palette, label: '肤色配色', bg: 'rgba(255,235,220,0.5)', color: '#D09080', to: '/ai-design' },
-  { icon: Camera, label: '素材中心', bg: 'rgba(245,213,224,0.5)', color: '#D08090', to: '/tutorials' },
-  { icon: Wrench, label: '工具教学', bg: 'rgba(225,230,245,0.5)', color: '#6088B0', to: '/tools' },
+  { icon: Sparkles, label: 'AI生图', bg: '#F3EEFA', color: '#9D76E8', to: '/ai-design' },
+  { icon: BookOpen, label: '分步教程', bg: '#EAF6EF', color: '#62C490', to: '/tutorials' },
+  { icon: Package, label: '耗材清单', bg: '#EAF2FA', color: '#48A8E6', to: '/materials' },
+  { icon: Palette, label: '肤色配色', bg: '#FEF4EC', color: '#E0A080', to: '/ai-design' },
+  { icon: Camera, label: '素材中心', bg: '#FEF0F4', color: '#E090A0', to: '/tutorials' },
+  { icon: Wrench, label: '工具教学', bg: '#F0F3FA', color: '#6088B0', to: '/tools' },
 ]
 
 const banners = [
@@ -60,8 +60,8 @@ export default function Home() {
       </Link>
 
       {/* Banner */}
-      <div className="relative overflow-hidden" style={{ borderRadius: 'var(--border-radius-banner)' }}>
-        <div className="px-6 py-8" style={{ background: 'linear-gradient(135deg, #E8D8F5 0%, #F5DDE5 100%)' }}>
+      <div className="relative overflow-hidden" style={{ borderRadius: '18rpx' }}>
+        <div className="px-6 py-8" style={{ background: 'linear-gradient(135deg, #C7E7FE 0%, #FEDEE9 100%)' }}>
           <div className="flex items-center gap-4">
             <GraduationCap size={32} color="#9D76E8" strokeWidth={1.5} />
             <div>
@@ -73,7 +73,7 @@ export default function Home() {
       </div>
 
       {/* 6-Grid */}
-      <div className="bg-white" style={{ borderRadius: 'var(--border-radius-grid)', padding: 'var(--padding-card)', boxShadow: 'var(--shadow-card)' }}>
+      <div className="bg-white" style={{ borderRadius: 'var(--border-radius-card)', padding: 'var(--padding-card)', boxShadow: 'var(--shadow-card)' }}>
         <div className="grid grid-cols-3 gap-y-5">
           {quickEntries.map(({ icon: Icon, label, bg, color, to }) => (
             <Link key={label} to={to} className="flex flex-col items-center gap-1.5 float-hover">
