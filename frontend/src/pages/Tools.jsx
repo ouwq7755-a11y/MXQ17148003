@@ -67,7 +67,7 @@ export default function Tools() {
       {loading ? <SkeletonGrid /> : tools.length === 0 ? (
         <EmptyState icon="🔧" title="暂无工具数据" message="请确认后端API已启动" />
       ) : (
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-card">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-5">
           {tools.map(tool => {
             const catInfo = cats.find(c => c.v === tool.category) || cats[0]
             const isExpanded = expandedId === tool.id

@@ -68,7 +68,7 @@ export default function Materials() {
       {loading ? <Loader /> : materials.length === 0 ? (
         <div className="text-center py-20"><span className="text-5xl">📦</span><p style={{ color: '#999', marginTop: '8rpx' }}>暂无材料数据</p></div>
       ) : (
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-card">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-5">
           {materials.map(m => (
             <div key={m.id} className="bg-white rounded-3xl shadow-card card-hover" style={{ padding: '32rpx' }}>
               {/* Header */}
