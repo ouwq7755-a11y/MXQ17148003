@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { Search, Sparkles, BookOpen, Palette, Wrench, Package, Camera, ChevronLeft, ChevronRight, Play, Clock, Flame } from 'lucide-react'
 import { API_BASE } from '../App'
 import { categoryIcons } from '../components/Card'
-import Loader from '../components/Loader'
+import Loader, { SkeletonGrid } from '../components/Loader'
 
 const quickEntries = [
   { icon: Sparkles, label: 'AI生图', bg: 'surface-ai', color: 'text-[#9D76E8]', to: '/ai-design' },
@@ -53,7 +53,7 @@ export default function Home() {
     return () => clearInterval(t)
   }, [])
 
-  if (loading) return <Loader text="正在加载美甲学院..." />
+  if (loading) return <div className="max-w-lg mx-auto py-8" style={{ background: '#FFFCFD' }}><SkeletonGrid /></div>
 
   const scroll = (dir) => {
     if (scrollRef.current) scrollRef.current.scrollBy({ left: dir * 220, behavior: 'smooth' })

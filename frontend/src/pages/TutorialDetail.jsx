@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { useParams, Link } from 'react-router-dom'
-import { Clock, BarChart3, Tag, AlertCircle, CheckCircle2, ArrowLeft, Eye } from 'lucide-react'
+import { Clock, BarChart3, CheckCircle2, ArrowLeft, Eye } from 'lucide-react'
 import { API_BASE } from '../App'
 import { categoryIcons, difficultyConfig } from '../components/Card'
 import Loader from '../components/Loader'
@@ -81,21 +81,25 @@ export default function TutorialDetail() {
             <CheckCircle2 className="w-5 h-5 text-primary-500" />
             操作步骤
           </h2>
-          <div className="space-y-6">
+          <div className="space-y-0">
             {steps.map((step, i) => (
-              <div key={i} className="bg-white rounded-2xl p-6 shadow-sm flex gap-5">
-                {/* Step Number */}
-                <div className="shrink-0 w-10 h-10 rounded-full gradient-hero flex items-center justify-center text-white font-bold text-sm shadow-sm">
-                  {step.order || i + 1}
-                </div>
-                <div className="flex-1">
-                  <h3 className="font-semibold text-gray-800 mb-2">{step.title}</h3>
-                  <p className="text-gray-600 text-sm leading-relaxed">{step.content}</p>
-                  {step.image && (
-                    <div className="mt-3 bg-gray-100 rounded-xl h-40 flex items-center justify-center text-gray-400 text-sm">
-                      [图片: {step.title}]
-                    </div>
+              <div key={i} className="flex gap-4">
+                {/* Timeline */}
+                <div className="flex flex-col items-center shrink-0">
+                  <div className="w-9 h-9 rounded-full flex items-center justify-center text-white font-semibold shadow-sm"
+                       style={{ backgroundColor: '#F28FB2', fontSize: '26rpx' }}>
+                    {step.order || i + 1}
+                  </div>
+                  {i < steps.length - 1 && (
+                    <div className="w-0.5 flex-1 my-1" style={{ backgroundColor: '#F4E8ED' }} />
                   )}
+                </div>
+                {/* Content */}
+                <div className={`flex-1 pb-6 ${i === steps.length - 1 ? '' : ''}`}>
+                  <div className="bg-white rounded-2xl shadow-card p-4">
+                    <h3 className="font-medium mb-1.5" style={{ fontSize: '28rpx', color: '#222' }}>{step.title}</h3>
+                    <p className="leading-relaxed" style={{ fontSize: '26rpx', color: '#555' }}>{step.content}</p>
+                  </div>
                 </div>
               </div>
             ))}
@@ -106,15 +110,14 @@ export default function TutorialDetail() {
         <div className="space-y-6">
           {/* Tips */}
           {tips.length > 0 && (
-            <div className="bg-amber-50 rounded-2xl p-5">
-              <h3 className="font-semibold text-amber-800 mb-3 flex items-center gap-2">
-                <AlertCircle className="w-4 h-4" />
-                避坑指南 & 小贴士
+            <div className="rounded-3xl p-5 shadow-card" style={{ backgroundColor: '#FFF5F8' }}>
+              <h3 className="font-medium mb-3 flex items-center gap-2" style={{ fontSize: '28rpx', color: '#F28FB2' }}>
+                💡 避坑指南 & 小贴士
               </h3>
-              <ul className="space-y-2">
+              <ul className="space-y-2.5">
                 {tips.map((tip, i) => (
-                  <li key={i} className="flex gap-2 text-sm text-amber-700">
-                    <span className="text-amber-400 shrink-0">💡</span>
+                  <li key={i} className="flex gap-2 leading-relaxed" style={{ fontSize: '26rpx', color: '#555' }}>
+                    <span className="shrink-0 mt-0.5 w-1.5 h-1.5 rounded-full" style={{ backgroundColor: '#F28FB2' }} />
                     {tip}
                   </li>
                 ))}
@@ -122,45 +125,33 @@ export default function TutorialDetail() {
             </div>
           )}
 
-          {/* Tools Needed */}
+          {/* Tools */}
           {tutorial.tools_needed?.length > 0 && (
-            <div className="bg-white rounded-2xl p-5 shadow-sm">
-              <h3 className="font-semibold text-gray-800 mb-3">所需工具</h3>
+            <div className="bg-white rounded-3xl p-5 shadow-card">
+              <h3 className="font-medium mb-3 flex items-center gap-2" style={{ fontSize: '28rpx', color: '#222' }}>🛠️ 所需工具</h3>
               <div className="flex flex-wrap gap-2">
                 {tutorial.tools_needed.map(id => (
-                  <Link
-                    key={id}
-                    to={`/tools`}
-                    className="px-3 py-1.5 bg-gray-100 rounded-full text-xs text-gray-600 hover:bg-primary-50 hover:text-primary-600 transition-colors"
-                  >
+                  <Link key={id} to="/tools" className="px-3 py-1.5 rounded-full transition-colors"
+                    style={{ backgroundColor: '#F4F4F4', color: '#555', fontSize: '24rpx' }}>
                     工具 #{id}
                   </Link>
                 ))}
               </div>
-              <Link to="/tools" className="block mt-3 text-xs text-primary-500 hover:text-primary-600">
-                查看完整工具指南 →
-              </Link>
             </div>
           )}
 
-          {/* Materials Needed */}
+          {/* Materials */}
           {tutorial.materials_needed?.length > 0 && (
-            <div className="bg-white rounded-2xl p-5 shadow-sm">
-              <h3 className="font-semibold text-gray-800 mb-3">所需材料</h3>
+            <div className="bg-white rounded-3xl p-5 shadow-card">
+              <h3 className="font-medium mb-3 flex items-center gap-2" style={{ fontSize: '28rpx', color: '#222' }}>📦 所需材料</h3>
               <div className="flex flex-wrap gap-2">
                 {tutorial.materials_needed.map(id => (
-                  <Link
-                    key={id}
-                    to={`/materials`}
-                    className="px-3 py-1.5 bg-gray-100 rounded-full text-xs text-gray-600 hover:bg-primary-50 hover:text-primary-600 transition-colors"
-                  >
+                  <Link key={id} to="/materials" className="px-3 py-1.5 rounded-full transition-colors"
+                    style={{ backgroundColor: '#F4F4F4', color: '#555', fontSize: '24rpx' }}>
                     材料 #{id}
                   </Link>
                 ))}
               </div>
-              <Link to="/materials" className="block mt-3 text-xs text-primary-500 hover:text-primary-600">
-                查看完整材料清单 →
-              </Link>
             </div>
           )}
         </div>
