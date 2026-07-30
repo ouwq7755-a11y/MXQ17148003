@@ -3,9 +3,11 @@
 @tailwind utilities;
 
 @layer base {
+  html, body, #root {
+    background-color: #FFFCFD;
+  }
   body {
     @apply antialiased;
-    background-color: #FFFCFD;
     color: #555555;
     font-family: 'PingFang SC', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', sans-serif;
     line-height: 1.6;

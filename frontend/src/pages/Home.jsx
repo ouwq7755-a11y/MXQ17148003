@@ -6,12 +6,12 @@ import { categoryIcons } from '../components/Card'
 import Loader, { SkeletonGrid } from '../components/Loader'
 
 const quickEntries = [
-  { icon: Sparkles, label: 'AI生图', bg: 'surface-ai', color: 'text-[#9D76E8]', to: '/ai-design' },
-  { icon: BookOpen, label: '分步教程', bg: 'surface-teach', color: 'text-[#62C490]', to: '/tutorials' },
-  { icon: Package, label: '耗材清单', bg: 'surface-material', color: 'text-[#48A8E6]', to: '/materials' },
-  { icon: Palette, label: '肤色配色', bg: 'surface-skin', color: 'text-[#E07098]', to: '/ai-design' },
-  { icon: Camera, label: '素材中心', bg: 'surface-media', color: 'text-[#F28FB2]', to: '/tutorials' },
-  { icon: Wrench, label: '工具教学', bg: 'surface-tool', color: 'text-[#48A8E6]', to: '/tools' },
+  { icon: Sparkles, label: 'AI生图', bg: '#F3EDFF', color: '#9D76E8', to: '/ai-design' },
+  { icon: BookOpen, label: '分步教程', bg: '#E6F7EF', color: '#62C490', to: '/tutorials' },
+  { icon: Package, label: '耗材清单', bg: '#E6F3FF', color: '#48A8E6', to: '/materials' },
+  { icon: Palette, label: '肤色配色', bg: '#FFF0E6', color: '#E07098', to: '/ai-design' },
+  { icon: Camera, label: '素材中心', bg: '#FFE6F0', color: '#F28FB2', to: '/tutorials' },
+  { icon: Wrench, label: '工具教学', bg: '#F0F4FF', color: '#48A8E6', to: '/tools' },
 ]
 
 const banners = [
@@ -98,8 +98,9 @@ export default function Home() {
         <div className="grid grid-cols-3 gap-y-6">
           {quickEntries.map(({ icon: Icon, label, bg, color, to }) => (
             <Link key={label} to={to} className="flex flex-col items-center gap-1.5 group">
-              <div className="w-12 h-12 rounded-2xl flex items-center justify-center transition-colors" style={{ backgroundColor: `var(--tw-${bg})` }}>
-                <Icon className="w-6 h-6" style={{ color: color.replace('text-[', '').replace(']', '') }} strokeWidth={2} />
+              <div className="w-12 h-12 rounded-2xl flex items-center justify-center transition-colors"
+                   style={{ backgroundColor: bg }}>
+                <Icon className="w-6 h-6" style={{ color }} strokeWidth={2} />
               </div>
               <span className="font-medium" style={{ fontSize: '24rpx', color: '#222' }}>{label}</span>
             </Link>
