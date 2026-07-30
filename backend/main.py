@@ -22,8 +22,8 @@ VIDEOS_DIR = os.path.join(os.path.dirname(__file__), "videos")
 os.makedirs(VIDEOS_DIR, exist_ok=True)
 app.mount("/videos", StaticFiles(directory=VIDEOS_DIR), name="videos")
 
-# Frontend dist path
-FRONTEND_DIST = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "frontend", "dist"))
+# Frontend static files (pre-built)
+FRONTEND_DIST = os.path.join(os.path.dirname(__file__), "static")
 
 app.add_middleware(
     CORSMiddleware,
