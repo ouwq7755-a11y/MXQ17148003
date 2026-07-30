@@ -1,0 +1,2276 @@
+[
+  {
+    "title": "新手美甲全流程 — 从修甲到封层零基础入门",
+    "slug": "beginner-full-process",
+    "category_id": 1,
+    "difficulty": "beginner",
+    "description": "完整的新手美甲流程教学，涵盖修甲、底胶、上色、封层每一步。适合零基础的美甲爱好者。学完即可独立完成基础美甲。",
+    "steps": "[{\"order\": 1, \"title\": \"\\u5de5\\u5177\\u51c6\\u5907\", \"content\": \"\\u51c6\\u5907\\u7f8e\\u7532\\u6413\\u6761\\u3001\\u6d77\\u7ef5\\u629b\\u3001\\u5e95\\u80f6\\u3001\\u7532\\u6cb9\\u80f6\\u3001\\u5c01\\u5c42\\u3001\\u5149\\u7597\\u706f\\u3001\\u6e05\\u6d01\\u6db2\\u3001\\u68c9\\u82b1\\u7247\\u7b49\\u57fa\\u7840\\u5de5\\u5177\\u3002\", \"image\": \"\"}, {\"order\": 2, \"title\": \"\\u4fee\\u6574\\u7532\\u578b\", \"content\": \"\\u7528\\u6307\\u7532\\u5200\\u4fee\\u526a\\u81f3\\u7406\\u60f3\\u957f\\u5ea6\\uff0c\\u7528\\u6413\\u6761\\u4fee\\u6574\\u7532\\u7f18\\u5f62\\u72b6\\u3002\\u5e38\\u89c1\\u7532\\u578b\\uff1a\\u65b9\\u5706\\u5f62\\u3001\\u692d\\u5706\\u5f62\\u3001\\u674f\\u4ec1\\u5f62\\u3002\\u521d\\u5b66\\u8005\\u63a8\\u8350\\u65b9\\u5706\\u5f62\\u3002\", \"image\": \"\"}, {\"order\": 3, \"title\": \"\\u6253\\u78e8\\u7532\\u9762\", \"content\": \"\\u7528\\u6d77\\u7ef5\\u629b\\u8f7b\\u6253\\u78e8\\u7532\\u9762\\uff0c\\u53bb\\u9664\\u6cb9\\u8102\\u5c42\\u3002\\u6ce8\\u610f\\uff1a\\u53ea\\u9700\\u8f7b\\u8f7b\\u6253\\u78e8\\u81f3\\u54d1\\u5149\\u5373\\u53ef\\uff0c\\u4e0d\\u8981\\u8fc7\\u5ea6\\u6253\\u78e8\\u4f24\\u7532\\u3002\", \"image\": \"\"}, {\"order\": 4, \"title\": \"\\u6e05\\u6d01\\u7532\\u9762\", \"content\": \"\\u7528\\u6e05\\u6d01\\u6db2\\u6216\\u9152\\u7cbe\\u68c9\\u7247\\u64e6\\u62ed\\u7532\\u9762\\uff0c\\u53bb\\u9664\\u7c89\\u5c18\\u548c\\u6cb9\\u8102\\u3002\\u786e\\u4fdd\\u7532\\u9762\\u5b8c\\u5168\\u5e72\\u71e5\\u540e\\u518d\\u8fdb\\u884c\\u4e0b\\u4e00\\u6b65\\u3002\", \"image\": \"\"}, {\"order\": 5, \"title\": \"\\u6d82\\u62b9\\u5e95\\u80f6\", \"content\": \"\\u8584\\u6d82\\u4e00\\u5c42\\u5e95\\u80f6\\uff0c\\u6ce8\\u610f\\u907f\\u5f00\\u6307\\u7f18\\u76ae\\u80a4\\u3002\\u5149\\u7597\\u706f\\u716730-60\\u79d2\\u56fa\\u5316\\u3002\\u5e95\\u80f6\\u8d77\\u5230\\u589e\\u52a0\\u9644\\u7740\\u529b\\u548c\\u4fdd\\u62a4\\u7532\\u9762\\u7684\\u4f5c\\u7528\\u3002\", \"image\": \"\"}, {\"order\": 6, \"title\": \"\\u7b2c\\u4e00\\u5c42\\u4e0a\\u8272\", \"content\": \"\\u8584\\u6d82\\u7b2c\\u4e00\\u5c42\\u7532\\u6cb9\\u80f6\\uff0c\\u989c\\u8272\\u8981\\u5747\\u5300\\u3002\\u8fb9\\u7f18\\u53ef\\u4ee5\\u75590.5mm\\u7a7a\\u9699\\u9632\\u6b62\\u6ea2\\u80f6\\u3002\\u5149\\u7597\\u706f\\u716730-60\\u79d2\\u3002\", \"image\": \"\"}, {\"order\": 7, \"title\": \"\\u7b2c\\u4e8c\\u5c42\\u4e0a\\u8272\", \"content\": \"\\u6d82\\u7b2c\\u4e8c\\u5c42\\u7532\\u6cb9\\u80f6\\u589e\\u52a0\\u989c\\u8272\\u9971\\u548c\\u5ea6\\u3002\\u540c\\u6837\\u8584\\u6d82\\u5747\\u5300\\uff0c\\u7167\\u706f\\u56fa\\u5316\\u3002\\u6df1\\u8272\\u7cfb\\u901a\\u5e38\\u4e24\\u5c42\\u5373\\u53ef\\uff0c\\u6d45\\u8272\\u7cfb\\u53ef\\u80fd\\u9700\\u8981\\u4e09\\u5c42\\u3002\", \"image\": \"\"}, {\"order\": 8, \"title\": \"\\u6d82\\u62b9\\u5c01\\u5c42\", \"content\": \"\\u5747\\u5300\\u6d82\\u62b9\\u5c01\\u5c42\\u80f6\\uff0c\\u5305\\u88f9\\u7532\\u7f18\\u589e\\u52a0\\u6301\\u4e45\\u5ea6\\u3002\\u7167\\u706f60-90\\u79d2\\u3002\\u5c01\\u5c42\\u5206\\u64e6\\u6d17\\u5c01\\u5c42\\u548c\\u514d\\u6d17\\u5c01\\u5c42\\uff0c\\u65b0\\u624b\\u63a8\\u8350\\u514d\\u6d17\\u5c01\\u5c42\\u3002\", \"image\": \"\"}, {\"order\": 9, \"title\": \"\\u5b8c\\u6210\\u4e0e\\u517b\\u62a4\", \"content\": \"\\u7528\\u6307\\u7f18\\u6cb9\\u6d82\\u62b9\\u7532\\u5468\\u76ae\\u80a4\\uff0c\\u6309\\u6469\\u5438\\u6536\\u3002\\u7f8e\\u7532\\u5b8c\\u6210\\uff01\\u6b63\\u5e38\\u53ef\\u4fdd\\u63011-2\\u5468\\u3002\", \"image\": \"\"}]",
+    "tips": "[\"\\u6bcf\\u5c42\\u80f6\\u4e00\\u5b9a\\u8981\\u8584\\u6d82\\uff0c\\u539a\\u6d82\\u4f1a\\u5bfc\\u81f4\\u7f29\\u80f6\\u6216\\u8d77\\u76b1\", \"\\u7167\\u706f\\u65f6\\u95f4\\u8981\\u5145\\u8db3\\uff0c\\u672a\\u5b8c\\u5168\\u56fa\\u5316\\u4f1a\\u5bfc\\u81f4\\u8d77\\u7fd8\\u8131\\u843d\", \"\\u5e95\\u80f6\\u548c\\u5c01\\u5c42\\u4e00\\u5b9a\\u8981\\u5305\\u88f9\\u7532\\u7f18\\uff08\\u5305\\u8fb9\\uff09\\uff0c\\u5ef6\\u957f\\u6301\\u4e45\\u5ea6\", \"\\u4e0a\\u8272\\u65f6\\u5148\\u6d82\\u4e2d\\u95f4\\u518d\\u6d82\\u4e24\\u4fa7\\uff0c\\u66f4\\u5bb9\\u6613\\u6d82\\u5300\"]",
+    "tools_needed": "[1, 2, 3, 4, 5, 6]",
+    "materials_needed": "[1, 2, 3, 4]",
+    "source_type": "manual",
+    "source_url": "",
+    "video_url": "",
+    "cover_image": "//i2.hdslb.com/bfs/archive/691fe0c0cd869d5186346434543782db4d4a351f.jpg",
+    "duration_minutes": 25,
+    "tags": [
+      "新手入门",
+      "短甲适合"
+    ]
+  },
+  {
+    "title": "经典白色法式美甲 — 优雅永不过时",
+    "slug": "classic-french-tip",
+    "category_id": 3,
+    "difficulty": "intermediate",
+    "description": "手把手教你画出完美的法式微笑线。从传统白色法式到现代彩色法式，掌握法式美甲的核心技法。",
+    "steps": "[{\"order\": 1, \"title\": \"\\u5e95\\u8272\\u51c6\\u5907\", \"content\": \"\\u5b8c\\u6210\\u57fa\\u7840\\u4fee\\u7532\\u540e\\uff0c\\u6d82\\u4e00\\u5c42\\u900f\\u660e\\u5e95\\u80f6\\u6216\\u88f8\\u7c89\\u8272\\u6253\\u5e95\\uff0c\\u7167\\u706f\\u56fa\\u5316\\u3002\\u6cd5\\u5f0f\\u7f8e\\u7532\\u5e95\\u8272\\u4ee5\\u81ea\\u7136\\u900f\\u660e\\u611f\\u4e3a\\u4e3b\\u3002\", \"image\": \"\"}, {\"order\": 2, \"title\": \"\\u753b\\u5fae\\u7b11\\u7ebf\\uff08\\u65b9\\u6cd5\\u4e00\\uff1a\\u8d34\\u7eb8\\u8f85\\u52a9\\uff09\", \"content\": \"\\u4f7f\\u7528\\u6cd5\\u5f0f\\u8d34\\u7eb8\\u8d34\\u5728\\u6307\\u7532\\u4e0a\\uff0c\\u9732\\u51fa\\u6307\\u5c16\\u90e8\\u5206\\u3002\\u7528\\u767d\\u8272\\u7532\\u6cb9\\u80f6\\u6d82\\u62b9\\u6307\\u5c16\\uff0c\\u6495\\u4e0b\\u8d34\\u7eb8\\u5373\\u5f97\\u5b8c\\u7f8e\\u5f27\\u7ebf\\u3002\\u9002\\u5408\\u65b0\\u624b\\u3002\", \"image\": \"\"}, {\"order\": 3, \"title\": \"\\u753b\\u5fae\\u7b11\\u7ebf\\uff08\\u65b9\\u6cd5\\u4e8c\\uff1a\\u624b\\u7ed8\\uff09\", \"content\": \"\\u7528\\u7ec6\\u6bdb\\u7b14\\u8638\\u767d\\u8272\\u5f69\\u7ed8\\u80f6\\uff0c\\u4ece\\u6307\\u7532\\u4e00\\u4fa7\\u8d77\\u7b14\\uff0c\\u6cbf\\u81ea\\u7136\\u5fae\\u7b11\\u7ebf\\u5f27\\u5ea6\\u753b\\u5411\\u4e2d\\u95f4\\uff0c\\u518d\\u4ece\\u53e6\\u4e00\\u4fa7\\u8d77\\u7b14\\u753b\\u5411\\u4e2d\\u95f4\\u6c47\\u5408\\u3002\", \"image\": \"\"}, {\"order\": 4, \"title\": \"\\u4fee\\u6574\\u5f27\\u7ebf\", \"content\": \"\\u7528\\u6e05\\u6d01\\u6db2\\u8638\\u53d6\\u5c0f\\u7b14\\u4fee\\u6b63\\u4e0d\\u5b8c\\u7f8e\\u7684\\u5730\\u65b9\\uff0c\\u8ba9\\u5fae\\u7b11\\u7ebf\\u5f27\\u5ea6\\u6d41\\u7545\\u81ea\\u7136\\u3002\\u7167\\u706f\\u56fa\\u5316\\u3002\", \"image\": \"\"}, {\"order\": 5, \"title\": \"\\u5c01\\u5c42\\u6536\\u5c3e\", \"content\": \"\\u6d82\\u62b9\\u5c01\\u5c42\\u5305\\u88f9\\u6574\\u4e2a\\u7532\\u9762\\uff0c\\u7167\\u706f60\\u79d2\\u3002\\u6cd5\\u5f0f\\u7f8e\\u7532\\u5b8c\\u6210\\uff01\", \"image\": \"\"}]",
+    "tips": "[\"\\u5fae\\u7b11\\u7ebf\\u5f27\\u5ea6\\u5e94\\u8ddf\\u968f\\u6307\\u7532\\u81ea\\u7136\\u5f27\\u5ea6\\uff0c\\u4e0d\\u8981\\u592a\\u76f4\\u6216\\u592a\\u5f2f\", \"\\u65b0\\u624b\\u5f3a\\u70c8\\u63a8\\u8350\\u4f7f\\u7528\\u6cd5\\u5f0f\\u8d34\\u7eb8/\\u8f85\\u52a9\\u8d34\\uff0c\\u6210\\u529f\\u7387\\u5927\\u5e45\\u63d0\\u5347\", \"\\u5f69\\u8272\\u6cd5\\u5f0f\\uff08\\u7ea2\\u3001\\u7c89\\u3001\\u84dd\\u7b49\\uff09\\u6bd4\\u4f20\\u7edf\\u767d\\u8272\\u66f4\\u6d3b\\u6cfc\\u65f6\\u5c1a\", \"V\\u578b\\u6cd5\\u5f0f\\u548c\\u659c\\u6cd5\\u5f0f\\u4e5f\\u662f\\u70ed\\u95e8\\u53d8\\u4f53\\uff0c\\u638c\\u63e1\\u57fa\\u7840\\u540e\\u53ef\\u5c1d\\u8bd5\"]",
+    "tools_needed": "[1, 2, 3, 4, 7, 9]",
+    "materials_needed": "[1, 2, 5, 6]",
+    "source_type": "manual",
+    "source_url": "",
+    "video_url": "",
+    "cover_image": "//i2.hdslb.com/bfs/archive/2ff9b9dc36722525d74d9b75ee73e526c5a6bdbc.jpg",
+    "duration_minutes": 30,
+    "tags": [
+      "日系",
+      "婚甲",
+      "日常通勤"
+    ]
+  },
+  {
+    "title": "猫眼美甲制作全攻略 — 磁铁技法详解",
+    "slug": "cat-eye-magnet-tutorial",
+    "category_id": 5,
+    "difficulty": "intermediate",
+    "description": "猫眼美甲的核心在于磁铁的使用技巧。本教程讲解如何用磁铁控制猫眼粉的排列，打造迷人猫眼光带效果。",
+    "steps": "[{\"order\": 1, \"title\": \"\\u5e95\\u8272\\u6253\\u5e95\", \"content\": \"\\u6d82\\u9ed1\\u8272\\u6216\\u6df1\\u8272\\u5e95\\u80f6\\u53ef\\u4ee5\\u8ba9\\u732b\\u773c\\u6548\\u679c\\u66f4\\u52a0\\u660e\\u663e\\u3002\\u7167\\u706f\\u56fa\\u5316\\u3002\\u6df1\\u8272\\u5e95\\u8272\\u80fd\\u8ba9\\u732b\\u773c\\u5149\\u5e26\\u5bf9\\u6bd4\\u5ea6\\u66f4\\u5f3a\\u3002\", \"image\": \"\"}, {\"order\": 2, \"title\": \"\\u6d82\\u62b9\\u732b\\u773c\\u80f6\", \"content\": \"\\u8584\\u6d82\\u4e00\\u5c42\\u732b\\u773c\\u7532\\u6cb9\\u80f6\\uff0c\\u4e0d\\u8981\\u7167\\u706f\\uff01\\u8d81\\u80f6\\u672a\\u5e72\\u65f6\\u8fdb\\u884c\\u78c1\\u94c1\\u64cd\\u4f5c\\u3002\", \"image\": \"\"}, {\"order\": 3, \"title\": \"\\u78c1\\u94c1\\u5438\\u9644\\uff08\\u7ecf\\u5178\\u76f4\\u7ebf\\u732b\\u773c\\uff09\", \"content\": \"\\u5c06\\u78c1\\u94c1\\u5e73\\u884c\\u60ac\\u4e8e\\u7532\\u9762\\u4e0a\\u65b9\\u7ea62-3mm\\u5904\\uff0c\\u4fdd\\u63015-10\\u79d2\\u3002\\u732b\\u773c\\u7c89\\u4f1a\\u88ab\\u5438\\u9644\\u5f62\\u6210\\u4e00\\u9053\\u5149\\u5e26\\u3002\\u78c1\\u94c1\\u8d8a\\u8fd1\\u6548\\u679c\\u8d8a\\u5f3a\\u3002\", \"image\": \"\"}, {\"order\": 4, \"title\": \"\\u78c1\\u94c1\\u5438\\u9644\\uff08\\u659c\\u7ebf/\\u66f2\\u7ebf\\u6548\\u679c\\uff09\", \"content\": \"\\u6539\\u53d8\\u78c1\\u94c1\\u89d2\\u5ea6\\u53ef\\u4ee5\\u505a\\u51fa\\u659c\\u7ebf\\u732b\\u773c\\u3002\\u7528\\u5706\\u5f62\\u78c1\\u94c1\\u9760\\u8fd1\\u53ef\\u505a\\u51fa\\u5706\\u5f62\\u5149\\u6655\\u6548\\u679c\\u3002\\u521b\\u610f\\u78c1\\u94c1\\u6446\\u653e\\u53ef\\u505a\\u51fa\\u5404\\u79cd\\u732b\\u773c\\u56fe\\u6848\\u3002\", \"image\": \"\"}, {\"order\": 5, \"title\": \"\\u7167\\u706f\\u56fa\\u5316\", \"content\": \"\\u78c1\\u94c1\\u6548\\u679c\\u6ee1\\u610f\\u540e\\uff0c\\u5feb\\u901f\\u653e\\u5165\\u5149\\u7597\\u706f\\u716760\\u79d2\\u56fa\\u5316\\u3002\\u6ce8\\u610f\\uff1a\\u79fb\\u52a8\\u624b\\u6307\\u65f6\\u8981\\u5e73\\u7a33\\uff0c\\u907f\\u514d\\u78c1\\u7c89\\u79fb\\u4f4d\\u3002\", \"image\": \"\"}, {\"order\": 6, \"title\": \"\\u5c01\\u5c42\\u4fdd\\u62a4\", \"content\": \"\\u6d82\\u62b9\\u5c01\\u5c42\\uff0c\\u7167\\u706f60\\u79d2\\u3002\\u732b\\u773c\\u7f8e\\u7532\\u5b8c\\u6210\\uff01\", \"image\": \"\"}]",
+    "tips": "[\"\\u732b\\u773c\\u80f6\\u4e00\\u5b9a\\u8981\\u5728\\u672a\\u7167\\u706f\\u72b6\\u6001\\u4e0b\\u64cd\\u4f5c\\u78c1\\u94c1\", \"\\u6bcf\\u53ea\\u624b\\u6307\\u5355\\u72ec\\u64cd\\u4f5c\\uff1a\\u6d82\\u80f6\\u2192\\u78c1\\u94c1\\u2192\\u7167\\u706f\\uff0c\\u4e0d\\u8981\\u4e00\\u6b21\\u6d82\\u5b8c\\u4e94\\u53ea\", \"\\u78c1\\u94c1\\u8ddd\\u79bb\\u8d8a\\u8fd1\\u3001\\u65f6\\u95f4\\u8d8a\\u957f\\uff0c\\u732b\\u773c\\u5149\\u5e26\\u8d8a\\u660e\\u663e\", \"\\u732b\\u773c\\u80f6\\u989c\\u8272\\u9009\\u62e9\\uff1a\\u94f6\\u8272\\u732b\\u773c\\u6700\\u7ecf\\u5178\\uff0c\\u5f69\\u8272\\u732b\\u773c\\u66f4\\u65f6\\u5c1a\"]",
+    "tools_needed": "[1, 2, 3, 4, 10]",
+    "materials_needed": "[1, 2, 7, 8]",
+    "source_type": "manual",
+    "source_url": "",
+    "video_url": "",
+    "cover_image": "//i0.hdslb.com/bfs/archive/85bb9aecdc858160f47808cf499cd2deac6c7067.jpg",
+    "duration_minutes": 25,
+    "tags": [
+      "进阶技法",
+      "日系",
+      "约会款"
+    ]
+  },
+  {
+    "title": "双色渐变美甲 — 海绵渐变技法",
+    "slug": "gradient-sponge-technique",
+    "category_id": 4,
+    "difficulty": "intermediate",
+    "description": "使用化妆海绵打造自然柔美的双色渐变效果。从配色原理到操作技巧，一节课学会渐变美甲。",
+    "steps": "[{\"order\": 1, \"title\": \"\\u914d\\u8272\\u9009\\u62e9\", \"content\": \"\\u9009\\u62e9\\u540c\\u8272\\u7cfb\\u6216\\u90bb\\u8fd1\\u8272\\u642d\\u914d\\u6e10\\u53d8\\u6548\\u679c\\u6700\\u81ea\\u7136\\u3002\\u5982\\uff1a\\u7c89+\\u767d\\u3001\\u84dd+\\u7d2b\\u3001\\u88f8\\u8272+\\u767d\\u3002\\u5bf9\\u6bd4\\u8272\\u642d\\u914d\\u66f4\\u6709\\u89c6\\u89c9\\u51b2\\u51fb\\u529b\\u3002\", \"image\": \"\"}, {\"order\": 2, \"title\": \"\\u5e95\\u8272\\u6253\\u5e95\", \"content\": \"\\u6d82\\u767d\\u8272\\u6216\\u6d45\\u8272\\u5e95\\u80f6\\uff0c\\u7167\\u706f\\u56fa\\u5316\\u3002\\u767d\\u8272\\u5e95\\u8272\\u80fd\\u8ba9\\u6e10\\u53d8\\u8272\\u66f4\\u663e\\u8272\\u3002\", \"image\": \"\"}, {\"order\": 3, \"title\": \"\\u6d77\\u7ef5\\u4e0a\\u8272\", \"content\": \"\\u5c06\\u4e24\\u79cd\\u7532\\u6cb9\\u80f6\\u5e76\\u6392\\u6d82\\u5728\\u5316\\u5986\\u6d77\\u7ef5\\u4e0a\\uff0c\\u4e2d\\u95f4\\u7565\\u5fae\\u91cd\\u53e0\\u3002\\u7136\\u540e\\u5c06\\u6d77\\u7ef5\\u8f7b\\u8f7b\\u6309\\u538b\\u5728\\u7532\\u9762\\u4e0a\\uff0c\\u989c\\u8272\\u81ea\\u7136\\u8fc7\\u6e21\\u3002\", \"image\": \"\"}, {\"order\": 4, \"title\": \"\\u91cd\\u590d\\u53e0\\u52a0\", \"content\": \"\\u91cd\\u590d\\u6d77\\u7ef5\\u6309\\u538b2-3\\u6b21\\u589e\\u52a0\\u989c\\u8272\\u9971\\u548c\\u5ea6\\u548c\\u6e10\\u53d8\\u5c42\\u6b21\\u611f\\u3002\\u6bcf\\u6b21\\u6309\\u538b\\u540e\\u68c0\\u67e5\\u6e10\\u53d8\\u6548\\u679c\\uff0c\\u4e0d\\u7406\\u60f3\\u53ef\\u518d\\u6b21\\u53e0\\u52a0\\u3002\", \"image\": \"\"}, {\"order\": 5, \"title\": \"\\u6e05\\u7406\\u8fb9\\u7f18\", \"content\": \"\\u7528\\u6e05\\u6d01\\u6db2\\u8638\\u53d6\\u5c0f\\u7b14\\u6216\\u68c9\\u7b7e\\uff0c\\u6e05\\u7406\\u6307\\u7532\\u5468\\u56f4\\u76ae\\u80a4\\u7684\\u6ea2\\u80f6\\u3002\\u7167\\u706f60\\u79d2\\u56fa\\u5316\\u3002\", \"image\": \"\"}, {\"order\": 6, \"title\": \"\\u5c01\\u5c42\\u6536\\u5c3e\", \"content\": \"\\u6d82\\u62b9\\u5c01\\u5c42\\uff0c\\u8ba9\\u6e10\\u53d8\\u8868\\u9762\\u66f4\\u52a0\\u5e73\\u6574\\u5149\\u6ed1\\u3002\\u7167\\u706f60\\u79d2\\u3002\\u6e10\\u53d8\\u7f8e\\u7532\\u5b8c\\u6210\\uff01\", \"image\": \"\"}]",
+    "tips": "[\"\\u6d77\\u7ef5\\u9009\\u62e9\\u5bc6\\u5ea6\\u9ad8\\u7684\\u5316\\u5986\\u6d77\\u7ef5\\uff0c\\u5b54\\u592a\\u5927\\u6548\\u679c\\u4e0d\\u7ec6\\u817b\", \"\\u6bcf\\u5c42\\u6e10\\u53d8\\u6309\\u538b\\u540e\\u5148\\u7167\\u706f10\\u79d2\\u534a\\u56fa\\u5316\\uff0c\\u518d\\u505a\\u4e0b\\u4e00\\u5c42\\u5c42\\u6b21\\u611f\\u66f4\\u597d\", \"\\u6e10\\u53d8\\u65b9\\u5411\\u53ef\\u4ee5\\u4e0a\\u4e0b\\u6e10\\u53d8\\u3001\\u5de6\\u53f3\\u6e10\\u53d8\\u3001\\u5bf9\\u89d2\\u6e10\\u53d8\", \"\\u52a0\\u5165\\u4eae\\u7247\\u6216\\u95ea\\u7c89\\u5728\\u6e10\\u53d8\\u8fc7\\u6e21\\u5904\\u589e\\u52a0\\u7cbe\\u81f4\\u611f\"]",
+    "tools_needed": "[1, 2, 3, 4, 11]",
+    "materials_needed": "[1, 2, 9, 10]",
+    "source_type": "manual",
+    "source_url": "",
+    "video_url": "",
+    "cover_image": "//i2.hdslb.com/bfs/archive/10535602df0efb68c03f33eb3c6f7d1ea93714e8.jpg",
+    "duration_minutes": 20,
+    "tags": [
+      "进阶技法",
+      "韩系",
+      "约会款"
+    ]
+  },
+  {
+    "title": "3D立体雕花美甲 — 浮雕花朵技法",
+    "slug": "3d-flower-sculpting",
+    "category_id": 6,
+    "difficulty": "advanced",
+    "description": "使用雕花胶制作立体花朵装饰。从调胶、塑形到上色，打造精致的3D浮雕美甲效果。",
+    "steps": "[{\"order\": 1, \"title\": \"\\u96d5\\u82b1\\u80f6\\u51c6\\u5907\", \"content\": \"\\u53d6\\u9002\\u91cf3D\\u96d5\\u82b1\\u80f6\\uff0c\\u7528\\u96d5\\u82b1\\u7b14\\u8638\\u53d6\\u5c11\\u91cf\\u6e05\\u6d01\\u6db2\\u9632\\u6b62\\u7c98\\u8fde\\u3002\\u96d5\\u82b1\\u80f6\\u6709\\u900f\\u660e\\u3001\\u767d\\u8272\\u548c\\u5f69\\u8272\\u53ef\\u9009\\u3002\", \"image\": \"\"}, {\"order\": 2, \"title\": \"\\u5236\\u4f5c\\u82b1\\u74e3\", \"content\": \"\\u53d6\\u4e00\\u5c0f\\u56e2\\u96d5\\u82b1\\u80f6\\u6413\\u6210\\u6c34\\u6ef4\\u5f62\\uff0c\\u7528\\u96d5\\u82b1\\u7b14\\u538b\\u6241\\u5851\\u9020\\u6210\\u82b1\\u74e3\\u5f62\\u72b6\\u3002\\u6bcf\\u7247\\u82b1\\u74e3\\u5927\\u5c0f\\u8981\\u5747\\u5300\\u4e00\\u81f4\\u3002\", \"image\": \"\"}, {\"order\": 3, \"title\": \"\\u7ec4\\u88c5\\u82b1\\u6735\", \"content\": \"\\u5728\\u7532\\u9762\\u4e0a\\u5148\\u653e\\u7f6e\\u82b1\\u5fc3\\uff08\\u5c0f\\u7403\\uff09\\uff0c\\u56f4\\u7ed5\\u82b1\\u5fc3\\u4f9d\\u6b21\\u8d34\\u4e0a\\u82b1\\u74e3\\u3002\\u4e00\\u6735\\u82b1\\u901a\\u5e385-6\\u7247\\u82b1\\u74e3\\u3002\\u7167\\u706f30\\u79d2\\u534a\\u56fa\\u5316\\u3002\", \"image\": \"\"}, {\"order\": 4, \"title\": \"\\u6dfb\\u52a0\\u5c42\\u6b21\", \"content\": \"\\u53ef\\u53e0\\u52a0\\u7b2c\\u4e8c\\u5c42\\u82b1\\u74e3\\u5236\\u4f5c\\u91cd\\u74e3\\u82b1\\u6548\\u679c\\u3002\\u6dfb\\u52a0\\u53f6\\u7247\\u548c\\u85e4\\u8513\\u589e\\u52a0\\u7acb\\u4f53\\u611f\\u3002\", \"image\": \"\"}, {\"order\": 5, \"title\": \"\\u4e0a\\u8272\\u70b9\\u7f00\", \"content\": \"\\u7528\\u5f69\\u7ed8\\u7b14\\u8638\\u53d6\\u5f69\\u8272\\u80f6\\u4e3a\\u82b1\\u74e3\\u4e0a\\u8272\\uff0c\\u82b1\\u5fc3\\u70b9\\u7f00\\u4eae\\u94bb\\u6216\\u73cd\\u73e0\\u3002\\u7167\\u706f60\\u79d2\\u5b8c\\u5168\\u56fa\\u5316\\u3002\", \"image\": \"\"}, {\"order\": 6, \"title\": \"\\u5c01\\u5c42\\u4fdd\\u62a4\", \"content\": \"\\u7528\\u514d\\u6d17\\u5c01\\u5c42\\u5c0f\\u5fc3\\u6d82\\u62b93D\\u90e8\\u5206\\uff0c\\u6ce8\\u610f\\u4e0d\\u8981\\u7834\\u574f\\u7acb\\u4f53\\u5f62\\u72b6\\u3002\\u7167\\u706f\\u5b8c\\u6210\\uff01\", \"image\": \"\"}]",
+    "tips": "[\"\\u96d5\\u82b1\\u80f6\\u7a0d\\u786c\\u4e8e\\u4e00\\u822c\\u80f6\\uff0c\\u9700\\u8981\\u7ec3\\u4e60\\u624b\\u611f\", \"\\u82b1\\u74e3\\u5927\\u5c0f\\u8981\\u914d\\u5408\\u6307\\u7532\\u5927\\u5c0f\\uff0c\\u5c0f\\u7532\\u9762\\u5efa\\u8bae\\u505a\\u534a\\u82b1/\\u8fb9\\u82b1\", \"3D\\u7f8e\\u7532\\u65e5\\u5e38\\u8981\\u907f\\u514d\\u786c\\u7269\\u78b0\\u649e\\uff0c\\u4e0d\\u7136\\u5bb9\\u6613\\u635f\\u574f\", \"\\u521d\\u5b66\\u53ef\\u4ece\\u7b80\\u5355\\u7684\\u7acb\\u4f53\\u8774\\u8776\\u7ed3/\\u7231\\u5fc3\\u5f00\\u59cb\\uff0c\\u518d\\u8fdb\\u9636\\u5230\\u82b1\\u6735\"]",
+    "tools_needed": "[1, 2, 4, 8, 12]",
+    "materials_needed": "[1, 11, 12, 13]",
+    "source_type": "manual",
+    "source_url": "",
+    "video_url": "",
+    "cover_image": "//i0.hdslb.com/bfs/archive/8049fa7e7bb16339e490efeb734cb3b7f6ef93cd.jpg",
+    "duration_minutes": 40,
+    "tags": [
+      "专业级",
+      "韩系",
+      "长甲适合"
+    ]
+  },
+  {
+    "title": "大理石纹美甲 — 水染与手绘两种技法",
+    "slug": "marble-nail-art",
+    "category_id": 7,
+    "difficulty": "advanced",
+    "description": "学习两种大理石纹制作方法：水染拉花法和手绘纹理法。打造高雅的大理石纹美甲效果。",
+    "steps": "[{\"order\": 1, \"title\": \"\\u6c34\\u67d3\\u6cd5\\u51c6\\u5907\", \"content\": \"\\u51c6\\u5907\\u4e00\\u676f\\u5e38\\u6e29\\u6c34\\uff08\\u7ea625\\u00b0C\\uff09\\uff0c\\u9009\\u62e92-3\\u79cd\\u989c\\u8272\\u7684\\u7532\\u6cb9\\u80f6\\u3002\\u5728\\u676f\\u5b50\\u4e2d\\u6ef4\\u5165\\u80f6\\u6db2\\u4f7f\\u5176\\u5728\\u6c34\\u9762\\u6269\\u6563\\u3002\", \"image\": \"\"}, {\"order\": 2, \"title\": \"\\u62c9\\u82b1\\u7eb9\\u8def\", \"content\": \"\\u7528\\u7259\\u7b7e\\u6216\\u62c9\\u82b1\\u9488\\u5728\\u6c34\\u9762\\u8f7b\\u8f7b\\u5212\\u52a8\\uff0c\\u521b\\u9020\\u51fa\\u5927\\u7406\\u77f3\\u822c\\u7684\\u7eb9\\u7406\\u56fe\\u6848\\u3002\\u6ce8\\u610f\\u52a8\\u4f5c\\u8981\\u8f7b\\u67d4\\uff01\", \"image\": \"\"}, {\"order\": 3, \"title\": \"\\u8f6c\\u5370\\u5230\\u7532\\u9762\", \"content\": \"\\u5c06\\u6307\\u7532\\u9762\\u671d\\u4e0b\\u8f7b\\u8f7b\\u63a5\\u89e6\\u6c34\\u9762\\u82b1\\u7eb9\\uff0c\\u82b1\\u7eb9\\u4f1a\\u8f6c\\u5370\\u5230\\u7532\\u9762\\u4e0a\\u3002\\u53d6\\u51fa\\u540e\\u6e05\\u7406\\u5468\\u56f4\\u76ae\\u80a4\\u3002\\u7167\\u706f60\\u79d2\\u56fa\\u5316\\u3002\", \"image\": \"\"}, {\"order\": 4, \"title\": \"\\u624b\\u7ed8\\u6cd5\\uff08\\u66ff\\u4ee3\\u65b9\\u6848\\uff09\", \"content\": \"\\u6d82\\u597d\\u5e95\\u8272\\u540e\\uff0c\\u7528\\u6781\\u7ec6\\u7b14\\u8638\\u6df1\\u8272\\u80f6\\u753b\\u51fa\\u4e0d\\u89c4\\u5219\\u7eb9\\u7406\\u7ebf\\u6761\\u3002\\u518d\\u7528\\u7a00\\u91ca\\u6db2\\u6655\\u67d3\\u8fb9\\u7f18\\uff0c\\u6a21\\u62df\\u5927\\u7406\\u77f3\\u7eb9\\u6548\\u679c\\u3002\", \"image\": \"\"}, {\"order\": 5, \"title\": \"\\u5c01\\u5c42\\u5b8c\\u6210\", \"content\": \"\\u6d82\\u62b9\\u5c01\\u5c42\\u4fdd\\u62a4\\u7eb9\\u8def\\uff0c\\u7167\\u706f60\\u79d2\\u3002\\u5927\\u7406\\u77f3\\u7eb9\\u7f8e\\u7532\\u9ad8\\u8d35\\u5178\\u96c5\\uff01\", \"image\": \"\"}]",
+    "tips": "[\"\\u6c34\\u67d3\\u6cd5\\u6c34\\u6e29\\u5f88\\u91cd\\u8981\\uff0c\\u592a\\u51b7\\u592a\\u70ed\\u90fd\\u4f1a\\u5f71\\u54cd\\u6269\\u6563\\u6548\\u679c\", \"\\u7ecf\\u5178\\u5927\\u7406\\u77f3\\u914d\\u8272\\uff1a\\u767d+\\u7070\\u3001\\u767d+\\u9ed1\\u3001\\u767d+\\u91d1\", \"\\u6c34\\u67d3\\u6cd5\\u9700\\u8981\\u5feb\\u901f\\u64cd\\u4f5c\\uff0c\\u989c\\u8272\\u5728\\u6c34\\u4e2d\\u592a\\u4e45\\u4f1a\\u51dd\\u56fa\", \"\\u624b\\u7ed8\\u6cd5\\u867d\\u7136\\u8017\\u65f6\\u4f46\\u6548\\u679c\\u66f4\\u53ef\\u63a7\\uff0c\\u9002\\u5408\\u8ffd\\u6c42\\u5b8c\\u7f8e\\u7684\\u7528\\u6237\"]",
+    "tools_needed": "[1, 2, 3, 4, 7, 13]",
+    "materials_needed": "[1, 2, 14, 15]",
+    "source_type": "manual",
+    "source_url": "",
+    "video_url": "",
+    "cover_image": "//i2.hdslb.com/bfs/archive/3dec3d6245e1fbfffd623d13101181d13edf1bae.jpg",
+    "duration_minutes": 35,
+    "tags": [
+      "专业级",
+      "欧美风",
+      "长甲适合"
+    ]
+  },
+  {
+    "title": "穿戴甲DIY — 从制作到佩戴全教程",
+    "slug": "wearable-nails-diy",
+    "category_id": 10,
+    "difficulty": "beginner",
+    "description": "学会自己制作和佩戴穿戴甲。成本低、可重复使用、随时更换款式。非常适合美甲爱好者和想创业的小伙伴。",
+    "steps": "[{\"order\": 1, \"title\": \"\\u51c6\\u5907\\u7532\\u7247\", \"content\": \"\\u9009\\u62e9\\u5408\\u9002\\u7684\\u7532\\u7247\\u5c3a\\u5bf8\\uff0c\\u7528\\u5c0f\\u6413\\u6761\\u8f7b\\u8f7b\\u6253\\u78e8\\u7532\\u7247\\u5185\\u4fa7\\u589e\\u52a0\\u9644\\u7740\\u529b\\u3002\\u9009\\u62e9\\u4e0e\\u771f\\u7532\\u5f27\\u5ea6\\u5339\\u914d\\u7684\\u7532\\u7247\\u3002\", \"image\": \"\"}, {\"order\": 2, \"title\": \"\\u7532\\u7247\\u6253\\u5e95\", \"content\": \"\\u5728\\u7532\\u7247\\u4e0a\\u6d82\\u5e95\\u80f6\\u3001\\u4e0a\\u8272\\u3001\\u505a\\u6b3e\\u5f0f\\uff0c\\u4e0e\\u6b63\\u5e38\\u7f8e\\u7532\\u6d41\\u7a0b\\u76f8\\u540c\\u3002\\u53ef\\u4ee5\\u505a\\u5f97\\u6bd4\\u666e\\u901a\\u7f8e\\u7532\\u66f4\\u7cbe\\u81f4\\u534e\\u4e3d\\u3002\", \"image\": \"\"}, {\"order\": 3, \"title\": \"\\u5236\\u4f5c\\u679c\\u51bb\\u80f6\\u4f69\\u6234\\u6cd5\", \"content\": \"\\u9009\\u62e9\\u5408\\u9002\\u5927\\u5c0f\\u7684\\u679c\\u51bb\\u80f6\\u8d34\\u8d34\\u5728\\u771f\\u7532\\u4e0a\\uff0c\\u6495\\u6389\\u4fdd\\u62a4\\u819c\\uff0c\\u5c06\\u7a7f\\u6234\\u7532\\u6309\\u538b\\u4e0a\\u53bb\\u4fdd\\u630110\\u79d2\\u3002\\u9002\\u5408\\u77ed\\u671f\\u4f69\\u6234(1-3\\u5929)\\u3002\", \"image\": \"\"}, {\"order\": 4, \"title\": \"\\u80f6\\u6c34\\u4f69\\u6234\\u6cd5\\uff08\\u6301\\u4e45\\u578b\\uff09\", \"content\": \"\\u5728\\u771f\\u7532\\u548c\\u7a7f\\u6234\\u7532\\u5185\\u4fa7\\u5404\\u6d82\\u5c11\\u91cf\\u4e13\\u7528\\u80f6\\u6c34\\uff0c\\u5bf9\\u51c6\\u8d34\\u4e0a\\u6309\\u538b30\\u79d2\\u3002\\u53ef\\u4fdd\\u63011-2\\u5468\\u3002\\u6ce8\\u610f\\u80f6\\u6c34\\u7528\\u91cf\\u4e0d\\u8981\\u8fc7\\u591a\\u3002\", \"image\": \"\"}, {\"order\": 5, \"title\": \"\\u5378\\u9664\\u65b9\\u6cd5\", \"content\": \"\\u679c\\u51bb\\u80f6\\uff1a\\u6e29\\u6c34\\u6ce15-10\\u5206\\u949f\\uff0c\\u4ece\\u7532\\u7f18\\u8f7b\\u8f7b\\u64ac\\u8d77\\u53d6\\u4e0b\\u3002\\u80f6\\u6c34\\uff1a\\u7528\\u89e3\\u80f6\\u5242\\u6ef4\\u5165\\u7f1d\\u9699\\uff0c\\u5f85\\u80f6\\u6c34\\u6eb6\\u89e3\\u540e\\u53d6\\u4e0b\\u3002\", \"image\": \"\"}]",
+    "tips": "[\"\\u7a7f\\u6234\\u7532\\u5c3a\\u5bf8\\u4e00\\u5b9a\\u8981\\u9009\\u5bf9\\uff0c\\u592a\\u5927\\u5bb9\\u6613\\u6389\\uff0c\\u592a\\u5c0f\\u4e0d\\u8212\\u670d\", \"\\u5236\\u4f5c\\u65f6\\u53ef\\u4ee5\\u4e00\\u6b21\\u505a\\u591a\\u5957\\uff0c\\u8f6e\\u6362\\u4f69\\u6234\", \"\\u679c\\u51bb\\u80f6\\u9002\\u5408\\u62cd\\u7167/\\u7ea6\\u4f1a\\u77ed\\u671f\\u4f7f\\u7528\\uff0c\\u80f6\\u6c34\\u9002\\u5408\\u957f\\u671f\\u4f69\\u6234\", \"\\u5378\\u4e0b\\u7684\\u7a7f\\u6234\\u7532\\u53ef\\u4ee5\\u6e05\\u6d01\\u540e\\u91cd\\u590d\\u4f7f\\u7528\"]",
+    "tools_needed": "[1, 2, 14, 15]",
+    "materials_needed": "[1, 2, 16, 17]",
+    "source_type": "manual",
+    "source_url": "",
+    "video_url": "",
+    "cover_image": "//i2.hdslb.com/bfs/archive/0e3ebcd687352d380837cb6132d28794b43915e9.jpg",
+    "duration_minutes": 30,
+    "tags": [
+      "新手入门",
+      "日常通勤",
+      "约会款",
+      "短甲适合"
+    ]
+  },
+  {
+    "title": "美甲工具完全指南 — 从入门到专业工具详解",
+    "slug": "nail-tools-complete-guide",
+    "category_id": 12,
+    "difficulty": "beginner",
+    "description": "全面了解各类美甲工具的用途、选购建议和使用方法。新手该买什么？专业级工具怎么选？一节课搞清楚。",
+    "steps": "[{\"order\": 1, \"title\": \"\\u57fa\\u7840\\u4fee\\u526a\\u5de5\\u5177\", \"content\": \"\\u6307\\u7532\\u5200\\uff08\\u5927\\u53f7+\\u5c0f\\u53f7\\uff09\\u3001\\u6b7b\\u76ae\\u526a\\u3001\\u6b7b\\u76ae\\u63a8\\u3001\\u6307\\u7532\\u9509/\\u6413\\u6761\\u3002\\u9009\\u8d2d\\u8981\\u70b9\\uff1a\\u4e0d\\u9508\\u94a2\\u6750\\u8d28\\u3001\\u5200\\u53e3\\u950b\\u5229\\u3001\\u63e1\\u611f\\u8212\\u9002\\u3002\", \"image\": \"\"}, {\"order\": 2, \"title\": \"\\u6253\\u78e8\\u5de5\\u5177\", \"content\": \"\\u6d77\\u7ef5\\u629b\\uff08\\u7c97/\\u7ec6\\u53cc\\u9762\\uff09\\u3001\\u629b\\u5149\\u6761\\u3002\\u7c97\\u9762\\u4fee\\u578b\\u3001\\u7ec6\\u9762\\u629b\\u5149\\u3002\\u7535\\u52a8\\u6253\\u78e8\\u673a\\u9002\\u5408\\u4e13\\u4e1a\\u4eba\\u58eb\\uff0c\\u65b0\\u624b\\u624b\\u52a8\\u5373\\u53ef\\u3002\", \"image\": \"\"}, {\"order\": 3, \"title\": \"\\u5149\\u7597\\u706f\", \"content\": \"UV\\u706f\\u6216LED\\u706f\\uff0c\\u7528\\u4e8e\\u56fa\\u5316\\u7532\\u6cb9\\u80f6\\u3002\\u63a8\\u8350LED\\u706f\\uff0836W\\u4ee5\\u4e0a\\uff09\\uff0c\\u56fa\\u5316\\u901f\\u5ea6\\u5feb\\u3001\\u4e0d\\u4f24\\u624b\\u3002UV\\u706f\\u56fa\\u5316\\u6162\\u4f46\\u517c\\u5bb9\\u6027\\u5e7f\\u3002\", \"image\": \"\"}, {\"order\": 4, \"title\": \"\\u5f69\\u7ed8\\u5de5\\u5177\", \"content\": \"\\u62c9\\u7ebf\\u7b14\\uff08\\u6781\\u7ec6\\u7ebf\\u6761\\uff09\\u3001\\u5f69\\u7ed8\\u7b14\\uff08\\u56fe\\u6848\\u7ed8\\u5236\\uff09\\u3001\\u70b9\\u73e0\\u7b14\\uff08\\u5706\\u70b9/\\u6ce2\\u70b9\\uff09\\u3001\\u6247\\u5f62\\u7b14\\uff08\\u6e10\\u53d8\\u626b\\u8272\\uff09\\u3002\", \"image\": \"\"}, {\"order\": 5, \"title\": \"\\u8f85\\u52a9\\u5de5\\u5177\", \"content\": \"\\u6cd5\\u5f0f\\u8d34\\u7eb8\\u3001\\u7f8e\\u7532\\u8d34\\u7eb8\\u3001\\u4eae\\u94bb/\\u73cd\\u73e0\\u62fe\\u53d6\\u7b14\\u3001\\u6e05\\u6d01\\u6db2/\\u9152\\u7cbe\\u3001\\u68c9\\u82b1\\u7247\\u3001\\u6307\\u7f18\\u6cb9\\u3002\\u8fd9\\u4e9b\\u662f\\u63d0\\u5347\\u6548\\u7387\\u548c\\u6548\\u679c\\u7684\\u5fc5\\u5907\\u54c1\\u3002\", \"image\": \"\"}]",
+    "tips": "[\"\\u65b0\\u624b\\u5957\\u88c5\\u901a\\u5e38\\uffe550-100\\u5c31\\u80fd\\u6ee1\\u8db3\\u57fa\\u7840\\u9700\\u6c42\", \"\\u5149\\u7597\\u706f\\u662f\\u6700\\u503c\\u5f97\\u6295\\u8d44\\u7684\\u5de5\\u5177\\uff0c\\u5efa\\u8bae\\u76f4\\u63a5\\u4e70LED 48W\\u4ee5\\u4e0a\\u7684\", \"\\u5de5\\u5177\\u6bcf\\u6b21\\u4f7f\\u7528\\u540e\\u8981\\u6e05\\u6d01\\u6d88\\u6bd2\\uff0c\\u5c24\\u5176\\u662f\\u6b7b\\u76ae\\u526a\", \"\\u6413\\u6761\\u548c\\u6d77\\u7ef5\\u629b\\u662f\\u6d88\\u8017\\u54c1\\uff0c\\u75282-3\\u4e2a\\u6708\\u6216\\u8868\\u9762\\u53d8\\u5149\\u6ed1\\u540e\\u9700\\u66f4\\u6362\"]",
+    "tools_needed": "[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]",
+    "materials_needed": "[]",
+    "source_type": "manual",
+    "source_url": "",
+    "video_url": "",
+    "cover_image": "//i2.hdslb.com/bfs/archive/691fe0c0cd869d5186346434543782db4d4a351f.jpg",
+    "duration_minutes": 20,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "延长甲制作教程 — 纸托延长法详解",
+    "slug": "nail-extension-paper-form",
+    "category_id": 8,
+    "difficulty": "advanced",
+    "description": "使用纸托和延长胶制作自然美观的延长甲。从纸托安装、延甲塑形到打磨定型，完整延长甲制作流程。",
+    "steps": "[{\"order\": 1, \"title\": \"\\u7532\\u9762\\u51c6\\u5907\", \"content\": \"\\u4fee\\u77ed\\u771f\\u7532\\u81f3\\u5408\\u9002\\u957f\\u5ea6\\uff0c\\u6253\\u78e8\\u7532\\u9762\\uff0c\\u53bb\\u9664\\u6cb9\\u8102\\u3002\\u771f\\u7532\\u8fc7\\u957f\\u7684\\u9700\\u8981\\u5148\\u526a\\u77ed\\u3002\\u6d82\\u5e95\\u80f6\\u7167\\u706f\\u3002\", \"image\": \"\"}, {\"order\": 2, \"title\": \"\\u5b89\\u88c5\\u7eb8\\u6258\", \"content\": \"\\u5c06\\u7eb8\\u6258\\u5957\\u5728\\u624b\\u6307\\u4e0a\\uff0c\\u8c03\\u6574\\u89d2\\u5ea6\\u548c\\u4f4d\\u7f6e\\u3002\\u7eb8\\u6258\\u7684\\u5f27\\u5ea6\\u51b3\\u5b9a\\u4e86\\u5ef6\\u957f\\u7532\\u7684C\\u5f27\\u548c\\u957f\\u5ea6\\u3002\\u786e\\u4fdd\\u7eb8\\u6258\\u8d34\\u5408\\u7d27\\u5bc6\\u65e0\\u7f1d\\u9699\\u3002\", \"image\": \"\"}, {\"order\": 3, \"title\": \"\\u94fa\\u5ef6\\u957f\\u80f6\\uff08\\u7b2c\\u4e00\\u5c42\\uff09\", \"content\": \"\\u7528\\u5ef6\\u7532\\u7b14\\u53d6\\u9002\\u91cf\\u5ef6\\u957f\\u80f6\\uff0c\\u4ece\\u771f\\u7532\\u4e0e\\u7eb8\\u6258\\u4ea4\\u754c\\u5904\\u5f00\\u59cb\\u94fa\\u8bbe\\uff0c\\u5411\\u6307\\u5c16\\u65b9\\u5411\\u5ef6\\u4f38\\u3002\\u63a7\\u5236\\u539a\\u5ea6\\u5747\\u5300\\u3002\\u7167\\u706f30\\u79d2\\u534a\\u56fa\\u5316\\u3002\", \"image\": \"\"}, {\"order\": 4, \"title\": \"\\u5851\\u5f62\\u52a0\\u56fa\", \"content\": \"\\u7b2c\\u4e8c\\u5c42\\u5ef6\\u957f\\u80f6\\u5728\\u6307\\u7532\\u6700\\u9ad8\\u70b9\\uff08\\u5e94\\u529b\\u70b9\\uff09\\u52a0\\u539a\\uff0c\\u6307\\u5c16\\u6e10\\u8584\\u3002\\u7528\\u7b14\\u8c03\\u6574C\\u5f27\\u5f27\\u5ea6\\u3002\\u7167\\u706f60\\u79d2\\u5b8c\\u5168\\u56fa\\u5316\\u3002\", \"image\": \"\"}, {\"order\": 5, \"title\": \"\\u53d6\\u4e0b\\u7eb8\\u6258\\u6253\\u78e8\", \"content\": \"\\u8f7b\\u8f7b\\u53d6\\u4e0b\\u7eb8\\u6258\\uff0c\\u7528\\u6413\\u6761\\u4fee\\u6574\\u5ef6\\u957f\\u7532\\u7684\\u5f62\\u72b6\\u548c\\u539a\\u5ea6\\u3002\\u4ece\\u4fa7\\u9762\\u770b\\u5e94\\u6709\\u81ea\\u7136\\u7684\\u5f27\\u5f62\\u8fc7\\u6e21\\u3002\\u7c97\\u7ec6\\u6413\\u6761\\u914d\\u5408\\u6253\\u78e8\\u3002\", \"image\": \"\"}, {\"order\": 6, \"title\": \"\\u4e0a\\u8272\\u88c5\\u9970\", \"content\": \"\\u5ef6\\u957f\\u7532\\u57fa\\u7840\\u5b8c\\u6210\\uff01\\u63a5\\u4e0b\\u6765\\u53ef\\u4ee5\\u6d82\\u5e95\\u80f6\\u3001\\u4e0a\\u8272\\u3001\\u505a\\u6b3e\\u5f0f\\uff0c\\u4e0e\\u6b63\\u5e38\\u7f8e\\u7532\\u6d41\\u7a0b\\u4e00\\u6837\\u3002\", \"image\": \"\"}]",
+    "tips": "[\"\\u7eb8\\u6258\\u5b89\\u88c5\\u662f\\u5173\\u952e\\u6b65\\u9aa4\\uff0c\\u591a\\u7ec3\\u4e60\\u624d\\u80fd\\u638c\\u63e1\\u6700\\u4f73\\u89d2\\u5ea6\", \"\\u5e94\\u529b\\u70b9\\uff08\\u6307\\u7532\\u4e2d\\u6bb5\\uff09\\u8981\\u7a0d\\u539a\\u4ee5\\u589e\\u52a0\\u5f3a\\u5ea6\\uff0c\\u6307\\u5c16\\u8981\\u8584\\u624d\\u81ea\\u7136\", \"\\u5ef6\\u957f\\u80f6\\u6709\\u900f\\u660e\\u3001\\u88f8\\u8272\\u3001\\u767d\\u8272\\u53ef\\u9009\\uff0c\\u88f8\\u8272\\u6700\\u9002\\u5408\\u65b0\\u624b\", \"\\u5ef6\\u957f\\u7532\\u957f\\u5ea6\\u5efa\\u8bae\\u4e0d\\u8d85\\u8fc7\\u771f\\u7532\\u76841/2\\uff0c\\u592a\\u957f\\u5bb9\\u6613\\u65ad\\u88c2\"]",
+    "tools_needed": "[1, 2, 3, 4, 16, 17]",
+    "materials_needed": "[1, 18, 19, 20]",
+    "source_type": "manual",
+    "source_url": "",
+    "video_url": "",
+    "cover_image": "//i0.hdslb.com/bfs/archive/087b5bbaed3be232ca25dca2eafd023811dfa313.jpg",
+    "duration_minutes": 45,
+    "tags": [
+      "专业级",
+      "长甲适合"
+    ]
+  },
+  {
+    "title": "秋冬季热门 — 磨砂丝绒美甲教程",
+    "slug": "matte-velvet-nails",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "丝绒感的磨砂美甲是秋冬大热款式。使用磨砂封层即可将任何颜色转变为高级磨砂质感。搭配跳色设计时尚感拉满。",
+    "steps": "[{\"order\": 1, \"title\": \"\\u57fa\\u7840\\u7f8e\\u7532\\u6d41\\u7a0b\", \"content\": \"\\u6309\\u7167\\u57fa\\u7840\\u7f8e\\u7532\\u6d41\\u7a0b\\uff1a\\u4fee\\u7532\\u2192\\u5e95\\u80f6\\u2192\\u4e0a\\u82722\\u5c42\\u2192\\u6bcf\\u6b65\\u7167\\u706f\\u3002\\u9009\\u62e9\\u79cb\\u51ac\\u6d41\\u884c\\u8272\\u5982\\u9152\\u7ea2\\u3001\\u58a8\\u7eff\\u3001\\u6df1\\u68d5\\u3001\\u7070\\u8272\\u7b49\\u3002\", \"image\": \"\"}, {\"order\": 2, \"title\": \"\\u6d82\\u78e8\\u7802\\u5c01\\u5c42\", \"content\": \"\\u5747\\u5300\\u6d82\\u62b9\\u78e8\\u7802\\u5c01\\u5c42\\uff0c\\u6ce8\\u610f\\u8584\\u6d82\\u3002\\u78e8\\u7802\\u5c01\\u5c42\\u4e0e\\u666e\\u901a\\u5c01\\u5c42\\u7528\\u6cd5\\u76f8\\u540c\\uff0c\\u4f46\\u56fa\\u5316\\u540e\\u5448\\u73b0\\u78e8\\u7802\\u54d1\\u5149\\u8d28\\u611f\\u3002\\u7167\\u706f60\\u79d2\\u3002\", \"image\": \"\"}, {\"order\": 3, \"title\": \"\\u8df3\\u8272\\u8bbe\\u8ba1\\uff08\\u53ef\\u9009\\uff09\", \"content\": \"\\u53ef\\u9009\\u62e91-2\\u4e2a\\u624b\\u6307\\u7528\\u4eae\\u9762\\u5c01\\u5c42\\u505a\\u8df3\\u8272\\u5bf9\\u6bd4\\uff0c\\u6216\\u8005\\u8d34\\u91d1\\u5c5e\\u7ebf/\\u5c0f\\u94c6\\u9489\\u589e\\u52a0\\u8bbe\\u8ba1\\u611f\\u3002\\u4eae\\u9762+\\u78e8\\u7802\\u7684\\u5bf9\\u6bd4\\u6548\\u679c\\u975e\\u5e38\\u65f6\\u5c1a\\u3002\", \"image\": \"\"}, {\"order\": 4, \"title\": \"\\u517b\\u62a4\\u63d0\\u793a\", \"content\": \"\\u78e8\\u7802\\u9762\\u5bb9\\u6613\\u6cbe\\u67d3\\u6c61\\u6e0d\\uff0c\\u907f\\u514d\\u63a5\\u89e6\\u6df1\\u8272\\u6db2\\u4f53\\u3002\\u53ef\\u7528\\u9152\\u7cbe\\u68c9\\u8f7b\\u8f7b\\u64e6\\u62ed\\u6e05\\u6d01\\u78e8\\u7802\\u9762\\u3002\", \"image\": \"\"}]",
+    "tips": "[\"\\u78e8\\u7802\\u5c01\\u5c42\\u6bd4\\u666e\\u901a\\u5c01\\u5c42\\u66f4\\u5bb9\\u6613\\u663e\\u5212\\u75d5\\uff0c\\u6d82\\u62b9\\u65f6\\u8981\\u5747\\u5300\\u5e73\\u6574\", \"\\u6df1\\u8272\\u78e8\\u7802\\u6bd4\\u6d45\\u8272\\u78e8\\u7802\\u66f4\\u6709\\u9ad8\\u7ea7\\u611f\", \"\\u78e8\\u7802\\u9762\\u6cbe\\u5230\\u6cb9\\u4f1a\\u53d8\\u4eae\\uff0c\\u505a\\u5bb6\\u52a1\\u65f6\\u5efa\\u8bae\\u6234\\u624b\\u5957\", \"\\u78e8\\u7802+\\u91d1\\u5c5e\\u9970\\u54c1\\u662f\\u6700\\u4f73\\u642d\\u914d\\u7ec4\\u5408\"]",
+    "tools_needed": "[1, 2, 3, 4]",
+    "materials_needed": "[1, 2, 21, 22]",
+    "source_type": "manual",
+    "source_url": "",
+    "video_url": "",
+    "cover_image": "//i2.hdslb.com/bfs/archive/603ac7c9817011d94d69aa07f954c02ae5a879c3.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "进阶技法",
+      "秋冬款",
+      "日常通勤"
+    ]
+  },
+  {
+    "title": "NAIL中文 (简体)翻译：剑桥词典 - Cambridge Dictionary",
+    "slug": "nail中文-简体翻译剑桥词典-cambridge-dictionary-20260730215310",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "Hammer a nail into the wall and we'll hang the mirror from it. 在墙上钉个钉子，我们要把镜子挂在上面。 I got a flat tyre after driving over a nail. Can you hold this nail in position while I hammer it into the …",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://dictionary.cambridge.org/zhs/%E8%AF%8D%E5%85%B8/%E8%8B%B1%E8%AF%AD-%E6%B1%89%E8%AF%AD-%E7%AE%80%E4%BD%93/nail",
+    "video_url": "",
+    "cover_image": "//i2.hdslb.com/bfs/archive/603ac7c9817011d94d69aa07f954c02ae5a879c3.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "nail- 百度百科",
+    "slug": "nail-百度百科-20260730215310",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "nail（英语单词）是兼具名词与动词功能的术语，发音为英 [neɪl]、美 [neɪl]。 作为名词时，其基本含义包括固定建材的金属\"钉子\"与人体末端的\"指甲、趾甲\"，同时涵盖鸟类喙部的硬甲壳结构 [1] [4]。 动词 …",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://baike.baidu.com/item/nail/2011933",
+    "video_url": "",
+    "cover_image": "//i2.hdslb.com/bfs/archive/603ac7c9817011d94d69aa07f954c02ae5a879c3.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "nail是什么意思_nail的翻译_音标_读音_用法_例句_爱词霸 ...",
+    "slug": "nail是什么意思_nail的翻译_音标_读音_用法_例句_爱词霸--20260730215310",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "Frank secured the initial wooden board firmly by driving a nail through it. 弗兰克用钉子固定住最初的木板，将其牢牢钉住。 They used a nail to hammer the front door shut and secure it firmly. 他们用一颗 …",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.iciba.com/word?w=nail",
+    "video_url": "",
+    "cover_image": "//i2.hdslb.com/bfs/archive/603ac7c9817011d94d69aa07f954c02ae5a879c3.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "NAIL在剑桥英语词典中的解释及翻译 - Cambridge Dictionary",
+    "slug": "nail在剑桥英语词典中的解释及翻译-cambridge-dictionary-20260730215310",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "hammer a nail Hammer a nail into the wall and we'll hang the mirror from it. I got a flat tyre after driving over a nail. Can you hold this nail in position while I hammer it into the door? I ripped my shirt on a …",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://dictionary.cambridge.org/zhs/%E8%AF%8D%E5%85%B8/%E8%8B%B1%E8%AF%AD/nail",
+    "video_url": "",
+    "cover_image": "//i2.hdslb.com/bfs/archive/603ac7c9817011d94d69aa07f954c02ae5a879c3.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "欧路词典|英汉-汉英词典nail是什么意思_nail的中文解释和 ...",
+    "slug": "欧路词典英汉-汉英词典nail是什么意思_nail的中文解释和--20260730215310",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "纳夫拉 洛娃试着用反手 败 她。 2. Their fists were clenched so tightly that their nails dug deep into their palms. 他们紧握着拳头, 指甲 深深地捏进了手心。 3. The new tax is another nail in the coffin of the …",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://dict.eudic.net/dicts/en/nail",
+    "video_url": "",
+    "cover_image": "//i2.hdslb.com/bfs/archive/603ac7c9817011d94d69aa07f954c02ae5a879c3.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "一眼心动！60款超有氛围感的美甲分享！ - 知乎",
+    "slug": "一眼心动60款超有氛围感的美甲分享-知乎-20260730215310",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "2023年3月22日 · 今天是一期春日美甲分享，作为一个需要从头武装到脚的精致girl， 少不了要做美美的指甲。 指甲是我们审美的画布， 将自己的审美、个性融入在指甲的款式中，为日常生活增添更多时 …",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://zhuanlan.zhihu.com/p/615988987",
+    "video_url": "",
+    "cover_image": "//i2.hdslb.com/bfs/archive/603ac7c9817011d94d69aa07f954c02ae5a879c3.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门",
+      "日常通勤"
+    ]
+  },
+  {
+    "title": "集美—2025美甲合集 - 知乎",
+    "slug": "集美2025美甲合集-知乎-20260730215310",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "2025年11月28日 · 收纳一些美甲图片，给自己美甲一点思路。 （日常更新中～） ------------------------- 2025年，我的美甲～ 不喜欢太繁琐的装饰，所以把样图简化了一下，成品比较满意。",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://zhuanlan.zhihu.com/p/16904698785",
+    "video_url": "",
+    "cover_image": "//i2.hdslb.com/bfs/archive/603ac7c9817011d94d69aa07f954c02ae5a879c3.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门",
+      "日常通勤"
+    ]
+  },
+  {
+    "title": "美甲款式2026：60+顯白百搭大熱Gel甲流行款推薦：法式/漸 ...",
+    "slug": "美甲款式202660顯白百搭大熱gel甲流行款推薦法式漸--20260730215310",
+    "category_id": 3,
+    "difficulty": "beginner",
+    "description": "13 小时之前 · 美甲款式2026：水墨畫暈染美甲 美甲款式2026：日落風暈染美甲 美甲款式2026：彩虹暈染美甲 美甲款式2026：創意Caffe Latte暈染美甲 美甲款式2026：田園小清新美甲 美甲款式2026： …",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.sundaymore.com/hair/%e7%be%8e%e7%94%b2%e6%ac%be%e5%bc%8f-gel%e7%94%b2%e6%ac%be%e5%bc%8f-org115-mo01-887055/",
+    "video_url": "",
+    "cover_image": "//i2.hdslb.com/bfs/archive/2ff9b9dc36722525d74d9b75ee73e526c5a6bdbc.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门",
+      "春夏款"
+    ]
+  },
+  {
+    "title": "25款今夏最in美甲！从Ins到小红书，显白猫眼+珍珠光裸色全 ...",
+    "slug": "25款今夏最in美甲从ins到小红书显白猫眼珍珠光裸色全--20260730215310",
+    "category_id": 5,
+    "difficulty": "beginner",
+    "description": "2025年6月18日 · hello，宝子们好呀 今天爱米又来推荐好看的美甲了 <关注美甲帮，带你看遍天下绝美美甲> 又到了毕业季，暑假了，美甲又迎来旺季，那做什么款式好看又时尚呢，小编今天精选了一波近 …",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.sohu.com/a/905482090_494889",
+    "video_url": "",
+    "cover_image": "//i0.hdslb.com/bfs/archive/85bb9aecdc858160f47808cf499cd2deac6c7067.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门",
+      "显白"
+    ]
+  },
+  {
+    "title": "2025美甲必做款式30+總整理！粉色、寶寶藍到經典法式、鏡 ...",
+    "slug": "2025美甲必做款式30總整理粉色寶寶藍到經典法式鏡--20260730215310",
+    "category_id": 3,
+    "difficulty": "beginner",
+    "description": "2025年8月25日 · 點這裡看Hello Kitty美甲範本>> 韓妞瘋做Hello Kitty美甲，4大人氣款式一次看 7.雛菊美甲 每到春夏就特別受歡迎的花朵美甲，今年多了GD加持，使得「雛菊」成爲流行的美甲主題！ 點這 …",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.marieclaire.com.tw/beauty/perfume-and-nails/88121",
+    "video_url": "",
+    "cover_image": "//i2.hdslb.com/bfs/archive/2ff9b9dc36722525d74d9b75ee73e526c5a6bdbc.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门",
+      "春夏款"
+    ]
+  },
+  {
+    "title": "manicure- 搜索 词典",
+    "slug": "manicure-搜索-词典-20260730215310",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "It would be nice to get a voucher for a beauty treatment like a manicure, pedicure or facial. 最好 不过 的 是 得到 一张 优惠 券 做 做 美 …",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://global.bing.com/dict/search?q=manicure&FORM=BDVSP6&cc=cn",
+    "video_url": "",
+    "cover_image": "//i2.hdslb.com/bfs/archive/603ac7c9817011d94d69aa07f954c02ae5a879c3.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "manicure是什么意思_manicure的翻译_音标_读音_用法_例句 ...",
+    "slug": "manicure是什么意思_manicure的翻译_音标_读音_用法_例句--20260730215310",
+    "category_id": 2,
+    "difficulty": "advanced",
+    "description": "为什么这个那个标准修甲有何特别和专业之处? This fast drying formula prevents nail polish from fading and cihpping for a longer …",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.iciba.com/word?w=manicure",
+    "video_url": "",
+    "cover_image": "//i2.hdslb.com/bfs/archive/603ac7c9817011d94d69aa07f954c02ae5a879c3.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "专业级"
+    ]
+  },
+  {
+    "title": "MANICURE在剑桥英语词典中的解释及翻译 - Cambridge Dictionary",
+    "slug": "manicure在剑桥英语词典中的解释及翻译-cambridge-dictionary-20260730215310",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "Manicures are not perhaps quite as important to health as chiropody, but they are important for decent and civilised living. I do not …",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://dictionary.cambridge.org/zhs/%E8%AF%8D%E5%85%B8/%E8%8B%B1%E8%AF%AD/manicure",
+    "video_url": "",
+    "cover_image": "//i2.hdslb.com/bfs/archive/603ac7c9817011d94d69aa07f954c02ae5a879c3.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "Lily Nails- the Beijinger",
+    "slug": "lily-nails-the-beijinger-20260730215310",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "1 天前 · Lily Nails is a high-end nail salon chain founded in 2001 and with 15 venues across Beijing. In addition to manicures, …",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.thebeijinger.com/directory/lily-nails",
+    "video_url": "",
+    "cover_image": "//i2.hdslb.com/bfs/archive/603ac7c9817011d94d69aa07f954c02ae5a879c3.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "日系晕染美甲 — 柔和水彩效果制作教程",
+    "slug": "日系晕染美甲-柔和水彩效果制作教程-20260730215310",
+    "category_id": 4,
+    "difficulty": "intermediate",
+    "description": "学习日系水彩晕染美甲技法，打造柔和梦幻的色彩过渡效果。适合有一定基础的进阶学习者。",
+    "steps": "[{\"order\": 1, \"title\": \"步骤 1\", \"content\": \"修整甲型，推荐方圆形或椭圆形，更显手指修长。\"}, {\"order\": 2, \"title\": \"步骤 2\", \"content\": \"用海绵抛轻打磨甲面，清洁后涂底胶照灯60秒。\"}, {\"order\": 3, \"title\": \"步骤 3\", \"content\": \"选择2-3种同色系甲油胶（如浅粉、薰衣草紫、奶白），用扇形笔蘸取少量胶轻扫甲面。\"}, {\"order\": 4, \"title\": \"步骤 4\", \"content\": \"用透明胶或调和液稀释颜色，制造水彩般的半透明效果。\"}, {\"order\": 5, \"title\": \"步骤 5\", \"content\": \"多次薄涂叠加，每次照灯20秒半固化，营造层次分明的晕染感。\"}, {\"order\": 6, \"title\": \"步骤 6\", \"content\": \"可在局部添加金箔碎或细闪粉增加精致感。\"}, {\"order\": 7, \"title\": \"步骤 7\", \"content\": \"涂磨砂封层照灯60秒，日系晕染美甲完成！\\n\\n💡 小贴士：日系晕染的精髓是\\\"薄\\\"和\\\"透\\\"，每层颜色一定要用透明胶稀释后再上色。\\n⚠️ 注意：颜色不要叠加超过5层，否则会显得厚重不清透。\"}]",
+    "tips": "[\"💡 小贴士：日系晕染的精髓是\\\"薄\\\"和\\\"透\\\"，每层颜色一定要用透明胶稀释后再上色\", \"⚠️ 注意：颜色不要叠加超过5层，否则会显得厚重不清透\"]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://example.com/nail/japanese-watercolor",
+    "video_url": "",
+    "cover_image": "//i1.hdslb.com/bfs/archive/43150ba70d3f043d928bd25070ddca197321d3da.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "进阶技法",
+      "日系",
+      "春夏款",
+      "晕染"
+    ]
+  },
+  {
+    "title": "镜面美甲 — 魔镜粉/极光粉使用全攻略",
+    "slug": "镜面美甲-魔镜粉极光粉使用全攻略-20260730215310",
+    "category_id": 2,
+    "difficulty": "intermediate",
+    "description": "掌握镜面美甲制作技巧，学习魔镜粉/极光粉的擦涂方法和注意事项。",
+    "steps": "[{\"order\": 1, \"title\": \"步骤 1\", \"content\": \"完成基础底胶后，涂黑色或深色底色（深底色能让镜面反光更明显），照灯60秒。\"}, {\"order\": 2, \"title\": \"步骤 2\", \"content\": \"涂免洗封层，照灯30秒。这一步很关键，封层要半干不干的状态才能上粉。\"}, {\"order\": 3, \"title\": \"步骤 3\", \"content\": \"用硅胶笔或手指蘸取魔镜粉，在甲面上来回擦拭，直到出现光滑的镜面反光效果。\"}, {\"order\": 4, \"title\": \"步骤 4\", \"content\": \"用刷子扫去多余的粉末。\"}, {\"order\": 5, \"title\": \"步骤 5\", \"content\": \"再涂一层封层保护镜面效果，照灯60秒。\\n\\n💡 小贴士：魔镜粉有银色、金色、玫瑰金、极光彩色等多种选择。\\n⚠️ 注意：封层照灯时间要短（20-30秒），太干粉就擦不上去了。\\n⚠️ 注意：镜面美甲不适合经常接触洗涤剂的场合，容易褪色。\"}]",
+    "tips": "[\"💡 小贴士：魔镜粉有银色、金色、玫瑰金、极光彩色等多种选择\", \"⚠️ 注意：封层照灯时间要短（20-30秒），太干粉就擦不上去了\", \"⚠️ 注意：镜面美甲不适合经常接触洗涤剂的场合，容易褪色\"]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://example.com/nail/mirror-powder",
+    "video_url": "",
+    "cover_image": "//i2.hdslb.com/bfs/archive/603ac7c9817011d94d69aa07f954c02ae5a879c3.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "进阶技法",
+      "韩系",
+      "约会款",
+      "镜面"
+    ]
+  },
+  {
+    "title": "手绘花卉美甲 — 玫瑰花与雏菊的画法",
+    "slug": "手绘花卉美甲-玫瑰花与雏菊的画法-20260730215310",
+    "category_id": 9,
+    "difficulty": "advanced",
+    "description": "从零开始学手绘美甲花卉，包含玫瑰花和雏菊的详细画法步骤。",
+    "steps": "[{\"order\": 1, \"title\": \"步骤 1\", \"content\": \"白色底色打底，照灯固化。白色底能让花卉颜色更鲜艳。\"}, {\"order\": 2, \"title\": \"步骤 2\", \"content\": \"用圆头彩绘笔蘸取红色甲油胶，在甲面上点出花瓣的基础形状——玫瑰花从中心小圆开始向外画弧线花瓣。\"}, {\"order\": 3, \"title\": \"步骤 3\", \"content\": \"用拉线笔蘸取绿色胶画出叶片和藤蔓，注意叶片的大小和走向要自然。\"}, {\"order\": 4, \"title\": \"步骤 4\", \"content\": \"雏菊画法更简单——用点珠笔在中心点黄色花蕊，围绕花蕊点白色小点作为花瓣。\"}, {\"order\": 5, \"title\": \"步骤 5\", \"content\": \"用极细笔蘸取深色胶勾勒花瓣边缘和叶脉细节，增加立体感。\"}, {\"order\": 6, \"title\": \"步骤 6\", \"content\": \"照灯60秒固化，涂封层保护手绘图案。\\n\\n💡 小贴士：手绘时手腕要支撑在桌面上保持稳定；用稀释液调淡颜色可以画出半透明花瓣。\\n⚠️ 注意：彩绘笔每次用完后立即用清洁液清洗，胶干后难以清洗会损坏笔头。\"}]",
+    "tips": "[\"💡 小贴士：手绘时手腕要支撑在桌面上保持稳定；用稀释液调淡颜色可以画出半透明花瓣\", \"⚠️ 注意：彩绘笔每次用完后立即用清洁液清洗，胶干后难以清洗会损坏笔头\"]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://example.com/nail/flower-painting",
+    "video_url": "",
+    "cover_image": "//i2.hdslb.com/bfs/archive/a7cfb900a47fcb51eae2095d39a4c6cba7e92a4b.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "专业级",
+      "春夏款",
+      "手绘",
+      "花卉"
+    ]
+  },
+  {
+    "title": "碎钻/亮片美甲 — 闪亮出席的派对美甲",
+    "slug": "碎钻亮片美甲-闪亮出席的派对美甲-20260730215310",
+    "category_id": 6,
+    "difficulty": "beginner",
+    "description": "学会正确粘贴碎钻、亮片、珍珠等美甲饰品，让你的美甲闪耀持久不脱落。",
+    "steps": "[{\"order\": 1, \"title\": \"步骤 1\", \"content\": \"完成底色上色后，在需要贴钻的位置涂少量粘钻胶。\"}, {\"order\": 2, \"title\": \"步骤 2\", \"content\": \"用点钻笔或牙签蘸取一点点粘钻胶，拾取平底钻/珍珠。\"}, {\"order\": 3, \"title\": \"步骤 3\", \"content\": \"将钻放置在甲面目标位置，轻轻按压使其贴合甲面弧度。\"}, {\"order\": 4, \"title\": \"步骤 4\", \"content\": \"调整好位置后照灯30-60秒固化粘钻胶。\"}, {\"order\": 5, \"title\": \"步骤 5\", \"content\": \"用小笔蘸取免洗封层在钻的周围包边（不要涂到钻的表面，会影响亮度）。\"}, {\"order\": 6, \"title\": \"步骤 6\", \"content\": \"对于大颗钻饰，可以用粘钻胶在钻的底部再加固一圈。\\n\\n💡 小贴士：碎钻适合分散排列或渐变排列（根部密→指尖疏）；平底钻比尖底钻更容易粘贴。\\n⚠️ 注意：贴钻后日常要避免用指甲抠硬物，钻容易脱落。\"}]",
+    "tips": "[\"💡 小贴士：碎钻适合分散排列或渐变排列（根部密→指尖疏）；平底钻比尖底钻更容易粘贴\", \"⚠️ 注意：贴钻后日常要避免用指甲抠硬物，钻容易脱落\"]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://example.com/nail/rhinestone-application",
+    "video_url": "",
+    "cover_image": "//i2.hdslb.com/bfs/archive/b59499ffe861261124f8360447ca2870fbeff38f.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门",
+      "婚甲",
+      "碎钻",
+      "派对"
+    ]
+  },
+  {
+    "title": "美甲持久度提升技巧 — 延长保持时间的8个关键",
+    "slug": "美甲持久度提升技巧-延长保持时间的8个关键-20260730215310",
+    "category_id": 1,
+    "difficulty": "beginner",
+    "description": "美甲经常起翘脱落？掌握这8个关键技巧，让你的美甲持久度从几天提升到2-3周。",
+    "steps": "[]",
+    "tips": "[\"💡 小贴士：如果每次都是同一个手指起翘，检查这个手指的甲面是否打磨到位\", \"⚠️ 注意：过度打磨会导致指甲变薄受损，只需打磨至哑光即可\"]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://example.com/nail/long-lasting-tips",
+    "video_url": "",
+    "cover_image": "//i2.hdslb.com/bfs/archive/691fe0c0cd869d5186346434543782db4d4a351f.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门",
+      "持久度",
+      "技巧",
+      "养护"
+    ]
+  },
+  {
+    "title": "秋冬美甲配色指南 — 2024流行色搭配推荐",
+    "slug": "秋冬美甲配色指南-2024流行色搭配推荐-20260730215310",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "2024秋冬最流行的美甲配色方案和搭配技巧，让你的指尖跟上季节潮流。",
+    "steps": "[]",
+    "tips": "[\"💡 小贴士：秋冬手部皮肤容易干燥，做美甲前后一定要用指缘油护理\"]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://example.com/nail/autumn-winter-colors",
+    "video_url": "",
+    "cover_image": "//i2.hdslb.com/bfs/archive/603ac7c9817011d94d69aa07f954c02ae5a879c3.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "秋冬款",
+      "日常通勤",
+      "显白",
+      "配色"
+    ]
+  },
+  {
+    "title": "新手必备美甲工具清单 — 入门工具选购指南",
+    "slug": "新手必备美甲工具清单-入门工具选购指南-20260730215310",
+    "category_id": 12,
+    "difficulty": "beginner",
+    "description": "美甲新手必备工具清单和选购建议，用最低预算买对工具，不花冤枉钱。",
+    "steps": "[]",
+    "tips": "[\"💡 小贴士：不要一上来就买大套装，先买基础6件套练手，确定兴趣后再逐步添置\", \"⚠️ 注意：光疗灯一定要买正规品牌，劣质灯可能固化不彻底导致过敏\"]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://example.com/nail/beginner-tool-checklist",
+    "video_url": "",
+    "cover_image": "//i2.hdslb.com/bfs/archive/691fe0c0cd869d5186346434543782db4d4a351f.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门",
+      "工具",
+      "选购",
+      "指南"
+    ]
+  },
+  {
+    "title": "穿戴甲创业入门 — 从制作到售卖全流程",
+    "slug": "穿戴甲创业入门-从制作到售卖全流程-20260730215310",
+    "category_id": 10,
+    "difficulty": "intermediate",
+    "description": "穿戴甲创业完整指南，从制作、定价到多平台售卖，适合想用美甲技能赚钱的人。",
+    "steps": "[]",
+    "tips": "[\"💡 小贴士：拍摄好看的佩戴图和视频是提高转化率的关键\", \"⚠️ 注意：甲片尺寸标注要清晰（S/M/L对应真甲宽度），减少退换货\"]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://example.com/nail/wearable-nail-business",
+    "video_url": "",
+    "cover_image": "//i2.hdslb.com/bfs/archive/0e3ebcd687352d380837cb6132d28794b43915e9.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "进阶技法",
+      "穿戴甲",
+      "创业",
+      "商业"
+    ]
+  },
+  {
+    "title": "宿舍美甲｜小白如何入坑美甲，美甲步骤and工具分享",
+    "slug": "宿舍美甲小白如何入坑美甲美甲步骤and工具分享-20260730",
+    "category_id": 12,
+    "difficulty": "beginner",
+    "description": "-",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1pM4y167qg",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV1pM4y167qg&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i1.hdslb.com/bfs/archive/01b1afe96e98c020412cff00b404cdc36989351a.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "四分钟了解一下美甲建构到底是什么？",
+    "slug": "四分钟了解一下美甲建构到底是什么-20260730",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "-",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1ar421t7GW",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV1ar421t7GW&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i1.hdslb.com/bfs/archive/459b2790d1101f81112586fcf315983a6924d2ab.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "穿戴甲胶水使用教程",
+    "slug": "穿戴甲胶水使用教程-20260730",
+    "category_id": 10,
+    "difficulty": "beginner",
+    "description": "穿戴甲胶水使用教程",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1Bt421V7pv",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV1Bt421V7pv&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i0.hdslb.com/bfs/archive/a53ca89a9513e5ca34457308e5af408f58593595.png",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "美甲各种功能胶讲解",
+    "slug": "美甲各种功能胶讲解-20260730",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "美甲功能胶合集讲解",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1vA411X7oS",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV1vA411X7oS&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i1.hdslb.com/bfs/archive/8bfb7cc456bc214048c658690603cfe3696d52ad.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "拯救美甲破烂王！！转印纸用法大全",
+    "slug": "拯救美甲破烂王转印纸用法大全-20260730",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "-",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV11nhMzfExq",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV11nhMzfExq&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i1.hdslb.com/bfs/archive/89a5c7738128688d170f075ee965884471bd59c6.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "【JiaNail】2018所有美甲款式",
+    "slug": "jianail2018所有美甲款式-20260730",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "迟到半年的总结",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1H4411v7dG",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV1H4411v7dG&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i2.hdslb.com/bfs/archive/7459504e02f11d6db14bb448ee6a1df63940b8c5.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "哇！惊呼、你的指甲死皮有竟然这么久没剪了、快来看看专业的美甲师是如何修手的吧。美甲日式前湿处理实操讲解。",
+    "slug": "哇惊呼你的指甲死皮有竟然这么久没剪了快来看看专业的美甲师是如何修手的吧美甲日式前湿处理实操讲解-20260730",
+    "category_id": 2,
+    "difficulty": "advanced",
+    "description": "",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1Rv4y1F7Si",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV1Rv4y1F7Si&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i1.hdslb.com/bfs/archive/c84654012c626874bfdd16e92c4c263675456511.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "专业级",
+      "日系"
+    ]
+  },
+  {
+    "title": "法式美甲教程来了，一看就会，简简单单#美甲美睫学校 #快成长计划 #潮流生活成长之星 #内容启发分享计划",
+    "slug": "法式美甲教程来了一看就会简简单单美甲美睫学校-快成长计划-潮流生活成长之星-内容启发分享计划-20260730",
+    "category_id": 3,
+    "difficulty": "beginner",
+    "description": "-",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1NSNDzSEyQ",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV1NSNDzSEyQ&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i2.hdslb.com/bfs/archive/2ff9b9dc36722525d74d9b75ee73e526c5a6bdbc.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "新手必看‼️零失败的法式画法秘诀‼️",
+    "slug": "新手必看零失败的法式画法秘诀-20260730",
+    "category_id": 1,
+    "difficulty": "beginner",
+    "description": "美甲法式怎么画？新手必看的法式美甲教程来啦～",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1av4y1R7H9",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV1av4y1R7H9&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i0.hdslb.com/bfs/archive/0de9b6bf7290af615a9f9417b46356e9f150cd4f.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "法式美甲教程3.0",
+    "slug": "法式美甲教程30-20260730",
+    "category_id": 3,
+    "difficulty": "beginner",
+    "description": "-",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV14w3b69ETG",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV14w3b69ETG&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i1.hdslb.com/bfs/archive/5f83a1fc0e270cdee9c9c2a99fe91270f3b46658.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "无痕单色渐变美甲技法教程",
+    "slug": "无痕单色渐变美甲技法教程-20260730",
+    "category_id": 4,
+    "difficulty": "beginner",
+    "description": "-",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1Vv4y1q7Cy",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV1Vv4y1q7Cy&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i2.hdslb.com/bfs/archive/749e2e82783c9e72b213dda0ad8ad51e27efe41e.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "超简单渐变色指甲油美甲（非专业教程）",
+    "slug": "超简单渐变色指甲油美甲非专业教程-20260730",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "手残党来康康～我琢磨出来的超简单快速指甲油渐变美甲～\n非专业教程（瑟瑟发抖）\n大家看乐子",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1hK411P7en",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV1hK411P7en&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i2.hdslb.com/bfs/archive/d039fd246b7efeb7c2d4abd4b05a707fd30785bc.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "专业级"
+    ]
+  },
+  {
+    "title": "Moana带你学美甲 | 常用几种渐变教程",
+    "slug": "moana带你学美甲-常用几种渐变教程-20260730",
+    "category_id": 4,
+    "difficulty": "beginner",
+    "description": "-",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV18M411d7Kn",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV18M411d7Kn&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i0.hdslb.com/bfs/archive/2f436fc76b93e7a86f3f98b9b3feb6efe763a314.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "我看看是谁还不会吸猫眼！脑瓜伸过来我帮你！快来跟我一起get新手简单吸猫眼教程",
+    "slug": "我看看是谁还不会吸猫眼脑瓜伸过来我帮你快来跟我一起get新手简单吸猫眼教程-20260730",
+    "category_id": 5,
+    "difficulty": "beginner",
+    "description": "我看是谁还不会吸猫眼~把脑瓜伸过来！\n其实吸猫眼的过程差不多\n加入了一些个人经验和小技巧方便理解\n和量化你们的操作~\n以及首先要确认自己的猫眼和磁铁是好使滴！\n希望大家能通过我的讲解获得一些什么！\n都叫我姐妹了，不送点什么有点对不住\n送点知识给你们哈哈哈哈哈\n剪片子的时候已经快凌晨三点，几次闭上了眼睛\n然后又猛然惊醒接着剪\n人有点发疯神志不清也很正常！理解一下我啦~\n下次想看什么留言\n一定不能错过这么可爱的我！记得点赞关注我嗷~",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1hj411d79W",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV1hj411d79W&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i2.hdslb.com/bfs/archive/81d93d70a95b311feb5afac074c69bcb77c6d3e6.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门",
+      "进阶技法"
+    ]
+  },
+  {
+    "title": "【新手向】全程干货～真的不能再详细的保姆级穿戴甲教程了！！从测量到工具介绍到如何贴的更牢固技巧到卸除果冻胶都说的明明白",
+    "slug": "新手向全程干货真的不能再详细的保姆级穿戴甲教程了从测量到工具介绍到如何贴的更牢固技巧到卸除果冻胶都说的明明白-07302342",
+    "category_id": 2,
+    "difficulty": "intermediate",
+    "description": "视频搬运自互联网",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1dU4y1j7xs",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV1dU4y1j7xs&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i1.hdslb.com/bfs/archive/5d826cd270af02fa16a6ac454a20db2ff386c5f8.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门",
+      "进阶技法"
+    ]
+  },
+  {
+    "title": "延长术（补充版）",
+    "slug": "延长术补充版-07302342",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "延长术（补充版）",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1WGPgzfEuk",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV1WGPgzfEuk&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i2.hdslb.com/bfs/archive/d6dc8b968feedc3bb0841aae5a25c3cd68bb9db7.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "脚趾甲居然是这样剪的，长这么大连个脚趾甲都不会剪？",
+    "slug": "脚趾甲居然是这样剪的长这么大连个脚趾甲都不会剪-07302342",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1o4421U7i4",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV1o4421U7i4&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i1.hdslb.com/bfs/archive/c2e3320fc8be6f65e7b9bebcf0298c649ad0fe81.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "黄黑皮原相机测评35种春夏美甲色！！谁最显白？！（衣服颜色也可以参考）",
+    "slug": "黄黑皮原相机测评35种春夏美甲色谁最显白衣服颜色也可以参考-07302342",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "有的色实在调不明白！！只能调出相近色，大家做个参考就好啦！！\nBGM：\n1⃣️BET ON ME\n2⃣️Drowning\n3⃣️Balloons\n第一天口红：酵色906\n第二天口红：酵色907",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1mi4y1r7wL",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV1mi4y1r7wL&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i0.hdslb.com/bfs/archive/17c31c2cd590384785f23aa52292ca385df23f15.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "春夏款",
+      "显白"
+    ]
+  },
+  {
+    "title": "水蜜桃渐变磨砂甲",
+    "slug": "水蜜桃渐变磨砂甲-07302342",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "-",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV12E411A7ke",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV12E411A7ke&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i2.hdslb.com/bfs/archive/b28a67d36f1fde21b7971d5785490e18415cbd19.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "1_零基础学美甲基本功-零基础美甲：学习美甲流程_1080p",
+    "slug": "1_零基础学美甲基本功-零基础美甲学习美甲流程_1080p-07302342",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "美甲教学视频",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1Dm411R7yr",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV1Dm411R7yr&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i1.hdslb.com/bfs/archive/2f1bde0c599fe10060ce630a9b127e974a0195f7.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "美甲教程 美甲基础入门课（一）基础修甲型",
+    "slug": "美甲教程 美甲基础入门课一基础修甲型-07302342",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "该视频讲解美甲操作前如何修甲型，高清教学视频",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1zW411i7e7",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV1zW411i7e7&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i0.hdslb.com/bfs/archive/b4d573310f5d813ca46be4443d8586497dab89ca.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "【美甲教程】保姆级教学手把手教你学会美甲！",
+    "slug": "美甲教程保姆级教学手把手教你学会美甲-07302342",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "网络\n一键三连，感谢支持！",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1BQ4y1B7B4",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV1BQ4y1B7B4&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i0.hdslb.com/bfs/archive/b76d5f50977032b608e8d916cc8ec59b8c4f250f.png",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "美甲教程｜建构",
+    "slug": "美甲教程建构-07302342",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "视频搬运自互联网",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1BM4y1K75N",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV1BM4y1K75N&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i0.hdslb.com/bfs/archive/5baae7f62b975549f08645bdf2e9b44c242e775b.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "不牛的手绘美甲我是美甲艺术家",
+    "slug": "不牛的手绘美甲我是美甲艺术家-07302342",
+    "category_id": 2,
+    "difficulty": "advanced",
+    "description": "-",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1yY4y1G7L3",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV1yY4y1G7L3&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i2.hdslb.com/bfs/archive/481f2a15c488b2d2f39e37e75a154023b0397e71.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "穿戴甲创业必备材料大公开！只买对的不买贵的，不花一分冤枉钱，轻装上阵",
+    "slug": "穿戴甲创业必备材料大公开只买对的不买贵的不花一分冤枉钱轻装上阵-07302342",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "穿戴甲创业必备材料大公开。\n前期材料精简再精简，只买对的不买贵的。需要产品清单的可以首页找我哦",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1ed4y1c7Hu",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV1ed4y1c7Hu&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i1.hdslb.com/bfs/archive/89d4b6c68ac39bc41174c9c1a5ee935a24678fdd.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "我再也不美甲了！刚做的，发霉了",
+    "slug": "我再也不美甲了刚做的发霉了-07302342",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "怎么什么事都能让我碰上？（擦眼泪",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1Hb4y147FN",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV1Hb4y147FN&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i1.hdslb.com/bfs/archive/45942a242fcbedb37751b4d652ba02d42cb14cb5.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "简单粗暴！超新手指甲油涂抹教程",
+    "slug": "简单粗暴超新手指甲油涂抹教程-07302342",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1Fy4y1u7W1",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV1Fy4y1u7W1&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i2.hdslb.com/bfs/archive/dadabd5dd96408abb3b3ca0a1f3aa5033d61c3fc.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "【美甲新手入门】五分钟带你体验美甲从0—100% | 干货满满建议收藏",
+    "slug": "美甲新手入门五分钟带你体验美甲从0100  干货满满建议收藏-07302342",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "上课啦！\n涂单色教程请点击：BV1NX4y1u78G",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1zZ4y1w7aU",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV1zZ4y1w7aU&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i0.hdslb.com/bfs/archive/b649c00a61201569b91fcd64f873d83bc390bd44.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "Moana带你学美甲 | 完美建构",
+    "slug": "moana带你学美甲  完美建构-07302342",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "00:13刻磨的正确方法\n01:01怎样涂底胶不流甲沟\n01:15本甲建构\n01:47魔镜粉渐变教程\n每个重点的时间帮大家提取了，按需取用，零基础的宝子就别挑了，全部要看！！句句都是干货！就像进入秋季的我的脸那么干?\nPS:今天用了两种功能胶：建构底胶和高透钻石封层，都是末町的；海绵搓是LIQIN的；极光粉是我?店里就有，马上双11，大家理性种草啦（劝不住我自己?）",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1WD4y1b7pn",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV1WD4y1b7pn&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i1.hdslb.com/bfs/archive/cba4e44857a363b328d85675b7ec22148dba189e.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "自学美甲教程 | 爱心星星可爱美甲",
+    "slug": "自学美甲教程  爱心星星可爱美甲-07302342",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "-",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1Jg4y137zd",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV1Jg4y137zd&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i0.hdslb.com/bfs/archive/ff04d96532c0d623dceb52ded3221b3cddfbe077.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "做美甲必看！美甲的4大危害，90%的人都不知道！",
+    "slug": "做美甲必看美甲的4大危害90的人都不知道-07302342",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "长期美甲有哪些危害？\n如何避免美甲的危害？\n日常还可以定期做美甲吗？\n戳开视频，都有答案~",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1FS4y1j7Pe",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV1FS4y1j7Pe&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i1.hdslb.com/bfs/archive/84108cb652937cf0375950e51544acb115b1485f.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "日常通勤"
+    ]
+  },
+  {
+    "title": "【教程】穿戴甲佩戴与卸除方法2.0",
+    "slug": "教程穿戴甲佩戴与卸除方法20-07302342",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "-",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1hY4y1W7sr",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV1hY4y1W7sr&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i1.hdslb.com/bfs/archive/d91095888a51188eb83a4778476b24bcf3655ab2.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "嘎嘎透的光疗延长教程～我真的爱死光疗延长了",
+    "slug": "嘎嘎透的光疗延长教程我真的爱死光疗延长了-07302342",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "-",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1uT411Z7pJ",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV1uT411Z7pJ&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i0.hdslb.com/bfs/archive/087b5bbaed3be232ca25dca2eafd023811dfa313.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "无痕渐变美甲 压箱底的干货",
+    "slug": "无痕渐变美甲 压箱底的干货-07302342",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "-",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1gi4y1E7UJ",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV1gi4y1E7UJ&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i2.hdslb.com/bfs/archive/bd1239119001e717eb01320230aa76c3c42f395d.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "【梧桐Tone】市面上常见美甲光疗灯测评",
+    "slug": "梧桐tone市面上常见美甲光疗灯测评-07302342",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "市面上的美甲光疗灯种类繁多，为了让大家更好更方面的去选择适合的美甲光疗灯，梧桐这次斥“巨资”购入市面上常见的9款美甲光疗灯，分别从外形，灯珠，功率，和照灯时间，来给大家测评了一下，希望可以能够帮助到你们更方便的选择适合自己的光疗灯。\r\n\r\n赶在快递停运前这个视频终于弄好了，过年前赶紧给自己整一个漂亮的美甲！\r\n\r\n新浪微博@梧桐Tone 欢迎关注互动",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1aW411e7ft",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV1aW411e7ft&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i0.hdslb.com/bfs/archive/fa968a218bf7fdaf3c97ac6c6904508d2d36563f.png",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "美甲贴也可以自己做啦！简单几步实现美甲贴自由啦~一起自制新年美甲贴吧！",
+    "slug": "美甲贴也可以自己做啦简单几步实现美甲贴自由啦一起自制新年美甲贴吧-07302342",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "-",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1mM411a7Mp",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV1mM411a7Mp&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i0.hdslb.com/bfs/archive/6a43ab0156ffc5df81e5292e34fe40e201c03647.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "【Lyrae】这应该是史上最讲得最详细的指托光疗胶延长甲教程",
+    "slug": "lyrae这应该是史上最讲得最详细的指托光疗胶延长甲教程-07302342",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "怎么做指托光疗延长？看我的视频就够了。\n怎么玩指甲？关注我就好了。\n没有感情的干货输出机，字幕尤其建议认真观看！\n新手up上路不易，拍摄打光剪辑都是现学，还有猫崽子不停捣乱，还请大家三连鼓励！！！\n\n这次来揭秘，这些年我是怎么用延长冒充本甲的！\n\n微博：https://weibo.com/lyraelau\n欢迎来找我玩嗷~！",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV14V41187rs",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV14V41187rs&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i1.hdslb.com/bfs/archive/e67da88bc643f4d73eb2eb9b5b6433581bc41102.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "正确科学的修剪趾甲，可以避免脚指甲往肉里长，特别是家长朋友们给自己孩子修剪趾甲要注意！",
+    "slug": "正确科学的修剪趾甲可以避免脚指甲往肉里长特别是家长朋友们给自己孩子修剪趾甲要注意-07302342",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "-",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1ZKpEecEaX",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV1ZKpEecEaX&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i0.hdslb.com/bfs/archive/ceda42a79d9278182a69fac6e652e440c7d7008b.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "你的手型适合什么样的指甲❓ 一键自测属于你的本命美甲 防止踩雷️ 实在懒得看 直接拿给美甲师～ #美甲[话题]# #美甲分享[话题]# #美甲款式[话题]# #",
+    "slug": "你的手型适合什么样的指甲 一键自测属于你的本命美甲 防止踩雷 实在懒得看 直接拿给美甲师 美甲话题 美甲分享话题 美甲款-07302342",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1VT411C7cq",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV1VT411C7cq&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i0.hdslb.com/bfs/archive/65e6161cd66d40dc025364c3fbd77a52363f6b45.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "美甲7种常用甲型，美甲时应如何挑选适合自己的甲型呢？#新手学美甲#美甲教学视频",
+    "slug": "美甲7种常用甲型美甲时应如何挑选适合自己的甲型呢新手学美甲美甲教学视频-07302342",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "如何决定哪种适合自己？\n除了指甲本身的形状外，指甲修剪还要契合手指的粗细和长短。\n指甲面比较宽—可以尝试方圆形；\n指甲细长、单薄—可以选择法式指甲，不仅能手指显得修长还能增添力量感。\n或指甲和手小而胖—适合圆形指甲；",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1N3411r7d4",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV1N3411r7d4&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i0.hdslb.com/bfs/archive/73fed61564e0cfed8425db2312d6822bb297e1ce.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "Ｂ站新人报道！你们都想要的极光冰块美甲",
+    "slug": "ｂ站新人报道你们都想要的极光冰块美甲-07302342",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "新人报道！请多多关照 会不定时更新 你们可以催更～ 极光冰块美甲～",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1YZ4y1A7cD",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV1YZ4y1A7cD&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i1.hdslb.com/bfs/archive/50aa0b15a27c3d02d5cd910a7b76b1667ac7b8a4.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "做了13个小时的美甲长啥样？！！！",
+    "slug": "做了13个小时的美甲长啥样-07302342",
+    "category_id": 2,
+    "difficulty": "advanced",
+    "description": "我设计、操作大概8h，大拇指的手绘李老师画了5h。合计13个小时。猜猜最后收了多少张，为了满足小富婆的要求 必须让你上电视",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1tE4m1d7ou",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV1tE4m1d7ou&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i1.hdslb.com/bfs/archive/f88e4c41f87c632a959423e0bb43288f3abd335e.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "生活中真的有人会做这么长的指甲吗？",
+    "slug": "生活中真的有人会做这么长的指甲吗-07302342",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1EU411F7Zy",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV1EU411F7Zy&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i1.hdslb.com/bfs/archive/09605bf467ce30d50bcc68d7a1e8251bc3e58fed.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "不要因为美甲牺牲健康，分享6个美甲冷知识！",
+    "slug": "不要因为美甲牺牲健康分享6个美甲冷知识-07302342",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "如果你是爱做美甲的女生，一定要知道这些指甲护理小常识哦！",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1sd4y1Z7au",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV1sd4y1Z7au&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i1.hdslb.com/bfs/archive/3dd7fc31f8f8b8c5af5740c0271e102f9b4bd5cf.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "美甲转印图案在微缩模型上的运用",
+    "slug": "美甲转印图案在微缩模型上的运用-07302342",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1Yyn9zyESn",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV1Yyn9zyESn&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i2.hdslb.com/bfs/archive/2509ecfccf4458191695e78959a75be1fc83591f.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "5套！均价100左右的懒人舒适套装｜淡人｜上班套装｜日常休闲",
+    "slug": "5套均价100左右的懒人舒适套装淡人上班套装日常休闲-07302342",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1gUSZBzENz",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV1gUSZBzENz&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i0.hdslb.com/bfs/archive/f22554c5364e13861193d4083b07abaf18e91be6.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "日常通勤"
+    ]
+  },
+  {
+    "title": "对美甲稀里糊涂的小白请进～为你解答最基础的指甲油&amp;甲油胶知识",
+    "slug": "对美甲稀里糊涂的小白请进为你解答最基础的指甲油amp甲油胶知识-07302342",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "因为想讲清楚所以很啰嗦～希望对新手有帮助\n\n00:01  前言\n00:27  1.指甲油和甲油胶的区别\n01:49  2.指甲油有哪些类型？\n02:05  3.水性、油性指甲油的区别\n02:49  4.油性、水性指甲油选哪个好？\n03:13   5.涂指甲油的步骤\n03:27  底油亮油怎么搭配？\n04:15   6.油性水性混用不可以吗？\n05:21   7.为什么要刷底油和亮油？\n06:26  8.甲油胶里的必备基础胶\n08:53  9.刷甲油胶的步骤\n09:01   结尾总结",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1FR4y1L7w3",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV1FR4y1L7w3&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i1.hdslb.com/bfs/archive/b97abce3466337f56956c4cb610f4ce6c390ca55.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "宿舍美甲｜美甲调色技巧",
+    "slug": "宿舍美甲美甲调色技巧-07302342",
+    "category_id": 2,
+    "difficulty": "intermediate",
+    "description": "-",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1gT411x73f",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV1gT411x73f&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i2.hdslb.com/bfs/archive/c968bfb9cf2f5c229a9c5082d42f1a671c2dcb46.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "进阶技法"
+    ]
+  },
+  {
+    "title": "为什么你的美甲后缘总是起翘？｜两个小技巧解决美甲问题",
+    "slug": "为什么你的美甲后缘总是起翘两个小技巧解决美甲问题-07302342",
+    "category_id": 2,
+    "difficulty": "intermediate",
+    "description": "来对号入座～",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1E44y1u7DH",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV1E44y1u7DH&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i0.hdslb.com/bfs/archive/d46a58881be9824790e9410af72bf0a7bf299877.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "进阶技法"
+    ]
+  },
+  {
+    "title": "做建构就是伤指甲！指甲是需要呼吸的！！",
+    "slug": "做建构就是伤指甲指甲是需要呼吸的-07302342",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "-",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1F2tMeQEth",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV1F2tMeQEth&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i0.hdslb.com/bfs/archive/e9d3feef62f6d81f0a8cd10be933818a724b2e0c.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "建构救我！指甲变的又细又长 超详细建构教程来了",
+    "slug": "建构救我指甲变的又细又长 超详细建构教程来了-07302342",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "-",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1ec411v7FB",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV1ec411v7FB&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i0.hdslb.com/bfs/archive/7b056d386567ea5b39d781567fa9b1e80393d85d.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "不同磨砂封层用法不一样！！！干货满满赶快来学！",
+    "slug": "不同磨砂封层用法不一样干货满满赶快来学-07302342",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "-",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1yF411y7jc",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV1yF411y7jc&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i2.hdslb.com/bfs/archive/3e32d364bfc7feff3c2a47b3654a904ccf90109e.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "穿戴甲💅年度爱用合集（短甲特别版）❗️绝美❤️",
+    "slug": "穿戴甲年度爱用合集短甲特别版绝美-07302342",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "-",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV18T4111785",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV18T4111785&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i2.hdslb.com/bfs/archive/7e2e65b15f212608c46bfb0f1920f8cda7bdf6b5.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "日式美甲前置处理（去死皮） 美甲基础入门课（十五）岚黛美业学院",
+    "slug": "日式美甲前置处理去死皮 美甲基础入门课十五岚黛美业学院-07302342",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1gs411M76W",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV1gs411M76W&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i0.hdslb.com/bfs/archive/5d0110eb1b56c333fef4d041c6f900cb81b4b622.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门",
+      "日系"
+    ]
+  },
+  {
+    "title": "最规范、日式考级级别甲油涂抹，国内最完整最详细基本甲油教程！新年美甲不求人！",
+    "slug": "最规范日式考级级别甲油涂抹国内最完整最详细基本甲油教程新年美甲不求人-07302342",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "全面的日系甲油涂抹教程，非常适合美甲小白和想在美甲事业上有发展的同学",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1Hr4y1U7X7",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV1Hr4y1U7X7&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i0.hdslb.com/bfs/archive/aa85f6ca9793a5f1716aee23563911450bc4ed52.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "日系"
+    ]
+  },
+  {
+    "title": "【广州花1500学美甲】比美甲店教的更仔细，老师保姆级教学，看了不用担心见血，美甲初学干活视频教学。",
+    "slug": "广州花1500学美甲比美甲店教的更仔细老师保姆级教学看了不用担心见血美甲初学干活视频教学-07302342",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "重点：1死皮剪口子，开0.5到1毫米，具体参考视频。 2死皮剪拿法，掌心朝上还是朝下。（视频有讲）3 先软化剂、 然后死皮推 然后上死皮剪、最后去粉尘。",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV13g4y1a7WY",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV13g4y1a7WY&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i1.hdslb.com/bfs/archive/a03fecaebf241bc9cadc06a2faec3c2dc6f6b04a.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "新手养鱼，鱼缸灯怎么选？从此选灯不再纠结！",
+    "slug": "新手养鱼鱼缸灯怎么选从此选灯不再纠结-07302342",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "-",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1wvEezAEyZ",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV1wvEezAEyZ&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i0.hdslb.com/bfs/archive/896b97034345f6cbba33d569fcf6ac85c0291efa.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "懒人美甲邪修",
+    "slug": "懒人美甲邪修-07302342",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "-",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV17VNh6YEqm",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV17VNh6YEqm&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i0.hdslb.com/bfs/archive/8bd8fd5dcafbe3c636a2e28423f18c7a5af0d5a2.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "在家也可以轻松做嵌甲矫正，完整版4分钟教程，足够让你更快了解嵌甲矫正过程。",
+    "slug": "在家也可以轻松做嵌甲矫正完整版4分钟教程足够让你更快了解嵌甲矫正过程-07302342",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "-",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV17kNfz4Ezo",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV17kNfz4Ezo&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i0.hdslb.com/bfs/archive/1855b5a580041be887322da7e86ebe4dc823dd18.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "零基础学美甲|002美甲工具的认识和了解|新手小白入门级美甲教程",
+    "slug": "零基础学美甲002美甲工具的认识和了解新手小白入门级美甲教程-07302342",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "新手小白入门级美甲教学，美甲时循序渐进的过程，这节课程的学习是为我们后面实操课程打下坚实的基础。",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1JM4y1T7ki",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV1JM4y1T7ki&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i2.hdslb.com/bfs/archive/691fe0c0cd869d5186346434543782db4d4a351f.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "零基础学美甲基本功-零基础美甲：学习美甲流程（全208讲）",
+    "slug": "零基础学美甲基本功-零基础美甲学习美甲流程全208讲-07302342",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1utXFBUEag",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV1utXFBUEag&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i0.hdslb.com/bfs/archive/a3093596f0a293e6de562dac164a18a2dae449e4.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "春季短甲流行趋势解析！出游+踏青+拍照一手抓！",
+    "slug": "春季短甲流行趋势解析出游踏青拍照一手抓-07302342",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1y8wkzSEZg",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV1y8wkzSEZg&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i2.hdslb.com/bfs/archive/81866c3539536286735dc3b4d7d068c19db15c7a.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "【美甲教程】磨砂黑金|敲酷ins风💽 豹纹磨砂美甲",
+    "slug": "美甲教程磨砂黑金敲酷ins风 豹纹磨砂美甲-07302342",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "BGM:周杰伦-《花海》",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1k94y1o7Ht",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV1k94y1o7Ht&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i1.hdslb.com/bfs/archive/4020edb2169e3b78455287f1b3fefd4600083004.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "答应你们的新手美甲工具分享来啦！！一起配上美甲顺序 快来学！",
+    "slug": "答应你们的新手美甲工具分享来啦一起配上美甲顺序 快来学-07302342",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "-",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1DY411S7L8",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV1DY411S7L8&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i2.hdslb.com/bfs/archive/d48dbaa3dd5fa488a6b1cd40fd5978ee1f800594.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "DIY美甲教程｜掐丝珐琅花美甲教程｜自学美甲教程",
+    "slug": "diy美甲教程掐丝珐琅花美甲教程自学美甲教程-07302342",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "复古掐丝珐琅花美甲教程",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1Z94y1z75E",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV1Z94y1z75E&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i1.hdslb.com/bfs/archive/b697761bc7d05203132931e214d8cc2755e1a472.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "一个视频轻松get拍拍胶无痕渐变",
+    "slug": "一个视频轻松get拍拍胶无痕渐变-07302342",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "-",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1LAj6zhEWP",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV1LAj6zhEWP&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i0.hdslb.com/bfs/archive/7ab3a4dc9b735cf5e2ba148d46406017c917c08f.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "夏季美甲流行趋势解析！假期出游+美美拍照点亮一夏！",
+    "slug": "夏季美甲流行趋势解析假期出游美美拍照点亮一夏-07302342",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV15Yja6ZEKY",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV15Yja6ZEKY&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i0.hdslb.com/bfs/archive/2bdc3330f8c37f7ab7e63660fa560db7181cedcb.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "ASMR | 猫眼美甲必学技巧！如何选择猫眼胶 + 打造最强玻璃珠光感",
+    "slug": "asmr  猫眼美甲必学技巧如何选择猫眼胶  打造最强玻璃珠光感-07302342",
+    "category_id": 2,
+    "difficulty": "intermediate",
+    "description": "欢迎来到Vanki的美甲频道！这里分享美甲创意，让你的指甲成为众人关注的焦点！\n全网账号：Vanki美甲或vankinails",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1idZFYmE2N",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV1idZFYmE2N&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i2.hdslb.com/bfs/archive/fbf148eac9eb2ae956cfc181be242c01dd629f8e.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "进阶技法"
+    ]
+  },
+  {
+    "title": "新手慎用塑形夹｜扇形甲矫正的安全替代方案",
+    "slug": "新手慎用塑形夹扇形甲矫正的安全替代方案-07302342",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "来啦 欢迎",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV11nhJzbE6h",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV11nhJzbE6h&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i2.hdslb.com/bfs/archive/4b8a5ed8eb50c7155223d82f76927f9edee4d36c.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "自己在家做脚甲｜脚甲教程来啦～",
+    "slug": "自己在家做脚甲脚甲教程来啦-07302342",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "-",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1CsCuBuEba",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV1CsCuBuEba&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i2.hdslb.com/bfs/archive/cd1fe0fe4db594d4f450dce48189af41a00117d5.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "美甲教程｜涂不匀？涂出去？美甲新手涂色胶保姆级过程详解",
+    "slug": "美甲教程涂不匀涂出去美甲新手涂色胶保姆级过程详解-07302342",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "哈喽大家好呀，今天分享的是之前答应好大家的涂色胶方法~\n新手涂色胶容易涂出去？涂胶手不稳？色胶刷不匀？一条视频一次性解决！\n#美甲教程# #新手涂色胶# #美甲涂胶教程# #花校长甲油胶# #美甲小白入门#",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV14d4y1r7EX",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV14d4y1r7EX&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i0.hdslb.com/bfs/archive/0cbd2be0788db1034aa7fb399b065619a2666789.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "兔娘为什么不做美甲",
+    "slug": "兔娘为什么不做美甲-07302342",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "-",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1Cz7r6BESH",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV1Cz7r6BESH&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i0.hdslb.com/bfs/archive/491557013bfada3a319c99fe194fc6f974e09736.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "本甲建构和极致单色美甲教程来了，一看就会，简简单单#美甲美睫学校 #快成长计划 #潮流生活成长之星 #内容启发分享计划",
+    "slug": "本甲建构和极致单色美甲教程来了一看就会简简单单美甲美睫学校 快成长计划 潮流生活成长之星 内容启发分享计划-07302342",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "-",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1xq3KzrERt",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV1xq3KzrERt&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i2.hdslb.com/bfs/archive/2353fed25d1b5cdd39e17cb3a2b56b5bb81e77df.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "美甲教程 美甲基础修手，死皮叉的用法",
+    "slug": "美甲教程 美甲基础修手死皮叉的用法-07302342",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "爱美甲培训 抖音\n美甲教程 美甲基础修手，死皮叉的用法",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1fA411n7YD",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV1fA411n7YD&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i2.hdslb.com/bfs/archive/874afc2fd9d138854410638c6d4b58d9c3478377.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "新手必学不伤甲卸甲教程",
+    "slug": "新手必学不伤甲卸甲教程-07302342",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "教程非常详细完整\n视频效果完全真实\n在家卸甲\n美甲店再也赚不到我的钱啦～",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1Bg411V7tK",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV1Bg411V7tK&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i0.hdslb.com/bfs/archive/2a1e00573c9fc0d90a911c4c255c3a4c98cd4b6c.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "💅🏻300搞定💰开个美甲工作室|甲油胶篇（一）",
+    "slug": "300搞定开个美甲工作室甲油胶篇一-07302342",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "穿戴甲学习:xiyou59888",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV18bfKYsEui",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV18bfKYsEui&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i1.hdslb.com/bfs/archive/4203eee0819557315f7a1a05dd93760e49fb59d1.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "O2nails移动智能美甲机，35秒一个指甲,美妆红人SvetaSanders亲测",
+    "slug": "o2nails移动智能美甲机35秒一个指甲美妆红人svetasanders亲测-07302342",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "O＇2NAILS美甲彩绘机公司，将科技和美甲结合起来，创造出了可以通过APP设置美甲图案的美甲机。这款美甲机，只要在手机上下载了APP与机器连线，就可以将手机相册中的图案设置“打印”到指甲上。",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1cx411m7qw",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV1cx411m7qw&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i2.hdslb.com/bfs/archive/ceb060483e84ab109318d42907cb057d69da0ca0.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "美甲彩绘笔使用指南｜纯干货｜美甲彩绘入门",
+    "slug": "美甲彩绘笔使用指南纯干货美甲彩绘入门-07302342",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "-",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV18z421X7tR",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV18z421X7tR&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i1.hdslb.com/bfs/archive/989aa8b402f0633bd67d02715b7f0ab5851ba0ae.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "美甲彩绘教程",
+    "slug": "美甲彩绘教程-07302342",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "视频搬运自互联网",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1bF411h7c2",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV1bF411h7c2&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i1.hdslb.com/bfs/archive/431172725f041f77c227b90bd3da4fa314d42e00.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "美甲一定要学建构和塑形！甲型显瘦精致的关键",
+    "slug": "美甲一定要学建构和塑形甲型显瘦精致的关键-07302342",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1s14y1v7Nv",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV1s14y1v7Nv&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i0.hdslb.com/bfs/archive/d70a9a3a70a56b26a793f622298c1b06381ac472.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "大理石贴膜详细教程。大理石贴膜多少钱一平方？有人觉得可以自己贴，今天整理了一份殿堂级大理石贴膜教程，按照教程来贴肯定不起边儿。",
+    "slug": "大理石贴膜详细教程大理石贴膜多少钱一平方有人觉得可以自己贴今天整理了一份殿堂级大理石贴膜教程按照教程来贴肯定不起边儿-07302342",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "-",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1HT411B7L2",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV1HT411B7L2&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i0.hdslb.com/bfs/archive/c244aca352f876c6543f0d23a810aaff2b242e38.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "四分钟纯享版美甲建构教程",
+    "slug": "四分钟纯享版美甲建构教程-07302342",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "-",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1MV5AzGEmq",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV1MV5AzGEmq&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i1.hdslb.com/bfs/archive/e0b52ff97ba051254aaa0c2e68e7642279e4e2fe.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "教你涂出饱满猫眼美甲",
+    "slug": "教你涂出饱满猫眼美甲-07302342",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "-",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1QDyzY7Eem",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV1QDyzY7Eem&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i0.hdslb.com/bfs/archive/6a4a6a6fa339e639250f530004017751c63e7097.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "甲模延长翻车翻车再翻车，究竟是哪里出了问题？",
+    "slug": "甲模延长翻车翻车再翻车究竟是哪里出了问题-07302342",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "-",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1xLXFY7EVa",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV1xLXFY7EVa&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i2.hdslb.com/bfs/archive/927425e9512f6a80062029075ca26bd90fea031b.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "指甲刀套装来咯!日常必备套装，16件工具超级精致,",
+    "slug": "指甲刀套装来咯日常必备套装16件工具超级精致-07302342",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1GV4y1S7eQ",
+    "video_url": "//player.bilibili.com/player.html?bvid=BV1GV4y1S7eQ&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "cover_image": "//i0.hdslb.com/bfs/archive/f5234574ece28d6c7e309a89d5fe233f995b80e3.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "日常通勤"
+    ]
+  }
+]

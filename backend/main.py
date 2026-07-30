@@ -63,11 +63,45 @@ def seed_database(db: Session):
     db.commit()
 
 
+def import_full_seed(db: Session):
+    """Import all collected tutorials from seed_full.json"""
+    seed_file = os.path.join(os.path.dirname(__file__), "seed_full.json")
+    if not os.path.exists(seed_file):
+        return
+    if db.query(Tutorial).count() > 20:  # Already has data
+        return
+
+    with open(seed_file, "r", encoding="utf-8") as f:
+        tutorials = json.load(f)
+
+    for tut_data in tutorials:
+        tag_names = tut_data.pop("tags", [])
+        slug = tut_data.get("slug", "")
+        if db.query(Tutorial).filter(Tutorial.slug == slug).first():
+            continue
+
+        tag_objs = []
+        for tn in tag_names:
+            tag = db.query(Tag).filter(Tag.name == tn).first()
+            if not tag:
+                tag = Tag(name=tn)
+                db.add(tag)
+                db.flush()
+            tag_objs.append(tag)
+
+        tut_data["tags"] = tag_objs
+        tutorial = Tutorial(**tut_data)
+        db.add(tutorial)
+
+    db.commit()
+
+
 @app.on_event("startup")
 def startup():
     init_db()
     db = next(get_db())
     seed_database(db)
+    import_full_seed(db)
     db.close()
 
 
