@@ -4,76 +4,131 @@
 
 @layer base {
   html, body, #root {
-    background-color: #FFFCFD;
+    background: linear-gradient(135deg, #f8f4f8 0%, #f0eef6 30%, #f5f0f4 60%, #f8f4f8 100%);
+    min-height: 100vh;
   }
   body {
     @apply antialiased;
-    color: #555555;
+    color: #555;
     font-family: 'PingFang SC', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Microsoft YaHei', sans-serif;
     line-height: 1.6;
   }
 }
 
 @layer components {
-  /* ── Design tokens ───────────────────── */
+  /* ── Glass card: primary frosted effect ───── */
+  .glass {
+    background: rgba(255,255,255,0.55);
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+    border: 1px solid rgba(255,255,255,0.5);
+    box-shadow: 0 8px 32px rgba(200,180,210,0.12), 0 2px 8px rgba(0,0,0,0.04);
+  }
+  .glass-strong {
+    background: rgba(255,255,255,0.7);
+    backdrop-filter: blur(28px) saturate(180%);
+    -webkit-backdrop-filter: blur(28px) saturate(180%);
+    border: 1px solid rgba(255,255,255,0.6);
+    box-shadow: 0 12px 40px rgba(200,180,210,0.15), 0 4px 12px rgba(0,0,0,0.05);
+  }
+  .glass-light {
+    background: rgba(255,255,255,0.35);
+    backdrop-filter: blur(12px) saturate(180%);
+    -webkit-backdrop-filter: blur(12px) saturate(180%);
+    border: 1px solid rgba(255,255,255,0.4);
+    box-shadow: 0 4px 16px rgba(200,180,210,0.08);
+  }
+
+  /* ── Glass with tint ──────────────────────── */
+  .glass-pink {
+    background: rgba(245,213,224,0.4);
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+    border: 1px solid rgba(245,213,224,0.5);
+    box-shadow: 0 8px 32px rgba(220,160,180,0.12);
+  }
+  .glass-purple {
+    background: rgba(229,213,245,0.4);
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+    border: 1px solid rgba(229,213,245,0.5);
+    box-shadow: 0 8px 32px rgba(180,160,220,0.12);
+  }
+  .glass-blue {
+    background: rgba(213,229,245,0.4);
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+    border: 1px solid rgba(213,229,245,0.5);
+    box-shadow: 0 8px 32px rgba(160,190,220,0.12);
+  }
+
+  /* ── Float hover effect ───────────────────── */
+  .float-hover {
+    transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.3s ease;
+  }
+  .float-hover:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 16px 48px rgba(200,180,210,0.2), 0 4px 16px rgba(0,0,0,0.06);
+  }
+  .float-hover:active {
+    transform: scale(0.97);
+  }
+
+  /* ── Glow icon effect ─────────────────────── */
+  .icon-glow {
+    filter: drop-shadow(0 2px 6px rgba(242,143,178,0.3));
+  }
+
+  /* ── Gradient backgrounds ─────────────────── */
   .gradient-hero {
-    background: linear-gradient(135deg, #FFC8DD 0%, #FFDFC8 100%);
+    background: linear-gradient(135deg, #E8D5F5 0%, #D5E5F8 40%, #F5D5E0 100%);
   }
   .gradient-banner {
-    background: linear-gradient(135deg, #FFC8DD 0%, #FFDFC8 100%);
+    background: linear-gradient(135deg, #EED5F0 0%, #D8E8F8 40%, #F8DDD8 100%);
   }
-  .card-hover {
-    @apply transition-all duration-200;
+  .gradient-pink-purple {
+    background: linear-gradient(135deg, #F5D5E0 0%, #E8D5F5 100%);
   }
-  .card-hover:active {
-    transform: scale(0.97);
-    box-shadow: 0 2rpx 8rpx rgba(242, 143, 178, 0.04);
+  .gradient-ice {
+    background: linear-gradient(135deg, #D5E5F5 0%, #E0D5F5 50%, #F5D5E0 100%);
   }
+
+  /* ── Button styles ────────────────────────── */
   .btn-primary {
-    @apply text-white px-6 py-2.5 rounded-full font-medium transition-all duration-200;
-    background-color: #F28FB2;
+    @apply text-white px-6 py-2.5 rounded-full font-medium transition-all duration-300;
+    background: linear-gradient(135deg, #E8A0C0, #D5A0E0);
+    box-shadow: 0 4px 16px rgba(220,160,200,0.3);
   }
   .btn-primary:hover {
-    background-color: #E07098;
+    box-shadow: 0 6px 24px rgba(220,160,200,0.45);
+    transform: translateY(-1px);
   }
   .btn-primary:active {
-    background-color: #C05078;
+    transform: scale(0.97);
   }
-  .btn-outline {
-    @apply px-6 py-2.5 rounded-full font-medium transition-all duration-200;
-    border: 2px solid #F28FB2;
-    color: #F28FB2;
-  }
-  .btn-outline:hover {
-    background-color: #FFE6EF;
-  }
+
+  /* ── Tags ──────────────────────────────────── */
   .tag-badge {
-    @apply inline-block px-3 py-1 rounded-full text-xs font-medium;
-    background-color: #FFE6EF;
-    color: #F28FB2;
+    @apply inline-block px-3 py-1 rounded-full font-medium;
+    background: rgba(245,213,224,0.5);
+    color: #D08090;
+    backdrop-filter: blur(8px);
+    font-size: 24rpx;
   }
   .tag-green {
-    background-color: #E6F7EF;
-    color: #62C490;
+    background: rgba(213,245,224,0.5);
+    color: #5AA070;
   }
   .tag-purple {
-    background-color: #F3EDFF;
-    color: #9D76E8;
+    background: rgba(229,213,245,0.5);
+    color: #9070C0;
   }
   .tag-blue {
-    background-color: #E6F3FF;
-    color: #48A8E6;
+    background: rgba(213,229,245,0.5);
+    color: #5088B0;
   }
-  .section-title {
-    font-size: 32rpx;
-    font-weight: 600;
-    color: #222222;
-    margin-bottom: 8rpx;
-  }
-  .section-subtitle {
-    font-size: 24rpx;
-    color: #999999;
-  }
+
+  /* ── Scrollbar hide ────────────────────────── */
   .scrollbar-hide {
     -ms-overflow-style: none;
     scrollbar-width: none;

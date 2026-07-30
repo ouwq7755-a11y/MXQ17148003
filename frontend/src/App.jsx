@@ -48,8 +48,8 @@ export default function App() {
 
 function BottomTabBar({ currentPath }) {
   return (
-    <nav className="fixed bottom-0 left-0 right-0 bg-white border-t border-gray-100 z-50"
-         style={{ paddingBottom: 'env(safe-area-inset-bottom, 0px)' }}>
+    <nav className="fixed bottom-0 left-0 right-0 z-50"
+         style={{ paddingBottom: 'env(safe-area-inset-bottom, 0px)', background: 'rgba(255,255,255,0.7)', backdropFilter: 'blur(24px) saturate(180%)', borderTop: '1px solid rgba(255,255,255,0.5)' }}>
       <div className="flex items-center justify-around h-14 max-w-lg mx-auto">
         {tabs.map(({ path, label, icon: Icon }) => {
           const active = currentPath === path || (path !== '/' && currentPath.startsWith(path))
