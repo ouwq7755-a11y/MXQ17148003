@@ -46,26 +46,26 @@ export default function TutorialDetail() {
       </Link>
 
       {/* Hero */}
-      <div className="gradient-hero rounded-3xl p-8 md:p-12 mb-8">
+      <div className="gradient-banner rounded-3xl p-8 mb-8">
         <div className="flex flex-wrap gap-2 mb-4">
-          <span className={`px-3 py-1 rounded-full text-xs font-medium ${diff.color}`}>
+          <span className="px-3 py-1 rounded-full font-medium" style={{ fontSize: '24rpx', backgroundColor: '#FFE6EF', color: '#F28FB2' }}>
             {diff.label}
           </span>
           {tutorial.category_name && (
-            <span className="px-3 py-1 rounded-full text-xs font-medium bg-white/60 text-gray-700">
+            <span className="px-3 py-1 rounded-full font-medium" style={{ fontSize: '24rpx', backgroundColor: 'rgba(255,255,255,0.6)', color: '#555' }}>
               {tutorial.category_name}
             </span>
           )}
           {tutorial.tags?.map(tag => (
-            <span key={tag.id} className="tag-badge">{tag.name}</span>
+            <span key={tag.id} className="tag-badge" style={{ fontSize: '24rpx' }}>{tag.name}</span>
           ))}
         </div>
-        <h1 className="text-2xl md:text-3xl font-extrabold text-gray-800 mb-3">{tutorial.title}</h1>
-        <p className="text-gray-600 mb-4 max-w-2xl">{tutorial.description}</p>
-        <div className="flex flex-wrap gap-4 text-sm text-gray-500">
-          <span className="flex items-center gap-1"><Clock className="w-4 h-4" /> {tutorial.duration_minutes}分钟</span>
-          <span className="flex items-center gap-1"><BarChart3 className="w-4 h-4" /> {diff.label}难度</span>
-          <span className="flex items-center gap-1"><Eye className="w-4 h-4" /> {tutorial.view_count}次学习</span>
+        <h1 className="font-semibold mb-3" style={{ fontSize: '32rpx', color: '#222' }}>{tutorial.title}</h1>
+        <p style={{ fontSize: '28rpx', color: '#555', marginBottom: '16rpx' }}>{tutorial.description}</p>
+        <div className="flex flex-wrap gap-3" style={{ fontSize: '24rpx', color: '#999' }}>
+          <span className="flex items-center gap-1"><Clock size={14} /> {tutorial.duration_minutes}分钟</span>
+          <span className="flex items-center gap-1"><BarChart3 size={14} /> {diff.label}难度</span>
+          <span className="flex items-center gap-1"><Eye size={14} /> {tutorial.view_count}次学习</span>
         </div>
       </div>
 

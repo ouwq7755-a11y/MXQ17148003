@@ -57,12 +57,14 @@ function BottomTabBar({ currentPath }) {
             <Link
               key={path}
               to={path}
-              className={`flex flex-col items-center justify-center gap-0.5 px-3 py-1 min-w-[60px] transition-colors ${
-                active ? 'text-primary-500' : 'text-gray-400 hover:text-gray-600'
+              className={`flex flex-col items-center justify-center gap-0.5 px-3 py-1 min-w-[60px] transition-all duration-200 relative ${
+                active ? '' : 'text-gray-400 hover:text-gray-600'
               }`}
+              style={{ color: active ? '#F28FB2' : undefined }}
             >
-              <Icon className="w-5 h-5" fill={active ? 'currentColor' : 'none'} strokeWidth={active ? 2.5 : 2} />
-              <span className={`text-[10px] font-medium`}>{label}</span>
+              <Icon className="w-5 h-5" fill={active ? 'currentColor' : 'none'} strokeWidth={2} />
+              <span style={{ fontSize: '26rpx', fontWeight: active ? 600 : 400 }}>{label}</span>
+              {active && <div className="absolute -bottom-1 h-0.5 rounded-full" style={{ width: '60%', backgroundColor: '#F28FB2' }} />}
             </Link>
           )
         })}
