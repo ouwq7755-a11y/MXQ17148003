@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import { Clock, BarChart3, CheckCircle2, ArrowLeft, Eye, ChevronRight } from 'lucide-react'
 import { API_BASE } from '../App'
-import { categoryIcons, difficultyConfig } from '../components/Card'
+import { categoryIcons, difficultyLabels } from '../components/Card'
 import Loader, { EmptyState } from '../components/Loader'
 import LazyVideo from '../components/LazyVideo'
 
@@ -37,7 +37,7 @@ export default function TutorialDetail() {
   )
   if (!tutorial) return null
 
-  const diff = difficultyConfig[tutorial.difficulty] || difficultyConfig.beginner
+  const diff = { label: difficultyLabels[tutorial.difficulty] || '入门' }
   const steps = tutorial.steps || []
   const tips = tutorial.tips || []
 
