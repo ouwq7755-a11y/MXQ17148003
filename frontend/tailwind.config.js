@@ -5,7 +5,7 @@ export default {
     extend: {
       colors: {
         brand: {
-          pink: '#F28FB2',        // 主品牌色 柔雾裸粉
+          pink: '#F499BB',        // 主品牌色 柔雾裸粉
           light: '#FFE6EF',       // 主色浅底 淡裸粉
           purple: '#9D76E8',      // AI辅助紫 芋泥紫
           green: '#62C490',       // 教学辅助绿 奶薄荷绿

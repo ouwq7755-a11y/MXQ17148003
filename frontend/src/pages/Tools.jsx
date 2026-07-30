@@ -37,11 +37,11 @@ export default function Tools() {
   }
 
   return (
-    <div className="max-w-lg mx-auto px-safe py-4" style={{ background: '#FFFCFD' }}>
-      <h1 className="font-semibold mb-1 flex items-center gap-2" style={{ fontSize: '36rpx', color: '#222' }}>
+    <div className="max-w-lg mx-auto px-safe py-4" style={{ background: 'var(--bg-page)' }}>
+      <h1 className="font-semibold mb-1 flex items-center gap-2" style={{ fontSize: '36rpx', color: 'var(--text-color-main)' }}>
         <Wrench size={22} color="#F28FB2" strokeWidth={2} /> 美甲工具教学
       </h1>
-      <p style={{ fontSize: '24rpx', color: '#999', marginBottom: '24rpx' }}>17种工具详解 · 视频+图文双模式</p>
+      <p style={{ fontSize: '24rpx', color: 'var(--text-color-minor)', marginBottom: '24rpx' }}>17种工具详解 · 视频+图文双模式</p>
 
       {/* Search + Filters */}
       <div className="bg-white rounded-3xl shadow-card p-4 mb-6 space-y-3">
@@ -49,15 +49,15 @@ export default function Tools() {
           <Search size={16} color="#999" className="absolute left-3 top-1/2 -translate-y-1/2" />
           <input value={search} onChange={e => setSearch(e.target.value)} placeholder="搜索工具名称..."
             className="w-full pl-10 pr-4 py-2.5 rounded-2xl text-sm outline-none"
-            style={{ backgroundColor: '#FFFCFD', border: '1px solid #F4E8ED', fontSize: '28rpx', color: '#555' }} />
+            style={{ backgroundColor: 'var(--bg-page)', border: '1px solid #F4E8ED', fontSize: '28rpx', color: 'var(--text-color-secondary)' }} />
         </div>
         <div className="flex gap-2 flex-wrap">
           {cats.map(c => (
             <button key={c.v} onClick={() => setCategory(c.v)}
               className="px-4 py-2 rounded-full text-sm transition-all"
               style={{
-                backgroundColor: category === c.v ? '#FFE6EF' : '#F4F4F4',
-                color: category === c.v ? '#F28FB2' : '#999',
+                backgroundColor: category === c.v ? 'var(--color-primary-light)' : '#F4F4F4',
+                color: category === c.v ? 'var(--color-primary)' : 'var(--text-color-minor)',
                 fontSize: '26rpx',
               }}>{c.i} {c.l}</button>
           ))}
@@ -77,32 +77,32 @@ export default function Tools() {
 
             return (
               <div key={tool.id} className={`bg-white rounded-3xl shadow-card transition-all ${isExpanded ? 'ring-2' : ''}`}
-                   style={{ ringColor: isExpanded ? '#F28FB2' : undefined }}>
+                   style={{ ringColor: isExpanded ? 'var(--color-primary)' : undefined }}>
                 <button onClick={() => handleExpand(tool.id)} className="w-full text-left" style={{ padding: '32rpx' }}>
                   <div className="flex items-start justify-between mb-2">
                     <span className="text-2xl">{catInfo.i}</span>
                     {tool.price_range && (
-                      <span className="flex items-center gap-0.5 font-medium" style={{ fontSize: '24rpx', color: '#F28FB2' }}>
+                      <span className="flex items-center gap-0.5 font-medium" style={{ fontSize: '24rpx', color: 'var(--color-primary)' }}>
                         <DollarSign size={12} /> {tool.price_range}
                       </span>
                     )}
                   </div>
-                  <h3 className="font-medium mb-1" style={{ fontSize: '28rpx', color: '#222' }}>{tool.name}</h3>
-                  <p className="line-clamp-2 leading-relaxed" style={{ fontSize: '26rpx', color: '#555' }}>{tool.description}</p>
+                  <h3 className="font-medium mb-1" style={{ fontSize: '28rpx', color: 'var(--text-color-main)' }}>{tool.name}</h3>
+                  <p className="line-clamp-2 leading-relaxed" style={{ fontSize: '26rpx', color: 'var(--text-color-secondary)' }}>{tool.description}</p>
                   <div className="flex items-center gap-3 mt-3" style={{ fontSize: '22rpx' }}>
-                    {hasVideo && <span className="flex items-center gap-1" style={{ color: '#F28FB2' }}><Play size={12} /> 视频</span>}
-                    {hasText && <span className="flex items-center gap-1" style={{ color: '#62C490' }}><FileText size={12} /> 图文</span>}
+                    {hasVideo && <span className="flex items-center gap-1" style={{ color: 'var(--color-primary)' }}><Play size={12} /> 视频</span>}
+                    {hasText && <span className="flex items-center gap-1" style={{ color: 'var(--color-secondary-green)' }}><FileText size={12} /> 图文</span>}
                   </div>
                 </button>
 
                 {isExpanded && (
                   <div style={{ borderTop: '1px solid #F4E8ED' }}>
-                    <div className="flex border-b" style={{ borderColor: '#F4E8ED' }}>
+                    <div className="flex border-b" style={{ borderColor: 'var(--border-divider)' }}>
                       <button onClick={() => setViewMode(prev => ({ ...prev, [tool.id]: 'text' }))} disabled={!hasText}
                         className={`flex-1 py-2.5 text-center font-medium transition-all ${mode === 'text' ? '' : ''}`}
                         style={{
                           fontSize: '26rpx',
-                          color: mode === 'text' ? '#F28FB2' : '#999',
+                          color: mode === 'text' ? 'var(--color-primary)' : 'var(--text-color-minor)',
                           borderBottom: mode === 'text' ? '2px solid #F28FB2' : 'none',
                           opacity: hasText ? 1 : 0.3,
                         }}>📝 图文教程</button>
@@ -110,7 +110,7 @@ export default function Tools() {
                         className={`flex-1 py-2.5 text-center font-medium transition-all`}
                         style={{
                           fontSize: '26rpx',
-                          color: mode === 'video' ? '#F28FB2' : '#999',
+                          color: mode === 'video' ? 'var(--color-primary)' : 'var(--text-color-minor)',
                           borderBottom: mode === 'video' ? '2px solid #F28FB2' : 'none',
                           opacity: hasVideo ? 1 : 0.3,
                         }}>🎬 视频教学</button>
@@ -121,13 +121,13 @@ export default function Tools() {
                         <div className="space-y-4">
                           {tool.usage_steps?.length > 0 && (
                             <div>
-                              <h4 className="font-medium mb-2 flex items-center gap-1.5" style={{ fontSize: '26rpx', color: '#62C490' }}>
+                              <h4 className="font-medium mb-2 flex items-center gap-1.5" style={{ fontSize: '26rpx', color: 'var(--color-secondary-green)' }}>
                                 <CheckCircle2 size={14} /> 使用方法
                               </h4>
                               <ol className="space-y-1.5">
                                 {tool.usage_steps.map((s, i) => (
-                                  <li key={i} className="flex gap-2" style={{ fontSize: '26rpx', color: '#555' }}>
-                                    <span style={{ color: '#F28FB2' }}>{i + 1}.</span> {s}
+                                  <li key={i} className="flex gap-2" style={{ fontSize: '26rpx', color: 'var(--text-color-secondary)' }}>
+                                    <span style={{ color: 'var(--color-primary)' }}>{i + 1}.</span> {s}
                                   </li>
                                 ))}
                               </ol>
@@ -135,10 +135,10 @@ export default function Tools() {
                           )}
                           {tool.precautions && (
                             <div className="rounded-2xl p-4" style={{ backgroundColor: '#FFF5F8' }}>
-                              <h4 className="font-medium mb-1.5 flex items-center gap-1.5" style={{ fontSize: '26rpx', color: '#F28FB2' }}>
+                              <h4 className="font-medium mb-1.5 flex items-center gap-1.5" style={{ fontSize: '26rpx', color: 'var(--color-primary)' }}>
                                 <AlertTriangle size={14} /> 注意事项
                               </h4>
-                              <p style={{ fontSize: '26rpx', color: '#555' }}>{tool.precautions}</p>
+                              <p style={{ fontSize: '26rpx', color: 'var(--text-color-secondary)' }}>{tool.precautions}</p>
                             </div>
                           )}
                         </div>

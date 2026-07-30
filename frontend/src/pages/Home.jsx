@@ -56,7 +56,7 @@ export default function Home() {
       {/* Search - glass */}
       <Link to="/search" className="glass flex items-center gap-3 rounded-2xl px-4 py-3 float-hover">
         <Search size={18} color="#999" />
-        <span style={{ fontSize: '28rpx', color: '#999' }}>搜索教程、材料、工具...</span>
+        <span style={{ fontSize: '28rpx', color: 'var(--text-color-minor)' }}>搜索教程、材料、工具...</span>
       </Link>
 
       {/* Banner - gradient */}
@@ -120,7 +120,7 @@ export default function Home() {
                 </div>
                 <div className="p-3">
                   <h3 className="font-medium line-clamp-2 leading-snug" style={{ fontSize: '26rpx', color: '#333' }}>{t.title}</h3>
-                  <div className="flex items-center gap-2 mt-1.5" style={{ fontSize: '22rpx', color: '#999' }}>
+                  <div className="flex items-center gap-2 mt-1.5" style={{ fontSize: '22rpx', color: 'var(--text-color-minor)' }}>
                     <span>{t.duration_minutes}分钟</span><span>{t.category_name}</span>
                   </div>
                 </div>
@@ -148,7 +148,7 @@ export default function Home() {
                   <div className="flex items-center gap-2 mt-1.5" style={{ fontSize: '22rpx' }}>
                     <span className="tag-badge">{t.duration_minutes}分钟</span>
                     <span className="tag-green">{t.difficulty === 'beginner' ? '入门' : t.difficulty}</span>
-                    <span style={{ color: '#999' }}>{t.category_name}</span>
+                    <span style={{ color: 'var(--text-color-minor)' }}>{t.category_name}</span>
                   </div>
                 </div>
               </Link>
@@ -162,7 +162,7 @@ export default function Home() {
         <div className="glass rounded-3xl p-5">
           <div className="grid grid-cols-4 text-center">
             {[['教程', stats.tutorial_count, '#D08090'], ['材料', stats.material_count, '#9070C0'], ['工具', stats.tool_count, '#5088B0'], ['分类', stats.category_count, '#5AA070']].map(([l, v, c]) => (
-              <div key={l}><div className="font-bold" style={{ fontSize: '32rpx', color: c }}>{v}</div><div style={{ fontSize: '22rpx', color: '#999' }}>{l}</div></div>
+              <div key={l}><div className="font-bold" style={{ fontSize: '32rpx', color: c }}>{v}</div><div style={{ fontSize: '22rpx', color: 'var(--text-color-minor)' }}>{l}</div></div>
             ))}
           </div>
         </div>

@@ -5,12 +5,12 @@ export default function Loader({ text = '加载中...' }) {
   return (
     <div className="flex flex-col items-center justify-center py-20">
       <div className="relative w-12 h-12">
-        <div className="absolute inset-0 rounded-full animate-ping opacity-30" style={{ backgroundColor: '#FFE6EF' }} />
-        <div className="relative w-12 h-12 rounded-full flex items-center justify-center" style={{ backgroundColor: '#FFE6EF' }}>
+        <div className="absolute inset-0 rounded-full animate-ping opacity-30" style={{ backgroundColor: 'var(--color-primary-light)' }} />
+        <div className="relative w-12 h-12 rounded-full flex items-center justify-center" style={{ backgroundColor: 'var(--color-primary-light)' }}>
           <span className="text-2xl">💅</span>
         </div>
       </div>
-      <p className="mt-4" style={{ fontSize: '26rpx', color: '#999' }}>{text}</p>
+      <p className="mt-4" style={{ fontSize: '26rpx', color: 'var(--text-color-minor)' }}>{text}</p>
     </div>
   )
 }
@@ -46,11 +46,11 @@ export function SkeletonGrid() {
 export function EmptyState({ icon = '📭', title = '暂无内容', message = '', link = null }) {
   return (
     <div className="flex flex-col items-center justify-center py-16 text-center">
-      <div className="w-20 h-20 rounded-full flex items-center justify-center mb-4" style={{ backgroundColor: '#FFE6EF' }}>
+      <div className="w-20 h-20 rounded-full flex items-center justify-center mb-4" style={{ backgroundColor: 'var(--color-primary-light)' }}>
         <span className="text-3xl">{icon}</span>
       </div>
-      <h3 className="font-medium mb-1" style={{ fontSize: '30rpx', color: '#222' }}>{title}</h3>
-      {message && <p style={{ fontSize: '26rpx', color: '#999', maxWidth: '280rpx', lineHeight: 1.6 }}>{message}</p>}
+      <h3 className="font-medium mb-1" style={{ fontSize: '30rpx', color: 'var(--text-color-main)' }}>{title}</h3>
+      {message && <p style={{ fontSize: '26rpx', color: 'var(--text-color-minor)', maxWidth: '280rpx', lineHeight: 1.6 }}>{message}</p>}
       {link}
     </div>
   )

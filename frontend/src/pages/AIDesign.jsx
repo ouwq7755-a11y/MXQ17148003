@@ -49,7 +49,7 @@ export default function AIDesign() {
         <h1 className="font-semibold flex items-center justify-center gap-2" style={{ fontSize: '36rpx', color: '#333' }}>
           <Sparkles size={22} color="#9070C0" className="icon-glow" /> AI 美甲设计
         </h1>
-        <p style={{ fontSize: '26rpx', color: '#999', marginTop: '4rpx' }}>上传手部照片 · AI 一键预览指尖效果</p>
+        <p style={{ fontSize: '26rpx', color: 'var(--text-color-minor)', marginTop: '4rpx' }}>上传手部照片 · AI 一键预览指尖效果</p>
       </div>
 
       {/* Upload - dual layer glass */}
@@ -58,7 +58,7 @@ export default function AIDesign() {
         <div className="absolute -inset-4 rounded-3xl opacity-40" style={{ background: 'radial-gradient(circle at center, rgba(229,213,245,0.6) 0%, transparent 70%)' }} />
 
         <div className="glass-strong relative rounded-3xl p-5">
-          <h2 className="font-medium mb-3 flex items-center gap-2" style={{ fontSize: '28rpx', color: '#555' }}>
+          <h2 className="font-medium mb-3 flex items-center gap-2" style={{ fontSize: '28rpx', color: 'var(--text-color-secondary)' }}>
             <Camera size={16} color="#9070C0" /> 上传手部照片
           </h2>
           {!uploadedImage ? (
@@ -70,8 +70,8 @@ export default function AIDesign() {
                 <Upload size={28} color="#fff" />
               </div>
               <div>
-                <p className="font-medium" style={{ fontSize: '28rpx', color: '#555' }}>点击上传手掌照片</p>
-                <p style={{ fontSize: '24rpx', color: '#999', marginTop: '4rpx' }}>光线充足 · 手指自然伸展</p>
+                <p className="font-medium" style={{ fontSize: '28rpx', color: 'var(--text-color-secondary)' }}>点击上传手掌照片</p>
+                <p style={{ fontSize: '24rpx', color: 'var(--text-color-minor)', marginTop: '4rpx' }}>光线充足 · 手指自然伸展</p>
               </div>
             </button>
           ) : (
@@ -94,7 +94,7 @@ export default function AIDesign() {
 
       {/* Style - glass grid */}
       <div className="glass rounded-3xl p-5">
-        <h2 className="font-medium mb-3 flex items-center gap-2" style={{ fontSize: '28rpx', color: '#555' }}>
+        <h2 className="font-medium mb-3 flex items-center gap-2" style={{ fontSize: '28rpx', color: 'var(--text-color-secondary)' }}>
           <Wand2 size={16} color="#9070C0" /> 选择美甲风格
         </h2>
         <div className="grid grid-cols-4 gap-2.5">
@@ -118,7 +118,7 @@ export default function AIDesign() {
 
       {/* Skin Tone */}
       <div className="glass rounded-3xl p-5">
-        <h2 className="font-medium mb-3 flex items-center gap-2" style={{ fontSize: '28rpx', color: '#555' }}>
+        <h2 className="font-medium mb-3 flex items-center gap-2" style={{ fontSize: '28rpx', color: 'var(--text-color-secondary)' }}>
           <Palette size={16} color="#D08090" /> 肤色匹配
         </h2>
         <div className="flex gap-3">
@@ -131,7 +131,7 @@ export default function AIDesign() {
               }}
             >
               <div className="w-10 h-10 rounded-full shadow-lg" style={{ backgroundColor: t.hex, border: '2px solid rgba(255,255,255,0.8)' }} />
-              <span className="font-medium" style={{ fontSize: '24rpx', color: '#555' }}>{t.name}</span>
+              <span className="font-medium" style={{ fontSize: '24rpx', color: 'var(--text-color-secondary)' }}>{t.name}</span>
             </button>
           ))}
         </div>
@@ -157,7 +157,7 @@ export default function AIDesign() {
         <div className="relative">
           <div className="absolute -inset-4 rounded-3xl opacity-30" style={{ background: 'radial-gradient(circle at center, rgba(245,213,224,0.5) 0%, transparent 70%)' }} />
           <div className="glass-strong relative rounded-3xl p-5">
-            <h2 className="font-medium mb-3 flex items-center gap-2" style={{ fontSize: '28rpx', color: '#555' }}>
+            <h2 className="font-medium mb-3 flex items-center gap-2" style={{ fontSize: '28rpx', color: 'var(--text-color-secondary)' }}>
               <Star size={16} fill="#D08090" color="#D08090" /> 生成结果 - {result.style}风格
             </h2>
             {/* Dual glass layer */}
@@ -190,7 +190,7 @@ export default function AIDesign() {
       {/* Inspiration */}
       {hotStyles.length > 0 && (
         <div className="glass rounded-3xl p-5">
-          <h2 className="font-medium mb-3 flex items-center gap-2" style={{ fontSize: '28rpx', color: '#555' }}>
+          <h2 className="font-medium mb-3 flex items-center gap-2" style={{ fontSize: '28rpx', color: 'var(--text-color-secondary)' }}>
             <TrendingUp size={16} color="#D08090" /> 热门款式参考
           </h2>
           <div className="grid grid-cols-3 gap-2">
@@ -211,8 +211,8 @@ export default function AIDesign() {
       {/* Material entry */}
       <Link to="/materials" className="glass rounded-3xl p-5 flex items-center justify-between float-hover">
         <div>
-          <h3 className="font-medium" style={{ fontSize: '28rpx', color: '#555' }}>需要购买美甲材料？</h3>
-          <p style={{ fontSize: '24rpx', color: '#999', marginTop: '4rpx' }}>查看完整材料清单和工具推荐</p>
+          <h3 className="font-medium" style={{ fontSize: '28rpx', color: 'var(--text-color-secondary)' }}>需要购买美甲材料？</h3>
+          <p style={{ fontSize: '24rpx', color: 'var(--text-color-minor)', marginTop: '4rpx' }}>查看完整材料清单和工具推荐</p>
         </div>
         <ArrowRight size={18} color="#999" />
       </Link>

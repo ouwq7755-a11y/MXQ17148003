@@ -48,11 +48,11 @@ export default function Tutorials() {
   const catObj = categories.find(c => c.id.toString() === cat)
 
   return (
-    <div className="max-w-lg mx-auto px-safe py-4" style={{ background: '#FFFCFD' }}>
-      <h1 className="font-semibold mb-1" style={{ fontSize: '36rpx', color: '#222' }}>
+    <div className="max-w-lg mx-auto px-safe py-4" style={{ background: 'var(--bg-page)' }}>
+      <h1 className="font-semibold mb-1" style={{ fontSize: '36rpx', color: 'var(--text-color-main)' }}>
         {catObj ? catObj.name_cn : '全部教程'}
       </h1>
-      <p style={{ fontSize: '24rpx', color: '#999', marginBottom: '24rpx' }}>
+      <p style={{ fontSize: '24rpx', color: 'var(--text-color-minor)', marginBottom: '24rpx' }}>
         {catObj ? catObj.description : `共 ${total} 个教程 · 每日更新`}
       </p>
 
@@ -62,8 +62,8 @@ export default function Tutorials() {
           <button key={d.value} onClick={() => setFilter('difficulty', d.value)}
             className="shrink-0 px-4 py-2 rounded-full text-sm font-medium transition-all duration-150"
             style={{
-              backgroundColor: diff === d.value ? '#F28FB2' : '#FFE6EF',
-              color: diff === d.value ? '#fff' : '#F28FB2',
+              backgroundColor: diff === d.value ? 'var(--color-primary)' : 'var(--color-primary-light)',
+              color: diff === d.value ? '#fff' : 'var(--color-primary)',
               fontSize: '26rpx',
             }}
           >{d.label}</button>
@@ -74,12 +74,12 @@ export default function Tutorials() {
       <div className="flex gap-2 mb-5 overflow-x-auto scrollbar-hide pb-1">
         <button onClick={() => setFilter('category', '')}
           className="shrink-0 px-3 py-1.5 rounded-full text-xs transition-all"
-          style={{ backgroundColor: !cat ? '#F28FB2' : '#F4F4F4', color: !cat ? '#fff' : '#999' }}
+          style={{ backgroundColor: !cat ? 'var(--color-primary)' : '#F4F4F4', color: !cat ? '#fff' : 'var(--text-color-minor)' }}
         >全部</button>
         {categories.slice(0, 10).map(c => (
           <button key={c.id} onClick={() => setFilter('category', c.id.toString())}
             className="shrink-0 px-3 py-1.5 rounded-full text-xs transition-all"
-            style={{ backgroundColor: cat === c.id.toString() ? '#F28FB2' : '#F4F4F4', color: cat === c.id.toString() ? '#fff' : '#999' }}
+            style={{ backgroundColor: cat === c.id.toString() ? 'var(--color-primary)' : '#F4F4F4', color: cat === c.id.toString() ? '#fff' : 'var(--text-color-minor)' }}
           >{categoryIcons[c.icon]} {c.name_cn}</button>
         ))}
       </div>
@@ -88,7 +88,7 @@ export default function Tutorials() {
       {loading ? <Loader /> : tutorials.length === 0 ? (
         <div className="text-center py-20">
           <span className="text-5xl">🔍</span>
-          <p className="mt-2" style={{ color: '#999' }}>暂无教程，换个筛选试试</p>
+          <p className="mt-2" style={{ color: 'var(--text-color-minor)' }}>暂无教程，换个筛选试试</p>
         </div>
       ) : (
         <div className="space-y-card">
@@ -104,19 +104,19 @@ export default function Tutorials() {
                 <span className="text-3xl opacity-25">{categoryIcons[categories.find(c => c.id === t.category_id)?.icon] || '💅'}</span>
                 {t.video_url && (
                   <div className="absolute bottom-1 left-1 rounded-full px-1.5 py-0.5 flex items-center gap-0.5"
-                       style={{ backgroundColor: '#FFE6EF', color: '#F28FB2', fontSize: '20rpx' }}>
+                       style={{ backgroundColor: 'var(--color-primary-light)', color: 'var(--color-primary)', fontSize: '20rpx' }}>
                     <Play size={10} fill="#F28FB2" /> 视频
                   </div>
                 )}
               </div>
               <div className="flex-1 min-w-0 py-1">
-                <h3 className="font-medium line-clamp-2 leading-snug" style={{ fontSize: '28rpx', color: '#222' }}>{t.title}</h3>
+                <h3 className="font-medium line-clamp-2 leading-snug" style={{ fontSize: '28rpx', color: 'var(--text-color-main)' }}>{t.title}</h3>
                 <div className="flex flex-wrap gap-1.5 mt-1.5">
                   <span className="tag-badge" style={{ fontSize: '22rpx' }}>{t.duration_minutes}分钟</span>
                   <span className="tag-green" style={{ fontSize: '22rpx' }}>{t.difficulty === 'beginner' ? '入门' : t.difficulty === 'intermediate' ? '进阶' : '精通'}</span>
                   <span className="tag-blue" style={{ fontSize: '22rpx' }}>{t.category_name}</span>
                 </div>
-                <div className="flex items-center gap-3 mt-2" style={{ fontSize: '22rpx', color: '#999' }}>
+                <div className="flex items-center gap-3 mt-2" style={{ fontSize: '22rpx', color: 'var(--text-color-minor)' }}>
                   <span className="flex items-center gap-0.5"><Eye size={12} /> {t.view_count || 0} 学习</span>
                 </div>
               </div>
@@ -128,10 +128,10 @@ export default function Tutorials() {
       {total > 12 && (
         <div className="flex justify-center gap-2 mt-6">
           <button disabled={page <= 1} onClick={() => setPage(p => p - 1)}
-            className="px-4 py-2 rounded-full text-sm disabled:opacity-30" style={{ color: '#F28FB2' }}>上一页</button>
-          <span className="px-3 py-2" style={{ color: '#999', fontSize: '24rpx' }}>{page}/{Math.ceil(total/12)}</span>
+            className="px-4 py-2 rounded-full text-sm disabled:opacity-30" style={{ color: 'var(--color-primary)' }}>上一页</button>
+          <span className="px-3 py-2" style={{ color: 'var(--text-color-minor)', fontSize: '24rpx' }}>{page}/{Math.ceil(total/12)}</span>
           <button disabled={page >= Math.ceil(total/12)} onClick={() => setPage(p => p + 1)}
-            className="px-4 py-2 rounded-full text-sm disabled:opacity-30" style={{ color: '#F28FB2' }}>下一页</button>
+            className="px-4 py-2 rounded-full text-sm disabled:opacity-30" style={{ color: 'var(--color-primary)' }}>下一页</button>
         </div>
       )}
     </div>
