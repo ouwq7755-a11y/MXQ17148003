@@ -1,0 +1,62 @@
+// ═══════════════════════════════════════════════
+// 美甲学院 - 全局 Design Token
+// 所有页面必须引用此文件，禁止硬编码颜色/字号/间距/圆角/阴影
+// ═══════════════════════════════════════════════
+
+// ── 品牌色（主色 + 辅助色） ─────────────────
+$brand-pink:       #F28FB2;  // 柔雾裸粉 - 选中Tab、主按钮、标题强调、价格
+$brand-pink-light: #FFE6EF;  // 淡裸粉 - 标签底色、提示背景
+$brand-purple:     #9D76E8;  // 芋泥紫 - AI设计板块
+$brand-green:      #62C490;  // 奶薄荷绿 - 教程/新手板块
+$brand-blue:       #48A8E6;  // 晴空浅蓝 - 材料/工具板块
+
+// ── 表面色 ──────────────────────────────────
+$surface-page:     #FFFCFD;  // 页面全局底色（禁止纯白#FFF）
+$surface-card:     #FFFFFF;  // 卡片底色
+$surface-divider:  #F4E8ED;  // 分割线
+$surface-ai:       #F3EDFF;  // AI浅紫底
+$surface-teach:    #E6F7EF;  // 教程浅绿底
+$surface-material: #E6F3FF;  // 材料浅蓝底
+$surface-skin:     #FFF0E6;  // 肤色浅橙底
+$surface-media:    #FFE6F0;  // 素材浅粉底
+$surface-tool:     #F0F4FF;  // 工具浅蓝灰底
+
+// ── 文字色（三级严格区分） ─────────────────
+$text-title:   #222222;  // 大标题（禁用纯黑#000）
+$text-body:    #555555;  // 正文
+$text-caption: #999999;  // 辅助小字
+
+// ── 圆角 ────────────────────────────────────
+$radius-card:  24rpx;  // 大卡片、详情卡片
+$radius-thumb: 20rpx;  // 缩略图、搜索框
+$radius-pill:  999rpx; // 胶囊标签、按钮
+
+// ── 阴影 ────────────────────────────────────
+$shadow-card: 0 4rpx 16rpx rgba(242, 143, 178, 0.08);
+
+// ── 间距 ────────────────────────────────────
+$spacing-safe:    32rpx;  // 页面左右安全边距
+$spacing-section: 40rpx;  // 大模块垂直间隔
+$spacing-card-gap: 24rpx; // 卡片间距
+$spacing-inner:   32rpx;  // 卡片内部内边距
+
+// ── 字号（字重配套） ────────────────────────
+$fs-title:   36rpx;  // 页面大标题 w600
+$fs-subtitle: 32rpx; // 模块标题 w500
+$fs-card-title: 30rpx; // 卡片标题 w500
+$fs-body:    28rpx;  // 正文 w400
+$fs-caption: 24rpx;  // 标签、价格、辅助 w400
+$fs-tab:     26rpx;  // Tab文字
+
+// ── 毛玻璃效果 ──────────────────────────────
+$glass-bg:       rgba(255,255,255,0.55);
+$glass-blur:     20px;
+$glass-border:   1px solid rgba(255,255,255,0.5);
+$glass-shadow:   0 8px 32px rgba(200,180,210,0.12);
+$glass-bg-strong: rgba(255,255,255,0.7);
+$glass-blur-strong: 28px;
+
+// ── 品牌渐变 ──────────────────────────────────
+$gradient-hero:   linear-gradient(135deg, #E8D5F5 0%, #D5E5F8 40%, #F5D5E0 100%);
+$gradient-banner: linear-gradient(135deg, #EED5F0 0%, #D8E8F8 40%, #F8DDD8 100%);
+$gradient-btn:    linear-gradient(135deg, #E8A0C0, #D5A0E0);
