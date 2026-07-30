@@ -1,0 +1,11 @@
+node_modules/
+dist/
+__pycache__/
+*.pyc
+.env
+nail_art.db
+venv/
+backend/videos/
+*.mp4
+*.m4a
+*.zip

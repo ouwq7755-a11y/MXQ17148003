@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-50 text-gray-900 antialiased;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  }
+}
+
+@layer components {
+  .gradient-hero {
+    background: linear-gradient(135deg, #fce7f3 0%, #fbcfe8 30%, #f9a8d4 60%, #ec4899 100%);
+  }
+  .card-hover {
+    @apply transition-all duration-300 hover:shadow-lg hover:-translate-y-1;
+  }
+  .btn-primary {
+    @apply bg-primary-500 text-white px-6 py-2.5 rounded-full font-medium
+           hover:bg-primary-600 active:bg-primary-700 transition-colors
+           shadow-md hover:shadow-lg;
+  }
+  .btn-outline {
+    @apply border-2 border-primary-500 text-primary-600 px-6 py-2.5 rounded-full font-medium
+           hover:bg-primary-50 active:bg-primary-100 transition-colors;
+  }
+  .tag-badge {
+    @apply inline-block px-3 py-1 rounded-full text-xs font-medium bg-primary-100 text-primary-700;
+  }
+  .section-title {
+    @apply text-2xl md:text-3xl font-bold text-gray-800 mb-2;
+  }
+  .section-subtitle {
+    @apply text-gray-500 text-sm md:text-base;
+  }
+  /* Hide scrollbar but allow scroll */
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  /* Safe area for bottom tab bar */
+  .safe-area-bottom {
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+}

@@ -1,0 +1,195 @@
+2026-07-30 21:39:05,135 [INFO] nail-collector: ============================================================
+2026-07-30 21:39:05,136 [INFO] nail-collector: 🖌️  Nail Art Academy - Auto Collector Started
+2026-07-30 21:39:05,136 [INFO] nail-collector:    Mode: TEST (no DB import)
+2026-07-30 21:39:05,136 [INFO] nail-collector:    Time: 2026-07-30T21:39:05.136361
+2026-07-30 21:39:05,136 [INFO] nail-collector: ============================================================
+2026-07-30 21:39:05,136 [INFO] nail-collector: 
+📡 Processing source: 小红书-美甲教程 (tutorial)
+2026-07-30 21:39:05,137 [INFO] nail-collector:   ⚠️  Platform 'xiaohongshu' requires browser automation (Playwright).
+2026-07-30 21:39:05,137 [INFO] nail-collector:       Skipping in basic mode. Use --advanced for full scraping.
+2026-07-30 21:39:05,137 [INFO] nail-collector:   🌐 Fetching: https://www.xiaohongshu.com/search_result?keyword=美甲教程
+2026-07-30 21:39:05,721 [INFO] nail-collector: 
+📡 Processing source: B站-美甲实操视频 (tutorial)
+2026-07-30 21:39:05,721 [INFO] nail-collector:   🔍 Searching: 美甲教程
+2026-07-30 21:39:05,845 [WARNING] nail-collector:   ⚠️  Bilibili API error: Expecting value: line 1 column 1 (char 0)
+2026-07-30 21:39:06,846 [INFO] nail-collector:   🔍 Searching: 美甲入门
+2026-07-30 21:39:06,936 [WARNING] nail-collector:   ⚠️  Bilibili API error: Expecting value: line 1 column 1 (char 0)
+2026-07-30 21:39:07,936 [INFO] nail-collector:   🔍 Searching: 延长甲
+2026-07-30 21:39:08,032 [WARNING] nail-collector:   ⚠️  Bilibili API error: Expecting value: line 1 column 1 (char 0)
+2026-07-30 21:39:09,033 [INFO] nail-collector: 
+📡 Processing source: 抖音-美甲教学 (tutorial)
+2026-07-30 21:39:09,033 [INFO] nail-collector:   ⚠️  Platform 'douyin' requires browser automation (Playwright).
+2026-07-30 21:39:09,033 [INFO] nail-collector:       Skipping in basic mode. Use --advanced for full scraping.
+2026-07-30 21:39:09,033 [INFO] nail-collector:   🌐 Fetching: https://www.douyin.com/search/美甲教学
+2026-07-30 21:39:09,182 [INFO] nail-collector: 
+📡 Processing source: 美甲帮-图文教程 (tutorial)
+2026-07-30 21:39:09,182 [INFO] nail-collector:   🌐 Fetching: https://www.meijiabang.cn/
+2026-07-30 21:39:09,367 [INFO] nail-collector: 
+📡 Processing source: 淘宝-美甲耗材 (material)
+2026-07-30 21:39:09,367 [INFO] nail-collector:   🌐 Fetching: https://s.taobao.com/search?q=美甲甲油胶
+2026-07-30 21:39:09,487 [INFO] nail-collector: 
+📡 Processing source: 1688-美甲材料批发 (material)
+2026-07-30 21:39:09,487 [INFO] nail-collector:   🌐 Fetching: https://s.1688.com/selloffer/offer_search.htm?keywords=美甲材料
+2026-07-30 21:39:09,758 [INFO] nail-collector: 
+📡 Processing source: 什么值得买-美甲工具评测 (tool)
+2026-07-30 21:39:09,758 [INFO] nail-collector:   🌐 Fetching: https://search.smzdm.com/?c=home&s=美甲工具
+2026-07-30 21:39:09,939 [INFO] nail-collector: 
+📡 Processing source: Pinterest-美甲灵感 (image)
+2026-07-30 21:39:09,939 [INFO] nail-collector:   ⚠️  Platform 'pinterest' requires browser automation (Playwright).
+2026-07-30 21:39:09,939 [INFO] nail-collector:       Skipping in basic mode. Use --advanced for full scraping.
+2026-07-30 21:39:09,939 [INFO] nail-collector:   🌐 Fetching: https://www.pinterest.com/search/pins/?q=nail+art+tutorial
+2026-07-30 21:39:24,950 [WARNING] nail-collector:   ⚠️  Fetch failed [https://www.pinterest.com/search/pins/?q=nail+art+tutorial]: HTTPSConnectionPool(host='www.pinterest.com', port=443): Max retries exceeded with url: /search/pins/?q=nail+art+tutorial (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.pinterest.com', port=443) at 0x217ec368b90>, 'Connection to www.pinterest.com timed out. (connect timeout=15)'))
+2026-07-30 21:39:24,950 [INFO] nail-collector: 
+📡 Processing source: 小红书-美甲款式图 (image)
+2026-07-30 21:39:24,950 [INFO] nail-collector:   🌐 Fetching: https://www.xiaohongshu.com/search_result?keyword=美甲款式
+2026-07-30 21:39:25,351 [INFO] nail-collector: ============================================================
+2026-07-30 21:39:25,351 [INFO] nail-collector: 📊 Collection Summary:
+2026-07-30 21:39:25,351 [INFO] nail-collector:    Fetched: 0
+2026-07-30 21:39:25,351 [INFO] nail-collector:    Valid (after cleaning): 0
+2026-07-30 21:39:25,351 [INFO] nail-collector:    Imported to DB: 0
+2026-07-30 21:39:25,351 [INFO] nail-collector:    Skipped: 0
+2026-07-30 21:39:25,351 [INFO] nail-collector:    Errors: 0
+2026-07-30 21:39:25,351 [INFO] nail-collector:    Cleaner state: {'seen_hashes_count': 0, 'seen_titles_count': 0}
+2026-07-30 21:39:25,351 [INFO] nail-collector: ============================================================
+2026-07-30 21:48:21,531 [INFO] ============================================================
+2026-07-30 21:48:21,532 [INFO] 🖌️  美甲学院 - AI 自动采集器
+2026-07-30 21:48:21,532 [INFO]    模式: 🧪 测试 (不入库)
+2026-07-30 21:48:21,532 [INFO]    数据库: N/A
+2026-07-30 21:48:21,532 [INFO]    时间: 2026-07-30 21:48:21
+2026-07-30 21:48:21,532 [INFO] ============================================================
+2026-07-30 21:48:21,532 [INFO] 
+📡 [Wikipedia 百科] 开始采集...
+2026-07-30 21:48:21,532 [INFO]   🔍 Wikipedia 搜索: 美甲
+2026-07-30 21:48:36,558 [INFO]   🔍 Wikipedia 搜索: 指甲艺术
+2026-07-30 21:48:51,572 [INFO]   🔍 Wikipedia 搜索: 指甲彩绘
+2026-07-30 21:49:06,588 [INFO]   🔍 Wikipedia 搜索: 光疗美甲
+2026-07-30 21:49:21,598 [INFO]   🔍 Wikipedia 搜索: 指甲油
+2026-07-30 21:49:36,604 [INFO]   ✅ Wikipedia 采集到 0 条结果
+2026-07-30 21:49:36,604 [INFO]   📊 [Wikipedia 百科] 原始0 → 清洗0 → 入库0 | 重复0 驳回0
+2026-07-30 21:49:36,604 [INFO] 
+📡 [公开博客搜索] 开始采集...
+2026-07-30 21:49:36,604 [INFO]   🔍 搜索: nail art tutorial for beginners...
+2026-07-30 21:49:38,303 [INFO]   🔍 搜索: 美甲教程 新手 步骤...
+2026-07-30 21:49:39,924 [INFO]   🔍 搜索: nail art materials guide...
+2026-07-30 21:49:41,610 [INFO]   🔍 搜索: manicure tools tutorial...
+2026-07-30 21:49:43,247 [INFO]   🔍 搜索: 美甲材料 工具 介绍...
+2026-07-30 21:49:44,883 [INFO]   ✅ 公开博客采集到 25 条结果
+2026-07-30 21:49:44,884 [INFO]   ✨ NAIL中文 (简体)翻译：剑桥词典 - Cambridge Dictionary... [gel|beginner]
+2026-07-30 21:49:44,885 [INFO]   ✨ nail- 百度百科... [gel|beginner]
+2026-07-30 21:49:44,885 [INFO]   ✨ nail是什么意思_nail的翻译_音标_读音_用法_例句_爱词霸 ...... [gel|beginner]
+2026-07-30 21:49:44,885 [INFO]   ✨ 欧路词典|英汉-汉英词典nail是什么意思_nail的中文解释和 ...... [gel|beginner]
+2026-07-30 21:49:44,885 [INFO]   ✨ Nails是什么意思？英语名词‘指甲’还是动词‘抓住’？3分钟搞 ...... [gel|beginner]
+2026-07-30 21:49:44,885 [INFO]   ✨ 一眼心动！60款超有氛围感的美甲分享！ - 知乎... [gel|beginner]
+2026-07-30 21:49:44,885 [INFO]   ✨ 集美—2025美甲合集 - 知乎... [gel|beginner]
+2026-07-30 21:49:44,885 [INFO]   ✨ 美甲款式2026：60+顯白百搭大熱Gel甲流行款推薦：法式/漸 ...... [french|beginner]
+2026-07-30 21:49:44,885 [INFO]   ✨ 25款今夏最in美甲！从Ins到小红书，显白猫眼+珍珠光裸色全 ...... [cat-eye|beginner]
+2026-07-30 21:49:44,886 [INFO]   ✨ 2025美甲必做款式30+總整理！粉色、寶寶藍到經典法式、鏡 ...... [french|beginner]
+2026-07-30 21:49:44,886 [INFO]   ✨ NAIL在剑桥英语词典中的解释及翻译 - Cambridge Dictionary... [gel|beginner]
+2026-07-30 21:49:44,886 [INFO]   ✨ manicure- 搜索 词典... [gel|beginner]
+2026-07-30 21:49:44,886 [INFO]   ✨ MANICURE中文 (简体)翻译：剑桥词典 - Cambridge Dictionary... [care|beginner]
+2026-07-30 21:49:44,886 [INFO]   ✨ manicure是什么意思_manicure的翻译_音标_读音_用法_例句 ...... [gel|advanced]
+2026-07-30 21:49:44,886 [INFO]   ✨ 格林达（美容修甲工具品牌）_百度百科... [tools-guide|beginner]
+2026-07-30 21:49:44,887 [INFO]   ✨ MANICURE在剑桥英语词典中的解释及翻译 - Cambridge Dictionary... [gel|beginner]
+2026-07-30 21:49:44,887 [INFO]   📊 [公开博客搜索] 原始25 → 清洗16 → 入库0 | 重复0 驳回9
+2026-07-30 21:49:44,888 [INFO] 
+📡 [结构化教程库] 开始采集...
+2026-07-30 21:49:44,888 [INFO]   ✅ 结构化教程采集到 8 条
+2026-07-30 21:49:44,888 [INFO]   ✨ 日系晕染美甲 — 柔和水彩效果制作教程... [gradient|intermediate]
+2026-07-30 21:49:44,888 [INFO]   ✨ 镜面美甲 — 魔镜粉/极光粉使用全攻略... [gel|intermediate]
+2026-07-30 21:49:44,888 [INFO]   ✨ 手绘花卉美甲 — 玫瑰花与雏菊的画法... [nail-art|advanced]
+2026-07-30 21:49:44,889 [INFO]   ✨ 碎钻/亮片美甲 — 闪亮出席的派对美甲... [3d-nail|beginner]
+2026-07-30 21:49:44,889 [INFO]   ✨ 美甲持久度提升技巧 — 延长保持时间的8个关键... [basic|beginner]
+2026-07-30 21:49:44,889 [INFO]   ✨ 秋冬美甲配色指南 — 2024流行色搭配推荐... [gel|beginner]
+2026-07-30 21:49:44,889 [INFO]   ✨ 新手必备美甲工具清单 — 入门工具选购指南... [tools-guide|beginner]
+2026-07-30 21:49:44,889 [INFO]   ✨ 穿戴甲创业入门 — 从制作到售卖全流程... [wearable|intermediate]
+2026-07-30 21:49:44,889 [INFO]   📊 [结构化教程库] 原始8 → 清洗8 → 入库0 | 重复0 驳回0
+2026-07-30 21:49:44,889 [INFO] ============================================================
+2026-07-30 21:49:44,889 [INFO] 📊 采集汇总:
+2026-07-30 21:49:44,889 [INFO]    原始采集: 33 条
+2026-07-30 21:49:44,889 [INFO]    清洗通过: 24 条
+2026-07-30 21:49:44,889 [INFO]    成功入库: 0 条
+2026-07-30 21:49:44,889 [INFO]    重复跳过: 0 条
+2026-07-30 21:49:44,889 [INFO]    质量驳回: 9 条
+2026-07-30 21:49:44,889 [INFO]    去重状态: {'seen_hashes': 24, 'seen_titles': 24}
+2026-07-30 21:49:44,889 [INFO] ============================================================
+2026-07-30 21:51:46,751 [INFO] ============================================================
+2026-07-30 21:51:46,751 [INFO] 🖌️  美甲学院 - AI 自动采集器
+2026-07-30 21:51:46,752 [INFO]    模式: 📥 正式采集入库
+2026-07-30 21:51:46,752 [INFO]    数据库: C:\Users\28674\phaser-rpg-game\nail-art-academy\scraper\..\backend\nail_art.db
+2026-07-30 21:51:46,752 [INFO]    时间: 2026-07-30 21:51:46
+2026-07-30 21:51:46,752 [INFO] ============================================================
+2026-07-30 21:51:46,752 [INFO] 
+📡 [Wikipedia 百科] 开始采集...
+2026-07-30 21:51:46,752 [INFO]   🔍 Wikipedia 搜索: 美甲
+2026-07-30 21:52:01,765 [INFO]   🔍 Wikipedia 搜索: 指甲艺术
+2026-07-30 21:52:16,770 [INFO]   🔍 Wikipedia 搜索: 指甲彩绘
+2026-07-30 21:52:31,782 [INFO]   🔍 Wikipedia 搜索: 光疗美甲
+2026-07-30 21:52:46,792 [INFO]   🔍 Wikipedia 搜索: 指甲油
+2026-07-30 21:53:01,802 [INFO]   ✅ Wikipedia 采集到 0 条结果
+2026-07-30 21:53:01,802 [INFO]   📊 [Wikipedia 百科] 原始0 → 清洗0 → 入库0 | 重复0 驳回0
+2026-07-30 21:53:01,802 [INFO] 
+📡 [公开博客搜索] 开始采集...
+2026-07-30 21:53:01,803 [INFO]   🔍 搜索: nail art tutorial for beginners...
+2026-07-30 21:53:03,457 [INFO]   🔍 搜索: 美甲教程 新手 步骤...
+2026-07-30 21:53:05,060 [INFO]   🔍 搜索: nail art materials guide...
+2026-07-30 21:53:06,660 [INFO]   🔍 搜索: manicure tools tutorial...
+2026-07-30 21:53:08,356 [INFO]   🔍 搜索: 美甲材料 工具 介绍...
+2026-07-30 21:53:10,051 [INFO]   ✅ 公开博客采集到 25 条结果
+2026-07-30 21:53:10,057 [INFO]   ✨ NAIL中文 (简体)翻译：剑桥词典 - Cambridge Dictionary... [gel|beginner]
+2026-07-30 21:53:10,551 [INFO]      ✅ 已入库
+2026-07-30 21:53:10,551 [INFO]   ✨ nail- 百度百科... [gel|beginner]
+2026-07-30 21:53:10,565 [INFO]      ✅ 已入库
+2026-07-30 21:53:10,565 [INFO]   ✨ nail是什么意思_nail的翻译_音标_读音_用法_例句_爱词霸 ...... [gel|beginner]
+2026-07-30 21:53:10,579 [INFO]      ✅ 已入库
+2026-07-30 21:53:10,579 [INFO]   ✨ NAIL在剑桥英语词典中的解释及翻译 - Cambridge Dictionary... [gel|beginner]
+2026-07-30 21:53:10,592 [INFO]      ✅ 已入库
+2026-07-30 21:53:10,593 [INFO]   ✨ 欧路词典|英汉-汉英词典nail是什么意思_nail的中文解释和 ...... [gel|beginner]
+2026-07-30 21:53:10,606 [INFO]      ✅ 已入库
+2026-07-30 21:53:10,607 [INFO]   ✨ 一眼心动！60款超有氛围感的美甲分享！ - 知乎... [gel|beginner]
+2026-07-30 21:53:10,623 [INFO]      ✅ 已入库
+2026-07-30 21:53:10,624 [INFO]   ✨ 集美—2025美甲合集 - 知乎... [gel|beginner]
+2026-07-30 21:53:10,637 [INFO]      ✅ 已入库
+2026-07-30 21:53:10,637 [INFO]   ✨ 美甲款式2026：60+顯白百搭大熱Gel甲流行款推薦：法式/漸 ...... [french|beginner]
+2026-07-30 21:53:10,651 [INFO]      ✅ 已入库
+2026-07-30 21:53:10,651 [INFO]   ✨ 25款今夏最in美甲！从Ins到小红书，显白猫眼+珍珠光裸色全 ...... [cat-eye|beginner]
+2026-07-30 21:53:10,665 [INFO]      ✅ 已入库
+2026-07-30 21:53:10,665 [INFO]   ✨ 2025美甲必做款式30+總整理！粉色、寶寶藍到經典法式、鏡 ...... [french|beginner]
+2026-07-30 21:53:10,679 [INFO]      ✅ 已入库
+2026-07-30 21:53:10,680 [INFO]   ✨ manicure- 搜索 词典... [gel|beginner]
+2026-07-30 21:53:10,693 [INFO]      ✅ 已入库
+2026-07-30 21:53:10,693 [INFO]   ✨ manicure是什么意思_manicure的翻译_音标_读音_用法_例句 ...... [gel|advanced]
+2026-07-30 21:53:10,706 [INFO]      ✅ 已入库
+2026-07-30 21:53:10,706 [INFO]   ✨ MANICURE在剑桥英语词典中的解释及翻译 - Cambridge Dictionary... [gel|beginner]
+2026-07-30 21:53:10,719 [INFO]      ✅ 已入库
+2026-07-30 21:53:10,720 [INFO]   ✨ Lily Nails- the Beijinger... [gel|beginner]
+2026-07-30 21:53:10,733 [INFO]      ✅ 已入库
+2026-07-30 21:53:10,733 [INFO]   📊 [公开博客搜索] 原始25 → 清洗14 → 入库14 | 重复0 驳回11
+2026-07-30 21:53:10,734 [INFO] 
+📡 [结构化教程库] 开始采集...
+2026-07-30 21:53:10,734 [INFO]   ✅ 结构化教程采集到 8 条
+2026-07-30 21:53:10,734 [INFO]   ✨ 日系晕染美甲 — 柔和水彩效果制作教程... [gradient|intermediate]
+2026-07-30 21:53:10,748 [INFO]      ✅ 已入库
+2026-07-30 21:53:10,749 [INFO]   ✨ 镜面美甲 — 魔镜粉/极光粉使用全攻略... [gel|intermediate]
+2026-07-30 21:53:10,763 [INFO]      ✅ 已入库
+2026-07-30 21:53:10,763 [INFO]   ✨ 手绘花卉美甲 — 玫瑰花与雏菊的画法... [nail-art|advanced]
+2026-07-30 21:53:10,780 [INFO]      ✅ 已入库
+2026-07-30 21:53:10,780 [INFO]   ✨ 碎钻/亮片美甲 — 闪亮出席的派对美甲... [3d-nail|beginner]
+2026-07-30 21:53:10,795 [INFO]      ✅ 已入库
+2026-07-30 21:53:10,795 [INFO]   ✨ 美甲持久度提升技巧 — 延长保持时间的8个关键... [basic|beginner]
+2026-07-30 21:53:10,811 [INFO]      ✅ 已入库
+2026-07-30 21:53:10,811 [INFO]   ✨ 秋冬美甲配色指南 — 2024流行色搭配推荐... [gel|beginner]
+2026-07-30 21:53:10,826 [INFO]      ✅ 已入库
+2026-07-30 21:53:10,826 [INFO]   ✨ 新手必备美甲工具清单 — 入门工具选购指南... [tools-guide|beginner]
+2026-07-30 21:53:10,841 [INFO]      ✅ 已入库
+2026-07-30 21:53:10,842 [INFO]   ✨ 穿戴甲创业入门 — 从制作到售卖全流程... [wearable|intermediate]
+2026-07-30 21:53:10,857 [INFO]      ✅ 已入库
+2026-07-30 21:53:10,858 [INFO]   📊 [结构化教程库] 原始8 → 清洗8 → 入库8 | 重复0 驳回0
+2026-07-30 21:53:10,858 [INFO] ============================================================
+2026-07-30 21:53:10,858 [INFO] 📊 采集汇总:
+2026-07-30 21:53:10,858 [INFO]    原始采集: 33 条
+2026-07-30 21:53:10,858 [INFO]    清洗通过: 22 条
+2026-07-30 21:53:10,858 [INFO]    成功入库: 22 条
+2026-07-30 21:53:10,858 [INFO]    重复跳过: 0 条
+2026-07-30 21:53:10,858 [INFO]    质量驳回: 11 条
+2026-07-30 21:53:10,858 [INFO]    去重状态: {'seen_hashes': 22, 'seen_titles': 22}
+2026-07-30 21:53:10,858 [INFO] ============================================================
