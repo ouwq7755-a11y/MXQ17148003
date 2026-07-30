@@ -22,6 +22,9 @@ VIDEOS_DIR = os.path.join(os.path.dirname(__file__), "videos")
 os.makedirs(VIDEOS_DIR, exist_ok=True)
 app.mount("/videos", StaticFiles(directory=VIDEOS_DIR), name="videos")
 
+# Frontend dist path
+FRONTEND_DIST = os.path.join(os.path.dirname(__file__), "..", "frontend", "dist")
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -319,6 +322,24 @@ def get_stats(db: Session = Depends(get_db)):
         "tool_count": db.query(Tool).count(),
         "category_count": db.query(Category).count(),
     }
+
+
+# ─── Frontend SPA (must be last) ──────────────────────
+
+if os.path.exists(FRONTEND_DIST):
+    from fastapi.responses import FileResponse
+
+    @app.get("/{path:path}")
+    async def serve_spa(path: str):
+        """Serve frontend SPA - only for non-API paths"""
+        # Skip API paths
+        api_prefixes = ("categories", "tutorials", "materials", "tools", "tags", "search", "stats", "docs", "openapi.json", "videos")
+        if path.split("/")[0] in api_prefixes:
+            raise HTTPException(status_code=404, detail="Not found")
+        file_path = os.path.join(FRONTEND_DIST, path)
+        if os.path.exists(file_path) and os.path.isfile(file_path):
+            return FileResponse(file_path)
+        return FileResponse(os.path.join(FRONTEND_DIST, "index.html"))
 
 
 if __name__ == "__main__":

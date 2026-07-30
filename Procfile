@@ -1,1 +1,1 @@
-web: cd backend && python main.py
+web: cd frontend && npm install && npx vite build && cd ../backend && python main.py
