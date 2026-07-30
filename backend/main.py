@@ -23,7 +23,7 @@ os.makedirs(VIDEOS_DIR, exist_ok=True)
 app.mount("/videos", StaticFiles(directory=VIDEOS_DIR), name="videos")
 
 # Frontend dist path
-FRONTEND_DIST = os.path.join(os.path.dirname(__file__), "..", "frontend", "dist")
+FRONTEND_DIST = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "frontend", "dist"))
 
 app.add_middleware(
     CORSMiddleware,
@@ -326,18 +326,30 @@ def get_stats(db: Session = Depends(get_db)):
 
 # ─── Frontend SPA (must be last) ──────────────────────
 
-if os.path.exists(FRONTEND_DIST):
-    from fastapi.responses import FileResponse
+from fastapi.responses import FileResponse, HTMLResponse
+
+# Mount static assets
+if os.path.isdir(FRONTEND_DIST):
+    assets_dir = os.path.join(FRONTEND_DIST, "assets")
+    if os.path.isdir(assets_dir):
+        app.mount("/assets", StaticFiles(directory=assets_dir), name="frontend_assets")
+
+    # Serve root and all SPA routes
+    @app.get("/")
+    async def serve_root():
+        return FileResponse(os.path.join(FRONTEND_DIST, "index.html"))
 
     @app.get("/{path:path}")
     async def serve_spa(path: str):
-        """Serve frontend SPA - only for non-API paths"""
-        # Skip API paths
-        api_prefixes = ("categories", "tutorials", "materials", "tools", "tags", "search", "stats", "docs", "openapi.json", "videos")
-        if path.split("/")[0] in api_prefixes:
-            raise HTTPException(status_code=404, detail="Not found")
+        # Skip all API routes - let FastAPI handle them
+        if "/" in path:
+            first = path.split("/")[0]
+            if first in ("categories", "tutorials", "materials", "tools", "tags", "search", "stats", "docs", "openapi.json", "videos"):
+                raise HTTPException(status_code=404)
+        if path in ("categories", "tutorials", "materials", "tools", "tags", "search", "stats", "docs", "openapi.json"):
+            raise HTTPException(status_code=404)
         file_path = os.path.join(FRONTEND_DIST, path)
-        if os.path.exists(file_path) and os.path.isfile(file_path):
+        if os.path.isfile(file_path):
             return FileResponse(file_path)
         return FileResponse(os.path.join(FRONTEND_DIST, "index.html"))
 
