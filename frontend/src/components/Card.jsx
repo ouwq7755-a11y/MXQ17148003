@@ -21,11 +21,31 @@ export default function Card({ tutorial, categoryIcon }) {
       to={`/tutorials/${tutorial.slug}`}
       className="group bg-white rounded-2xl overflow-hidden shadow-sm card-hover flex flex-col"
     >
-      {/* Cover Image Placeholder */}
-      <div className="relative h-44 gradient-hero flex items-center justify-center overflow-hidden">
-        <div className="text-5xl opacity-60 group-hover:scale-110 transition-transform duration-500">
-          {categoryIcon || '💅'}
+      {/* Cover Image */}
+      <div className="relative h-44 bg-gray-100 flex items-center justify-center overflow-hidden">
+        {tutorial.cover_image ? (
+          <img
+            src={tutorial.cover_image}
+            alt={tutorial.title}
+            className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+            loading="lazy"
+            onError={(e) => { e.target.style.display = 'none' }}
+          />
+        ) : null}
+        <div className={`absolute inset-0 flex items-center justify-center ${tutorial.cover_image ? 'bg-black/10' : 'gradient-hero'}`}>
+          {!tutorial.cover_image && (
+            <span className="text-5xl opacity-60 group-hover:scale-110 transition-transform duration-500">
+              {categoryIcon || '💅'}
+            </span>
+          )}
         </div>
+        {/* Video badge */}
+        {tutorial.video_url && (
+          <div className="absolute bottom-2 left-2 bg-black/60 text-white text-[10px] px-2 py-0.5 rounded-full backdrop-blur-sm flex items-center gap-1">
+            <span className="w-1.5 h-1.5 rounded-full bg-red-400 animate-pulse" />
+            视频
+          </div>
+        )}
         <div className="absolute top-3 right-3">
           <span className={`px-2.5 py-1 rounded-full text-xs font-medium ${diff.color}`}>
             {diff.label}
