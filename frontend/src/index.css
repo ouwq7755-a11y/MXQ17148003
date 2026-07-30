@@ -3,30 +3,32 @@
 @tailwind utilities;
 
 :root {
-  --color-primary: #F499BB;
-  --color-primary-light: #FFE6EF;
-  --color-secondary-purple: #9D76E8;
-  --color-secondary-green: #62C490;
-  --color-secondary-blue: #48A8E6;
-  --bg-page: #FFFCFD;
+  --color-primary: #F5A8C0;
+  --color-primary-light: #FFF0F4;
+  --color-secondary-purple: #B8A0E0;
+  --color-secondary-green: #7ED0A0;
+  --color-secondary-blue: #6EB8E8;
+  --bg-page: #FFFBFC;
   --bg-card: #FFFFFF;
-  --border-divider: #F4E8ED;
-  --bg-ai: #F3EDFF;
-  --bg-teach: #E6F7EF;
-  --bg-material: #E6F3FF;
-  --bg-skin: #FFF0E6;
-  --bg-media: #FFE6F0;
-  --bg-tool: #F0F4FF;
+  --border-divider: #F5EDF0;
+  --bg-ai: #F6F0FC;
+  --bg-teach: #EDF8F2;
+  --bg-material: #EDF5FB;
+  --bg-skin: #FFF4ED;
+  --bg-media: #FFF0F5;
+  --bg-tool: #F3F5FC;
   --text-color-main: #222222;
-  --text-color-secondary: #555555;
-  --text-color-minor: #999999;
-  --border-radius-large: 24rpx;
-  --border-radius-small: 16rpx;
+  --text-color-secondary: #666666;
+  --text-color-minor: #AAAAAA;
+  --border-radius-search: 18rpx;
+  --border-radius-banner: 18rpx;
+  --border-radius-grid: 16rpx;
+  --border-radius-card: 20rpx;
   --border-radius-pill: 999rpx;
-  --shadow-card: 0 4rpx 16rpx rgba(244, 153, 187, 0.08);
+  --shadow-card: 0 1rpx 6rpx rgba(0, 0, 0, 0.025);
   --padding-page: 32rpx;
   --margin-block: 40rpx;
-  --padding-card: 32rpx;
+  --padding-card: 28rpx;
   --margin-card: 24rpx;
   --glass-bg: rgba(255, 255, 255, 0.75);
   --glass-blur: blur(20px);
@@ -68,4 +70,6 @@
   .section-gap { margin-top:var(--margin-block); }
   .scrollbar-hide { -ms-overflow-style:none; scrollbar-width:none; }
   .scrollbar-hide::-webkit-scrollbar { display:none; }
+  /* 装饰元素:5-8%透明度,禁止遮挡文字 */
+  .decor-corner { position:absolute; pointer-events:none; opacity:.06; z-index:0; }
 }

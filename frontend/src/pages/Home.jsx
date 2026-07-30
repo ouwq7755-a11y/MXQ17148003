@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react'
 import { Link } from 'react-router-dom'
-import { Search, Sparkles, BookOpen, Palette, Wrench, Package, Camera, ChevronLeft, ChevronRight, Play, Clock, Flame, TrendingUp } from 'lucide-react'
+import { Search, Sparkles, BookOpen, Palette, Wrench, Package, Camera, ChevronLeft, ChevronRight, Play, Clock, Flame, GraduationCap } from 'lucide-react'
 import { API_BASE } from '../App'
 import { categoryIcons } from '../components/Card'
 import { SkeletonGrid } from '../components/Loader'
@@ -53,40 +53,34 @@ export default function Home() {
 
   return (
     <div className="max-w-lg mx-auto px-safe py-3 space-y-5">
-      {/* Search - glass */}
-      <Link to="/search" className="glass flex items-center gap-3 rounded-2xl px-4 py-3 float-hover">
+      {/* Search */}
+      <Link to="/search" className="bg-white flex items-center gap-3 px-4 py-3 float-hover" style={{ borderRadius: '18rpx', boxShadow: '0 1rpx 4rpx rgba(0,0,0,0.04)' }}>
         <Search size={18} color="#999" />
         <span style={{ fontSize: '28rpx', color: 'var(--text-color-minor)' }}>搜索教程、材料、工具...</span>
       </Link>
 
-      {/* Banner - gradient */}
-      <div className="relative rounded-3xl overflow-hidden">
-        <div className="gradient-banner px-6 py-8 transition-all duration-500">
+      {/* Banner */}
+      <div className="relative overflow-hidden" style={{ borderRadius: 'var(--border-radius-banner)' }}>
+        <div className="px-6 py-8" style={{ background: 'linear-gradient(135deg, #E8D8F5 0%, #F5DDE5 100%)' }}>
           <div className="flex items-center gap-4">
-            <span className="text-4xl opacity-70">{banners[bannerIdx].emoji}</span>
+            <GraduationCap size={32} color="#9D76E8" strokeWidth={1.5} />
             <div>
-              <h2 style={{ fontSize: '36rpx', fontWeight: 600, color: '#333' }}>{banners[bannerIdx].title}</h2>
-              <p style={{ fontSize: '26rpx', color: '#888', marginTop: '4rpx' }}>{banners[bannerIdx].sub}</p>
+              <h2 style={{ fontSize: '36rpx', fontWeight: 600, color: 'var(--text-color-main)' }}>零基础美甲训练营</h2>
+              <p style={{ fontSize: '26rpx', color: 'var(--text-color-minor)', marginTop: '4rpx' }}>从入门到专业 系统学习</p>
             </div>
           </div>
         </div>
-        <div className="absolute bottom-3 left-1/2 -translate-x-1/2 flex gap-1.5">
-          {banners.map((_, i) => (
-            <button key={i} onClick={() => setBannerIdx(i)} className="rounded-full transition-all duration-300"
-              style={{ width: i === bannerIdx ? '24rpx' : '8rpx', height: '8rpx', backgroundColor: i === bannerIdx ? '#C090B0' : 'rgba(200,150,180,0.3)' }} />
-          ))}
-        </div>
       </div>
 
-      {/* 6-Grid - glass card */}
-      <div className="glass rounded-3xl" style={{ padding: '32rpx' }}>
+      {/* 6-Grid */}
+      <div className="bg-white" style={{ borderRadius: 'var(--border-radius-grid)', padding: 'var(--padding-card)', boxShadow: 'var(--shadow-card)' }}>
         <div className="grid grid-cols-3 gap-y-5">
           {quickEntries.map(({ icon: Icon, label, bg, color, to }) => (
-            <Link key={label} to={to} className="flex flex-col items-center gap-1.5 group float-hover">
-              <div className="w-12 h-12 rounded-2xl flex items-center justify-center icon-glow" style={{ backgroundColor: bg, backdropFilter: 'blur(8px)', border: '1px solid rgba(255,255,255,0.4)' }}>
-                <Icon size={24} style={{ color }} strokeWidth={1.8} />
+            <Link key={label} to={to} className="flex flex-col items-center gap-1.5 float-hover">
+              <div className="w-12 h-12 rounded-full flex items-center justify-center" style={{ backgroundColor: bg }}>
+                <Icon size={22} style={{ color }} strokeWidth={1.5} />
               </div>
-              <span className="font-medium" style={{ fontSize: '24rpx', color: '#444' }}>{label}</span>
+              <span className="font-medium" style={{ fontSize: '24rpx', color: 'var(--text-color-main)' }}>{label}</span>
             </Link>
           ))}
         </div>
@@ -100,27 +94,27 @@ export default function Home() {
               <Flame size={16} color="#D08090" /> 热门美甲款式
             </h2>
             <div className="flex gap-1">
-              <button onClick={() => scroll(-1)} className="w-7 h-7 rounded-full glass-light flex items-center justify-center"><ChevronLeft size={14} color="#888" /></button>
-              <button onClick={() => scroll(1)} className="w-7 h-7 rounded-full glass-light flex items-center justify-center"><ChevronRight size={14} color="#888" /></button>
+              <button onClick={() => scroll(-1)} className="w-7 h-7 rounded-full bg-white flex items-center justify-center" style={{ boxShadow: 'var(--shadow-card)' }}><ChevronLeft size={14} color="var(--text-color-minor)" /></button>
+              <button onClick={() => scroll(1)} className="w-7 h-7 rounded-full bg-white flex items-center justify-center" style={{ boxShadow: 'var(--shadow-card)' }}><ChevronRight size={14} color="var(--text-color-minor)" /></button>
             </div>
           </div>
           <div ref={scrollRef} className="flex gap-3 overflow-x-auto scrollbar-hide pb-2" style={{ scrollSnapType: 'x mandatory' }}>
             {tutorials.slice(0, 8).map(t => (
               <Link key={t.id} to={`/tutorials/${t.slug}`}
-                className="shrink-0 glass rounded-3xl overflow-hidden float-hover" style={{ width: '180rpx', scrollSnapAlign: 'start' }}
+                className="shrink-0 overflow-hidden float-hover" style={{ width: '180rpx', scrollSnapAlign: 'start', borderRadius: 'var(--border-radius-card)', backgroundColor: '#FFF5F8', boxShadow: 'var(--shadow-card)' }}
               >
-                <div className="h-28 flex items-center justify-center relative overflow-hidden" style={{ backgroundColor: 'rgba(245,213,224,0.2)' }}>
+                <div className="h-28 flex items-center justify-center relative overflow-hidden" style={{ backgroundColor: 'rgba(245,213,224,0.08)' }}>
                   {t.cover_image ? <img src={t.cover_image} alt="" className="absolute inset-0 w-full h-full object-cover" onError={e => e.target.style.display = 'none'} loading="lazy" /> : null}
-                  <span className="text-3xl opacity-30">{categoryIcons[categories.find(c => c.id === t.category_id)?.icon] || '💅'}</span>
+                  <span className="text-3xl opacity-20">{categoryIcons[categories.find(c => c.id === t.category_id)?.icon] || '💅'}</span>
                   {t.video_url && (
-                    <div className="absolute bottom-1.5 left-1.5 flex items-center gap-0.5 rounded-full px-1.5 py-0.5" style={{ backgroundColor: 'rgba(0,0,0,0.35)', color: '#fff', fontSize: '20rpx', backdropFilter: 'blur(4px)' }}>
-                      <Play size={10} fill="white" /> 视频
+                    <div className="absolute top-2 left-2 rounded-full px-1.5 py-0.5" style={{ backgroundColor: '#F0F0F0', color: 'var(--text-color-minor)', fontSize: '20rpx' }}>
+                      视频
                     </div>
                   )}
                 </div>
-                <div className="p-3">
-                  <h3 className="font-medium line-clamp-2 leading-snug" style={{ fontSize: '26rpx', color: '#333' }}>{t.title}</h3>
-                  <div className="flex items-center gap-2 mt-1.5" style={{ fontSize: '22rpx', color: 'var(--text-color-minor)' }}>
+                <div className="p-2.5">
+                  <h3 className="font-medium line-clamp-2 leading-snug" style={{ fontSize: '26rpx', color: 'var(--text-color-main)' }}>{t.title}</h3>
+                  <div className="flex items-center gap-1.5 mt-1.5" style={{ fontSize: '22rpx', color: 'var(--text-color-minor)' }}>
                     <span>{t.duration_minutes}分钟</span><span>{t.category_name}</span>
                   </div>
                 </div>
@@ -135,11 +129,11 @@ export default function Home() {
         <div className="px-1">
           <div className="flex items-center justify-between mb-3">
             <h2 className="font-semibold" style={{ fontSize: '32rpx', color: '#333' }}>新手入门教学</h2>
-            <Link to="/tutorials" style={{ fontSize: '28rpx', color: '#D08090' }}>全部 →</Link>
+            <Link to="/tutorials" style={{ fontSize: '28rpx', color: '#E05050' }}>全部 →</Link>
           </div>
           <div className="space-y-3">
             {hotTutorials.map(t => (
-              <Link key={t.id} to={`/tutorials/${t.slug}`} className="glass rounded-3xl p-3 flex items-center gap-4 float-hover">
+              <Link key={t.id} to={`/tutorials/${t.slug}`} className="bg-white rounded-3xl shadow-card p-3 flex items-center gap-4 float-hover">
                 <div className="w-24 h-24 rounded-2xl shrink-0 flex items-center justify-center overflow-hidden" style={{ backgroundColor: 'rgba(245,213,224,0.15)' }}>
                   {t.cover_image ? <img src={t.cover_image} alt="" className="w-full h-full object-cover" onError={e => e.target.style.display = 'none'} loading="lazy" /> : <span className="text-2xl">{categoryIcons[categories.find(c => c.id === t.category_id)?.icon] || '💅'}</span>}
                 </div>
@@ -159,7 +153,7 @@ export default function Home() {
 
       {/* Stats */}
       {stats && (
-        <div className="glass rounded-3xl p-5">
+        <div className="bg-white p-5" style={{ borderRadius: 'var(--border-radius-card)', boxShadow: 'var(--shadow-card)' }}>
           <div className="grid grid-cols-4 text-center">
             {[['教程', stats.tutorial_count, '#D08090'], ['材料', stats.material_count, '#9070C0'], ['工具', stats.tool_count, '#5088B0'], ['分类', stats.category_count, '#5AA070']].map(([l, v, c]) => (
               <div key={l}><div className="font-bold" style={{ fontSize: '32rpx', color: c }}>{v}</div><div style={{ fontSize: '22rpx', color: 'var(--text-color-minor)' }}>{l}</div></div>
