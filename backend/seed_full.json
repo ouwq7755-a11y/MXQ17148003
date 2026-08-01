@@ -11,7 +11,7 @@
     "materials_needed": "[1, 2, 3, 4]",
     "source_type": "manual",
     "source_url": "",
-    "video_url": "",
+    "video_url": "/videos/tut_basic.mp4",
     "cover_image": "//i2.hdslb.com/bfs/archive/691fe0c0cd869d5186346434543782db4d4a351f.jpg",
     "duration_minutes": 25,
     "tags": [
@@ -31,7 +31,7 @@
     "materials_needed": "[1, 2, 5, 6]",
     "source_type": "manual",
     "source_url": "",
-    "video_url": "",
+    "video_url": "/videos/tut_french.mp4",
     "cover_image": "//i2.hdslb.com/bfs/archive/2ff9b9dc36722525d74d9b75ee73e526c5a6bdbc.jpg",
     "duration_minutes": 30,
     "tags": [
@@ -52,7 +52,7 @@
     "materials_needed": "[1, 2, 7, 8]",
     "source_type": "manual",
     "source_url": "",
-    "video_url": "",
+    "video_url": "/videos/tut_cateye.mp4",
     "cover_image": "//i0.hdslb.com/bfs/archive/85bb9aecdc858160f47808cf499cd2deac6c7067.jpg",
     "duration_minutes": 25,
     "tags": [
@@ -73,7 +73,7 @@
     "materials_needed": "[1, 2, 9, 10]",
     "source_type": "manual",
     "source_url": "",
-    "video_url": "",
+    "video_url": "/videos/tut_gradient.mp4",
     "cover_image": "//i2.hdslb.com/bfs/archive/10535602df0efb68c03f33eb3c6f7d1ea93714e8.jpg",
     "duration_minutes": 20,
     "tags": [
@@ -665,7 +665,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV1pM4y167qg",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV1pM4y167qg&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/auto_BV1pM4y167qg.mp4",
     "cover_image": "//i1.hdslb.com/bfs/archive/01b1afe96e98c020412cff00b404cdc36989351a.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -684,7 +684,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV1ar421t7GW",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV1ar421t7GW&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/auto_BV1ar421t7GW.mp4",
     "cover_image": "//i1.hdslb.com/bfs/archive/459b2790d1101f81112586fcf315983a6924d2ab.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -703,7 +703,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV1Bt421V7pv",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV1Bt421V7pv&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/auto_BV1Bt421V7pv.mp4",
     "cover_image": "//i0.hdslb.com/bfs/archive/a53ca89a9513e5ca34457308e5af408f58593595.png",
     "duration_minutes": 15,
     "tags": [
@@ -722,7 +722,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV1vA411X7oS",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV1vA411X7oS&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/auto_BV1vA411X7oS.mp4",
     "cover_image": "//i1.hdslb.com/bfs/archive/8bfb7cc456bc214048c658690603cfe3696d52ad.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -741,7 +741,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV11nhMzfExq",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV11nhMzfExq&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/auto_BV11nhMzfExq.mp4",
     "cover_image": "//i1.hdslb.com/bfs/archive/89a5c7738128688d170f075ee965884471bd59c6.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -760,7 +760,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV1H4411v7dG",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV1H4411v7dG&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/auto_BV1H4411v7dG.mp4",
     "cover_image": "//i2.hdslb.com/bfs/archive/7459504e02f11d6db14bb448ee6a1df63940b8c5.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -779,7 +779,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV1Rv4y1F7Si",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV1Rv4y1F7Si&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/auto_BV1Rv4y1F7Si.mp4",
     "cover_image": "//i1.hdslb.com/bfs/archive/c84654012c626874bfdd16e92c4c263675456511.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -799,7 +799,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV1NSNDzSEyQ",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV1NSNDzSEyQ&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/auto_BV1NSNDzSEyQ.mp4",
     "cover_image": "//i2.hdslb.com/bfs/archive/2ff9b9dc36722525d74d9b75ee73e526c5a6bdbc.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -818,7 +818,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV1av4y1R7H9",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV1av4y1R7H9&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/auto_BV1av4y1R7H9.mp4",
     "cover_image": "//i0.hdslb.com/bfs/archive/0de9b6bf7290af615a9f9417b46356e9f150cd4f.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -837,7 +837,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV14w3b69ETG",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV14w3b69ETG&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/auto_BV14w3b69ETG.mp4",
     "cover_image": "//i1.hdslb.com/bfs/archive/5f83a1fc0e270cdee9c9c2a99fe91270f3b46658.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -856,7 +856,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV1Vv4y1q7Cy",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV1Vv4y1q7Cy&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/auto_BV1Vv4y1q7Cy.mp4",
     "cover_image": "//i2.hdslb.com/bfs/archive/749e2e82783c9e72b213dda0ad8ad51e27efe41e.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -875,7 +875,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV1hK411P7en",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV1hK411P7en&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/auto_BV1hK411P7en.mp4",
     "cover_image": "//i2.hdslb.com/bfs/archive/d039fd246b7efeb7c2d4abd4b05a707fd30785bc.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -894,7 +894,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV18M411d7Kn",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV18M411d7Kn&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/auto_BV18M411d7Kn.mp4",
     "cover_image": "//i0.hdslb.com/bfs/archive/2f436fc76b93e7a86f3f98b9b3feb6efe763a314.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -913,7 +913,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV1hj411d79W",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV1hj411d79W&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/auto_BV1hj411d79W.mp4",
     "cover_image": "//i2.hdslb.com/bfs/archive/81d93d70a95b311feb5afac074c69bcb77c6d3e6.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -933,7 +933,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV1dU4y1j7xs",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV1dU4y1j7xs&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/hot_BV1dU4y1j7xs.mp4",
     "cover_image": "//i1.hdslb.com/bfs/archive/5d826cd270af02fa16a6ac454a20db2ff386c5f8.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -953,7 +953,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV1WGPgzfEuk",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV1WGPgzfEuk&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/hot_BV1WGPgzfEuk.mp4",
     "cover_image": "//i2.hdslb.com/bfs/archive/d6dc8b968feedc3bb0841aae5a25c3cd68bb9db7.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -972,7 +972,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV1o4421U7i4",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV1o4421U7i4&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/hot_BV1o4421U7i4.mp4",
     "cover_image": "//i1.hdslb.com/bfs/archive/c2e3320fc8be6f65e7b9bebcf0298c649ad0fe81.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -991,7 +991,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV1mi4y1r7wL",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV1mi4y1r7wL&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/hot_BV1mi4y1r7wL.mp4",
     "cover_image": "//i0.hdslb.com/bfs/archive/17c31c2cd590384785f23aa52292ca385df23f15.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -1011,7 +1011,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV12E411A7ke",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV12E411A7ke&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/hot_BV12E411A7ke.mp4",
     "cover_image": "//i2.hdslb.com/bfs/archive/b28a67d36f1fde21b7971d5785490e18415cbd19.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -1030,7 +1030,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV1Dm411R7yr",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV1Dm411R7yr&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/hot_BV1Dm411R7yr.mp4",
     "cover_image": "//i1.hdslb.com/bfs/archive/2f1bde0c599fe10060ce630a9b127e974a0195f7.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -1049,7 +1049,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV1zW411i7e7",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV1zW411i7e7&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/hot_BV1zW411i7e7.mp4",
     "cover_image": "//i0.hdslb.com/bfs/archive/b4d573310f5d813ca46be4443d8586497dab89ca.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -1068,7 +1068,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV1BQ4y1B7B4",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV1BQ4y1B7B4&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/hot_BV1BQ4y1B7B4.mp4",
     "cover_image": "//i0.hdslb.com/bfs/archive/b76d5f50977032b608e8d916cc8ec59b8c4f250f.png",
     "duration_minutes": 15,
     "tags": [
@@ -1087,7 +1087,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV1BM4y1K75N",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV1BM4y1K75N&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/hot_BV1BM4y1K75N.mp4",
     "cover_image": "//i0.hdslb.com/bfs/archive/5baae7f62b975549f08645bdf2e9b44c242e775b.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -1106,7 +1106,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV1yY4y1G7L3",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV1yY4y1G7L3&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/hot_BV1yY4y1G7L3.mp4",
     "cover_image": "//i2.hdslb.com/bfs/archive/481f2a15c488b2d2f39e37e75a154023b0397e71.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -1125,7 +1125,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV1ed4y1c7Hu",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV1ed4y1c7Hu&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/hot_BV1ed4y1c7Hu.mp4",
     "cover_image": "//i1.hdslb.com/bfs/archive/89d4b6c68ac39bc41174c9c1a5ee935a24678fdd.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -1144,7 +1144,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV1Hb4y147FN",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV1Hb4y147FN&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/hot_BV1Hb4y147FN.mp4",
     "cover_image": "//i1.hdslb.com/bfs/archive/45942a242fcbedb37751b4d652ba02d42cb14cb5.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -1163,7 +1163,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV1Fy4y1u7W1",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV1Fy4y1u7W1&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/hot_BV1Fy4y1u7W1.mp4",
     "cover_image": "//i2.hdslb.com/bfs/archive/dadabd5dd96408abb3b3ca0a1f3aa5033d61c3fc.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -1182,7 +1182,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV1zZ4y1w7aU",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV1zZ4y1w7aU&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/hot_BV1zZ4y1w7aU.mp4",
     "cover_image": "//i0.hdslb.com/bfs/archive/b649c00a61201569b91fcd64f873d83bc390bd44.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -1201,7 +1201,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV1WD4y1b7pn",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV1WD4y1b7pn&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/hot_BV1WD4y1b7pn.mp4",
     "cover_image": "//i1.hdslb.com/bfs/archive/cba4e44857a363b328d85675b7ec22148dba189e.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -1220,7 +1220,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV1Jg4y137zd",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV1Jg4y137zd&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/hot_BV1Jg4y137zd.mp4",
     "cover_image": "//i0.hdslb.com/bfs/archive/ff04d96532c0d623dceb52ded3221b3cddfbe077.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -1239,7 +1239,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV1FS4y1j7Pe",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV1FS4y1j7Pe&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/hot_BV1FS4y1j7Pe.mp4",
     "cover_image": "//i1.hdslb.com/bfs/archive/84108cb652937cf0375950e51544acb115b1485f.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -1258,7 +1258,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV1hY4y1W7sr",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV1hY4y1W7sr&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/hot_BV1hY4y1W7sr.mp4",
     "cover_image": "//i1.hdslb.com/bfs/archive/d91095888a51188eb83a4778476b24bcf3655ab2.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -1277,7 +1277,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV1uT411Z7pJ",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV1uT411Z7pJ&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/hot_BV1uT411Z7pJ.mp4",
     "cover_image": "//i0.hdslb.com/bfs/archive/087b5bbaed3be232ca25dca2eafd023811dfa313.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -1296,7 +1296,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV1gi4y1E7UJ",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV1gi4y1E7UJ&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/hot_BV1gi4y1E7UJ.mp4",
     "cover_image": "//i2.hdslb.com/bfs/archive/bd1239119001e717eb01320230aa76c3c42f395d.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -1315,7 +1315,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV1aW411e7ft",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV1aW411e7ft&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/hot_BV1aW411e7ft.mp4",
     "cover_image": "//i0.hdslb.com/bfs/archive/fa968a218bf7fdaf3c97ac6c6904508d2d36563f.png",
     "duration_minutes": 15,
     "tags": [
@@ -1334,7 +1334,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV1mM411a7Mp",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV1mM411a7Mp&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/hot_BV1mM411a7Mp.mp4",
     "cover_image": "//i0.hdslb.com/bfs/archive/6a43ab0156ffc5df81e5292e34fe40e201c03647.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -1353,7 +1353,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV14V41187rs",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV14V41187rs&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/hot_BV14V41187rs.mp4",
     "cover_image": "//i1.hdslb.com/bfs/archive/e67da88bc643f4d73eb2eb9b5b6433581bc41102.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -1372,7 +1372,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV1ZKpEecEaX",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV1ZKpEecEaX&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/hot_BV1ZKpEecEaX.mp4",
     "cover_image": "//i0.hdslb.com/bfs/archive/ceda42a79d9278182a69fac6e652e440c7d7008b.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -1391,7 +1391,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV1VT411C7cq",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV1VT411C7cq&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/hot_BV1VT411C7cq.mp4",
     "cover_image": "//i0.hdslb.com/bfs/archive/65e6161cd66d40dc025364c3fbd77a52363f6b45.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -1410,7 +1410,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV1N3411r7d4",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV1N3411r7d4&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/hot_BV1N3411r7d4.mp4",
     "cover_image": "//i0.hdslb.com/bfs/archive/73fed61564e0cfed8425db2312d6822bb297e1ce.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -1429,7 +1429,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV1YZ4y1A7cD",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV1YZ4y1A7cD&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/hot_BV1YZ4y1A7cD.mp4",
     "cover_image": "//i1.hdslb.com/bfs/archive/50aa0b15a27c3d02d5cd910a7b76b1667ac7b8a4.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -1448,7 +1448,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV1tE4m1d7ou",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV1tE4m1d7ou&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/hot_BV1tE4m1d7ou.mp4",
     "cover_image": "//i1.hdslb.com/bfs/archive/f88e4c41f87c632a959423e0bb43288f3abd335e.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -1467,7 +1467,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV1EU411F7Zy",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV1EU411F7Zy&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/hot_BV1EU411F7Zy.mp4",
     "cover_image": "//i1.hdslb.com/bfs/archive/09605bf467ce30d50bcc68d7a1e8251bc3e58fed.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -1486,7 +1486,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV1sd4y1Z7au",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV1sd4y1Z7au&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/hot_BV1sd4y1Z7au.mp4",
     "cover_image": "//i1.hdslb.com/bfs/archive/3dd7fc31f8f8b8c5af5740c0271e102f9b4bd5cf.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -1505,7 +1505,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV1Yyn9zyESn",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV1Yyn9zyESn&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/hot_BV1Yyn9zyESn.mp4",
     "cover_image": "//i2.hdslb.com/bfs/archive/2509ecfccf4458191695e78959a75be1fc83591f.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -1524,7 +1524,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV1gUSZBzENz",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV1gUSZBzENz&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/hot_BV1gUSZBzENz.mp4",
     "cover_image": "//i0.hdslb.com/bfs/archive/f22554c5364e13861193d4083b07abaf18e91be6.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -1543,7 +1543,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV1FR4y1L7w3",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV1FR4y1L7w3&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/hot_BV1FR4y1L7w3.mp4",
     "cover_image": "//i1.hdslb.com/bfs/archive/b97abce3466337f56956c4cb610f4ce6c390ca55.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -1562,7 +1562,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV1gT411x73f",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV1gT411x73f&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/hot_BV1gT411x73f.mp4",
     "cover_image": "//i2.hdslb.com/bfs/archive/c968bfb9cf2f5c229a9c5082d42f1a671c2dcb46.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -1581,7 +1581,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV1E44y1u7DH",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV1E44y1u7DH&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/hot_BV1E44y1u7DH.mp4",
     "cover_image": "//i0.hdslb.com/bfs/archive/d46a58881be9824790e9410af72bf0a7bf299877.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -1600,7 +1600,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV1F2tMeQEth",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV1F2tMeQEth&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/hot_BV1F2tMeQEth.mp4",
     "cover_image": "//i0.hdslb.com/bfs/archive/e9d3feef62f6d81f0a8cd10be933818a724b2e0c.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -1619,7 +1619,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV1ec411v7FB",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV1ec411v7FB&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/hot_BV1ec411v7FB.mp4",
     "cover_image": "//i0.hdslb.com/bfs/archive/7b056d386567ea5b39d781567fa9b1e80393d85d.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -1638,7 +1638,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV1yF411y7jc",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV1yF411y7jc&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/hot_BV1yF411y7jc.mp4",
     "cover_image": "//i2.hdslb.com/bfs/archive/3e32d364bfc7feff3c2a47b3654a904ccf90109e.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -1657,7 +1657,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV18T4111785",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV18T4111785&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/hot_BV18T4111785.mp4",
     "cover_image": "//i2.hdslb.com/bfs/archive/7e2e65b15f212608c46bfb0f1920f8cda7bdf6b5.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -1676,7 +1676,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV1gs411M76W",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV1gs411M76W&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/hot_BV1gs411M76W.mp4",
     "cover_image": "//i0.hdslb.com/bfs/archive/5d0110eb1b56c333fef4d041c6f900cb81b4b622.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -1696,7 +1696,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV1Hr4y1U7X7",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV1Hr4y1U7X7&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/hot_BV1Hr4y1U7X7.mp4",
     "cover_image": "//i0.hdslb.com/bfs/archive/aa85f6ca9793a5f1716aee23563911450bc4ed52.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -1715,7 +1715,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV13g4y1a7WY",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV13g4y1a7WY&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/hot_BV13g4y1a7WY.mp4",
     "cover_image": "//i1.hdslb.com/bfs/archive/a03fecaebf241bc9cadc06a2faec3c2dc6f6b04a.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -1734,7 +1734,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV1wvEezAEyZ",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV1wvEezAEyZ&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/hot_BV1wvEezAEyZ.mp4",
     "cover_image": "//i0.hdslb.com/bfs/archive/896b97034345f6cbba33d569fcf6ac85c0291efa.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -1753,7 +1753,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV17VNh6YEqm",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV17VNh6YEqm&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/hot_BV17VNh6YEqm.mp4",
     "cover_image": "//i0.hdslb.com/bfs/archive/8bd8fd5dcafbe3c636a2e28423f18c7a5af0d5a2.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -1772,7 +1772,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV17kNfz4Ezo",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV17kNfz4Ezo&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/hot_BV17kNfz4Ezo.mp4",
     "cover_image": "//i0.hdslb.com/bfs/archive/1855b5a580041be887322da7e86ebe4dc823dd18.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -1791,7 +1791,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV1JM4y1T7ki",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV1JM4y1T7ki&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/hot_BV1JM4y1T7ki.mp4",
     "cover_image": "//i2.hdslb.com/bfs/archive/691fe0c0cd869d5186346434543782db4d4a351f.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -1810,7 +1810,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV1utXFBUEag",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV1utXFBUEag&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/hot_BV1utXFBUEag.mp4",
     "cover_image": "//i0.hdslb.com/bfs/archive/a3093596f0a293e6de562dac164a18a2dae449e4.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -1829,7 +1829,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV1y8wkzSEZg",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV1y8wkzSEZg&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/hot_BV1y8wkzSEZg.mp4",
     "cover_image": "//i2.hdslb.com/bfs/archive/81866c3539536286735dc3b4d7d068c19db15c7a.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -1848,7 +1848,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV1k94y1o7Ht",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV1k94y1o7Ht&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/hot_BV1k94y1o7Ht.mp4",
     "cover_image": "//i1.hdslb.com/bfs/archive/4020edb2169e3b78455287f1b3fefd4600083004.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -1867,7 +1867,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV1DY411S7L8",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV1DY411S7L8&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/hot_BV1DY411S7L8.mp4",
     "cover_image": "//i2.hdslb.com/bfs/archive/d48dbaa3dd5fa488a6b1cd40fd5978ee1f800594.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -1886,7 +1886,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV1Z94y1z75E",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV1Z94y1z75E&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/hot_BV1Z94y1z75E.mp4",
     "cover_image": "//i1.hdslb.com/bfs/archive/b697761bc7d05203132931e214d8cc2755e1a472.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -1905,7 +1905,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV1LAj6zhEWP",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV1LAj6zhEWP&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/hot_BV1LAj6zhEWP.mp4",
     "cover_image": "//i0.hdslb.com/bfs/archive/7ab3a4dc9b735cf5e2ba148d46406017c917c08f.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -1924,7 +1924,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV15Yja6ZEKY",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV15Yja6ZEKY&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/hot_BV15Yja6ZEKY.mp4",
     "cover_image": "//i0.hdslb.com/bfs/archive/2bdc3330f8c37f7ab7e63660fa560db7181cedcb.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -1943,7 +1943,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV1idZFYmE2N",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV1idZFYmE2N&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/hot_BV1idZFYmE2N.mp4",
     "cover_image": "//i2.hdslb.com/bfs/archive/fbf148eac9eb2ae956cfc181be242c01dd629f8e.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -1962,7 +1962,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV11nhJzbE6h",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV11nhJzbE6h&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/hot_BV11nhJzbE6h.mp4",
     "cover_image": "//i2.hdslb.com/bfs/archive/4b8a5ed8eb50c7155223d82f76927f9edee4d36c.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -1981,7 +1981,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV1CsCuBuEba",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV1CsCuBuEba&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/hot_BV1CsCuBuEba.mp4",
     "cover_image": "//i2.hdslb.com/bfs/archive/cd1fe0fe4db594d4f450dce48189af41a00117d5.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -2000,7 +2000,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV14d4y1r7EX",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV14d4y1r7EX&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/hot_BV14d4y1r7EX.mp4",
     "cover_image": "//i0.hdslb.com/bfs/archive/0cbd2be0788db1034aa7fb399b065619a2666789.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -2019,7 +2019,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV1Cz7r6BESH",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV1Cz7r6BESH&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/hot_BV1Cz7r6BESH.mp4",
     "cover_image": "//i0.hdslb.com/bfs/archive/491557013bfada3a319c99fe194fc6f974e09736.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -2038,7 +2038,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV1xq3KzrERt",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV1xq3KzrERt&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/hot_BV1xq3KzrERt.mp4",
     "cover_image": "//i2.hdslb.com/bfs/archive/2353fed25d1b5cdd39e17cb3a2b56b5bb81e77df.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -2057,7 +2057,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV1fA411n7YD",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV1fA411n7YD&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/hot_BV1fA411n7YD.mp4",
     "cover_image": "//i2.hdslb.com/bfs/archive/874afc2fd9d138854410638c6d4b58d9c3478377.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -2076,7 +2076,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV1Bg411V7tK",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV1Bg411V7tK&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/hot_BV1Bg411V7tK.mp4",
     "cover_image": "//i0.hdslb.com/bfs/archive/2a1e00573c9fc0d90a911c4c255c3a4c98cd4b6c.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -2095,7 +2095,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV18bfKYsEui",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV18bfKYsEui&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/hot_BV18bfKYsEui.mp4",
     "cover_image": "//i1.hdslb.com/bfs/archive/4203eee0819557315f7a1a05dd93760e49fb59d1.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -2114,7 +2114,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV1cx411m7qw",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV1cx411m7qw&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/hot_BV1cx411m7qw.mp4",
     "cover_image": "//i2.hdslb.com/bfs/archive/ceb060483e84ab109318d42907cb057d69da0ca0.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -2133,7 +2133,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV18z421X7tR",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV18z421X7tR&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/hot_BV18z421X7tR.mp4",
     "cover_image": "//i1.hdslb.com/bfs/archive/989aa8b402f0633bd67d02715b7f0ab5851ba0ae.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -2152,7 +2152,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV1bF411h7c2",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV1bF411h7c2&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/hot_BV1bF411h7c2.mp4",
     "cover_image": "//i1.hdslb.com/bfs/archive/431172725f041f77c227b90bd3da4fa314d42e00.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -2171,7 +2171,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV1s14y1v7Nv",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV1s14y1v7Nv&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/hot_BV1s14y1v7Nv.mp4",
     "cover_image": "//i0.hdslb.com/bfs/archive/d70a9a3a70a56b26a793f622298c1b06381ac472.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -2190,7 +2190,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV1HT411B7L2",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV1HT411B7L2&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/hot_BV1HT411B7L2.mp4",
     "cover_image": "//i0.hdslb.com/bfs/archive/c244aca352f876c6543f0d23a810aaff2b242e38.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -2209,7 +2209,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV1MV5AzGEmq",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV1MV5AzGEmq&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/hot_BV1MV5AzGEmq.mp4",
     "cover_image": "//i1.hdslb.com/bfs/archive/e0b52ff97ba051254aaa0c2e68e7642279e4e2fe.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -2228,7 +2228,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV1QDyzY7Eem",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV1QDyzY7Eem&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/hot_BV1QDyzY7Eem.mp4",
     "cover_image": "//i0.hdslb.com/bfs/archive/6a4a6a6fa339e639250f530004017751c63e7097.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -2247,7 +2247,7 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV1xLXFY7EVa",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV1xLXFY7EVa&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/hot_BV1xLXFY7EVa.mp4",
     "cover_image": "//i2.hdslb.com/bfs/archive/927425e9512f6a80062029075ca26bd90fea031b.jpg",
     "duration_minutes": 15,
     "tags": [
@@ -2266,11 +2266,1095 @@
     "materials_needed": "[]",
     "source_type": "auto_collected",
     "source_url": "https://www.bilibili.com/video/BV1GV4y1S7eQ",
-    "video_url": "//player.bilibili.com/player.html?bvid=BV1GV4y1S7eQ&page=1&high_quality=1&autoplay=0&danmaku=0",
+    "video_url": "/videos/hot_BV1GV4y1S7eQ.mp4",
     "cover_image": "//i0.hdslb.com/bfs/archive/f5234574ece28d6c7e309a89d5fe233f995b80e3.jpg",
     "duration_minutes": 15,
     "tags": [
       "日常通勤"
+    ]
+  },
+  {
+    "title": "地铁不同的护甲，带什么配件才是对的？",
+    "slug": "地铁不同的护甲带什么配件才是对的-07310937",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "地铁不同的护甲，带什么配件才是对的？",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1XS3j6AE6E",
+    "video_url": "/videos/hot_BV1XS3j6AE6E.mp4",
+    "cover_image": "//i0.hdslb.com/bfs/archive/50ee035cc34d7020d991e7eb4677918b137e97b9.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "还有人不知道游离线是可以后期养成的吗！？优秀甲床养成记",
+    "slug": "还有人不知道游离线是可以后期养成的吗优秀甲床养成记-07310937",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "总有人问我，甲床怎么这么长的，其实多年来我就坚持一直涂甲油胶的底胶或者亮油在指甲上面，长长了就继续往上涂，这个我感觉比啥都好用，之前很多身边的姐妹都是这样整，都会长长，大家可以多试试主要坚持主视频里说的那几点就好",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1WX4y1w7JQ",
+    "video_url": "/videos/hot_BV1WX4y1w7JQ.mp4",
+    "cover_image": "//i0.hdslb.com/bfs/archive/923bf6f7119e218cf3790429480da0a51adbdacb.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "超长美甲的真实日常～你还有什么想看的？告诉我！",
+    "slug": "超长美甲的真实日常你还有什么想看的告诉我-07310937",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1NiycB9E5F",
+    "video_url": "/videos/hot_BV1NiycB9E5F.mp4",
+    "cover_image": "//i1.hdslb.com/bfs/archive/bb0880ecf1394b3ad0881cfaf5c14088a5e77a1b.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "日常通勤"
+    ]
+  },
+  {
+    "title": "医院紫外线人人躲避，美甲灯，你却主动伸手？ #美甲 #科普",
+    "slug": "医院紫外线人人躲避美甲灯你却主动伸手 美甲 科普-07310937",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "医院紫外线人人躲避，美甲灯，你却主动伸手？ #美甲 #科普",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1GvTP6nEhx",
+    "video_url": "/videos/hot_BV1GvTP6nEhx.mp4",
+    "cover_image": "//i0.hdslb.com/bfs/archive/834fd0e3a63b56f400e3db346d6819a3e813508b.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "这样戴穿戴甲，迟早会烂手！学会正确贴法一周都不掉！",
+    "slug": "这样戴穿戴甲迟早会烂手学会正确贴法一周都不掉-07310937",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "甲片贴的好，洗衣服洗碗都不掉！",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1gi4y1S7Cb",
+    "video_url": "/videos/hot_BV1gi4y1S7Cb.mp4",
+    "cover_image": "//i1.hdslb.com/bfs/archive/6dea2a9757cbd7fc0c94641cb254385ce460ccb8.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "做完美甲就jio疼。学习修剪趾甲的正确方式是非常重要的～",
+    "slug": "做完美甲就jio疼学习修剪趾甲的正确方式是非常重要的-07310937",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "这视频只是个例，不是所有的美甲师都会出现这种情况。但是如何修剪趾甲才是安全的需要得到更多的重视！下期干货视频教大家怎么剪指甲！视频拍摄已经完成了，正在剪辑，敬请期待！",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1tK4y177xe",
+    "video_url": "/videos/hot_BV1tK4y177xe.mp4",
+    "cover_image": "//i2.hdslb.com/bfs/archive/25cfaf699ce5d42e719cd61dfd821044839a698f.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "懒人养甲法｜3⃣️步养出大甲床",
+    "slug": "懒人养甲法3步养出大甲床-07310937",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "之前好多姐妹和我反馈\n养甲床流程好繁琐😭\n有没有简单一点的方法🤔\n今天就给大家分享这个懒人养甲法\n3️⃣步养出大甲床\n还是那句老话：坚持就是胜利‼️\n姐妹们一起坚持打卡\n养出好看的甲床8⃣️",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1cj411a72S",
+    "video_url": "/videos/hot_BV1cj411a72S.mp4",
+    "cover_image": "//i2.hdslb.com/bfs/archive/a5f5e24052bbb6a3062fffabd463a632adc8b789.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "第二十三集｜新手姐妹自制穿戴甲入门教学",
+    "slug": "第二十三集新手姐妹自制穿戴甲入门教学-07310937",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "来了来了姐妹们 今天分享一篇新手姐妹拿到工具如何上手操作 一个详细流程",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1864y1A7em",
+    "video_url": "/videos/hot_BV1864y1A7em.mp4",
+    "cover_image": "//i1.hdslb.com/bfs/archive/8be032c6e77c27f4a3d898d360edd4c1c4b511aa.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "【美甲店铺分享】功能胶，灯，粘钻胶，甲片，收纳盒，链条，珍珠，各种钻，闪片，墨镜粉，蝴蝶结，铂金胶｜我购买的店铺分享",
+    "slug": "美甲店铺分享功能胶灯粘钻胶甲片收纳盒链条珍珠各种钻闪片墨镜粉蝴蝶结铂金胶我购买的店铺分享-07310937",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "所有饰品都是我对比很多家找最便宜的\n话比较多，正式分享从2:16秒开始\n美甲的东西都是小而碎的，看着很便宜，但买多了就不便宜了\n理智的买东西，每一种都买少点（因为真的用不完，收纳也很麻烦）",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV11h411J78Q",
+    "video_url": "/videos/hot_BV11h411J78Q.mp4",
+    "cover_image": "//i2.hdslb.com/bfs/archive/d4ad0676b79fd3a9247e01b66ff5e0c75ea23c78.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "有手就会系列🥺超温柔的醋酸猫眼来噜～～",
+    "slug": "有手就会系列超温柔的醋酸猫眼来噜-07310937",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "-",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1h51vBfET4",
+    "video_url": "/videos/hot_BV1h51vBfET4.mp4",
+    "cover_image": "//i1.hdslb.com/bfs/archive/83678bfff2f191cc4944f025e642120e5d53b954.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "极光法式猫眼美甲",
+    "slug": "极光法式猫眼美甲-07310937",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "-",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1Xg4y1w7df",
+    "video_url": "/videos/hot_BV1Xg4y1w7df.mp4",
+    "cover_image": "//i1.hdslb.com/bfs/archive/37ecb1b49a20eeb91ec9fff58765f526899adb81.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "美甲入门六样东西就够了！",
+    "slug": "美甲入门六样东西就够了-07310937",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "-",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1xioqYAEtD",
+    "video_url": "/videos/hot_BV1xioqYAEtD.mp4",
+    "cover_image": "//i1.hdslb.com/bfs/archive/e93585a611fc7d5bb3f9e431f27252519129bf17.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "全网最详细甲模延长教程",
+    "slug": "全网最详细甲模延长教程-07310937",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "-",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1Y4WkeZEPS",
+    "video_url": "/videos/hot_BV1Y4WkeZEPS.mp4",
+    "cover_image": "//i0.hdslb.com/bfs/archive/813d0cb4cdbc843c4b64d4093e7422a6df746974.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "新手美甲有这些就够了，我也是从自学开始，买了很多不必要的东西，没啥作用，丢了却可惜今天整理出来新手美甲必备的单品，看完以后赶紧停止剁手，对了，还要有美甲灯哦",
+    "slug": "新手美甲有这些就够了我也是从自学开始买了很多不必要的东西没啥作用丢了却可惜今天整理出来新手美甲必备的单品看完以后赶紧停止-07310937",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "-",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1JY411f7H3",
+    "video_url": "/videos/hot_BV1JY411f7H3.mp4",
+    "cover_image": "//i1.hdslb.com/bfs/archive/429a5ac1538be294eaed4dd9bb494c87a35e283a.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "宅家&amp;宿舍低成本实现美甲自由！【美甲套装安利】",
+    "slug": "宅家amp宿舍低成本实现美甲自由美甲套装安利-07310937",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "适合新手美甲爱好者宝宝的美甲套装～",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1XR4y1Z7Pp",
+    "video_url": "/videos/hot_BV1XR4y1Z7Pp.mp4",
+    "cover_image": "//i2.hdslb.com/bfs/archive/fb166a58ec9ce235471716101c5078a9e6d10f84.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "16课|纸托延长甲，新手该如何卡纸托？",
+    "slug": "16课纸托延长甲新手该如何卡纸托-07310937",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "延长甲除了贴甲片，真正比较技术的还是纸托延长；难度系数，要略微高一些；这节课跟宝宝们分享，如何正确卡纸托？",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1fr4y1e7p9",
+    "video_url": "/videos/hot_BV1fr4y1e7p9.mp4",
+    "cover_image": "//i1.hdslb.com/bfs/archive/900d07d3d996c122f01bb7848e5274e0c8910228.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "金属胶到底怎么涂更镜面⁉️不同手法出来的效果更是千差万别，还不快学起来",
+    "slug": "金属胶到底怎么涂更镜面不同手法出来的效果更是千差万别还不快学起来-07310937",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "-",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1tt421N7Fu",
+    "video_url": "/videos/hot_BV1tt421N7Fu.mp4",
+    "cover_image": "//i1.hdslb.com/bfs/archive/fab7e1a2c1e6821728148bad7aa52013d1f4fe71.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "关于我买uv灯翻车两次这件事，快要崩溃了",
+    "slug": "关于我买uv灯翻车两次这件事快要崩溃了-07310937",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "大家有什么便宜又好用的uv灯推荐吗",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1gM4y1E7AT",
+    "video_url": "/videos/hot_BV1gM4y1E7AT.mp4",
+    "cover_image": "//i2.hdslb.com/bfs/archive/b93bac986c5a7340026b73f7cc652c827a263bf0.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "2024年度爱用功能胶来也‼️童叟无欺【上】🎉",
+    "slug": "2024年度爱用功能胶来也童叟无欺上-07310937",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "-",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1Uj65YfEQp",
+    "video_url": "/videos/hot_BV1Uj65YfEQp.mp4",
+    "cover_image": "//i2.hdslb.com/bfs/archive/fe5fde9a711ac6ed46041f54f26c681792094fb2.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "4分钟学会纸托延长，纸托延长详细教程",
+    "slug": "4分钟学会纸托延长纸托延长详细教程-07310937",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "-",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1sL411K7zf",
+    "video_url": "/videos/hot_BV1sL411K7zf.mp4",
+    "cover_image": "//i0.hdslb.com/bfs/archive/148428b414e9edd5ed76d9cc011855a5602e12e1.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "美甲不要往奇怪的方向卷啊喂！！！",
+    "slug": "美甲不要往奇怪的方向卷啊喂-07310959",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "https://vm.tiktok.com/ZM87toUuN/\n 我    不    理     解",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1EM4y1A7RH",
+    "video_url": "/videos/prem_BV1EM4y1A7RH.mp4",
+    "cover_image": "//i1.hdslb.com/bfs/archive/01fa6b1ec8e36f05b895295fd0a9b331f2656e4f.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "【保姆级甲型自测教程】赶快来测出你的专属美甲吧！",
+    "slug": "保姆级甲型自测教程赶快来测出你的专属美甲吧-07310959",
+    "category_id": 2,
+    "difficulty": "intermediate",
+    "description": "看手型选甲型 | 教你如何选择适合自己的美甲款式\n美甲甲型选不对，款式再美也白搭！\n保姆级美甲甲型测试奉上\n快来测出你的专属美甲吧！",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1uT4y1r7pJ",
+    "video_url": "/videos/prem_BV1uT4y1r7pJ.mp4",
+    "cover_image": "//i1.hdslb.com/bfs/archive/da1bbefdf57f012f72ab9bda4fabb808954d390d.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "BamBoo Polish 指甲油 樱湖月影 制作过程",
+    "slug": "bamboo polish 指甲油 樱湖月影 制作过程-07310959",
+    "category_id": 1,
+    "difficulty": "beginner",
+    "description": "8月新品，售完欣赏。感谢喜欢——微店名：BamBoo手工爪爪油",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1bd4y1G7w5",
+    "video_url": "/videos/prem_BV1bd4y1G7w5.mp4",
+    "cover_image": "//i2.hdslb.com/bfs/archive/c5ab72913fc36261eb068e699fecc1ed3b79ba39.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "保姆级养甲攻略！4步拯救短宽甲，和扇形甲、甲床受损，游离后缩说拜拜",
+    "slug": "保姆级养甲攻略4步拯救短宽甲和扇形甲甲床受损游离后缩说拜拜-07310959",
+    "category_id": 11,
+    "difficulty": "beginner",
+    "description": "-",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1CF411q7JU",
+    "video_url": "/videos/prem_BV1CF411q7JU.mp4",
+    "cover_image": "//i1.hdslb.com/bfs/archive/37f04420bc4fa1ee00742160d28f47aefe41f0e7.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "美甲流程82 晶石猫眼做脚也好看，超爽修死皮全过程",
+    "slug": "美甲流程82 晶石猫眼做脚也好看超爽修死皮全过程-07310959",
+    "category_id": 5,
+    "difficulty": "beginner",
+    "description": "-",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1Ut4y197u8",
+    "video_url": "/videos/prem_BV1Ut4y197u8.mp4",
+    "cover_image": "//i2.hdslb.com/bfs/archive/9fc5fd7cf1efb02b079fd2574f92b4ef3fc329fc.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "美甲设计入门全攻略：人人能做原创美甲",
+    "slug": "美甲设计入门全攻略人人能做原创美甲-07310959",
+    "category_id": 2,
+    "difficulty": "intermediate",
+    "description": "-",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1JgN1eaEES",
+    "video_url": "/videos/prem_BV1JgN1eaEES.mp4",
+    "cover_image": "//i0.hdslb.com/bfs/archive/c7eaea336e33ea1414fb7ad9e880dfa5a3c4d7b9.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "感觉至上！！这个脚趾甲比我命都长！",
+    "slug": "感觉至上这个脚趾甲比我命都长-07310959",
+    "category_id": 1,
+    "difficulty": "beginner",
+    "description": "-",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1Ww4m1k7Ac",
+    "video_url": "/videos/prem_BV1Ww4m1k7Ac.mp4",
+    "cover_image": "//i0.hdslb.com/bfs/archive/29731abaec5d8bdcbc14c1bb49b9186dd2b93334.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "私人美甲师？日本的自由职业者过什么生活？",
+    "slug": "私人美甲师日本的自由职业者过什么生活-07310959",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "-",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1zt4y1b7bK",
+    "video_url": "/videos/prem_BV1zt4y1b7bK.mp4",
+    "cover_image": "//i2.hdslb.com/bfs/archive/eddb31bfcb9ee1026458d6b3ad07c5477d4f1be8.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "日系"
+    ]
+  },
+  {
+    "title": "指甲月牙越多越健康？指甲长竖纹意味着生病？真相出乎你的意料！",
+    "slug": "指甲月牙越多越健康指甲长竖纹意味着生病真相出乎你的意料-07310959",
+    "category_id": 1,
+    "difficulty": "beginner",
+    "description": "指甲月牙越多越健康？指甲长竖纹意味着生病？真相出乎你的意料！",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1HG4y1g7eF",
+    "video_url": "/videos/prem_BV1HG4y1g7eF.mp4",
+    "cover_image": "//i0.hdslb.com/bfs/archive/543bbd384165ab0d870ba090f017375f04bc5867.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "【美甲师日记】指甲跟婴儿一样大小的客人？！超级小的指甲如何做美甲？",
+    "slug": "美甲师日记指甲跟婴儿一样大小的客人超级小的指甲如何做美甲-07310959",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "大家好我是美甲师ssin\n最近收到一封来自客人的邮件，说自己的指甲非常小而从来没有尝试过美甲\n问我能不能做美甲，我：当然可以！\n作为一名美甲师，非常能够理解每位客人想要变得更好看的心态\n希望这位客人能够把指甲保养的健康漂亮\n也希望所有的小指甲星人勇敢的走进美甲店，做出自己喜欢的指甲哦~",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1Qa411t7mM",
+    "video_url": "/videos/prem_BV1Qa411t7mM.mp4",
+    "cover_image": "//i1.hdslb.com/bfs/archive/6f380394d5e9e3d0395c5560ff2a86e504caf1e2.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "挑战8000美甲大活 今天自己干活了，你们就好好跟姐学吧",
+    "slug": "挑战8000美甲大活 今天自己干活了你们就好好跟姐学吧-07310959",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "-",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1Qmgk6iE6G",
+    "video_url": "/videos/prem_BV1Qmgk6iE6G.mp4",
+    "cover_image": "//i1.hdslb.com/bfs/archive/2e207636bdace485c46462e6e40e04c0ec5730d5.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "教程来啦 | 空气晕染",
+    "slug": "教程来啦  空气晕染-07310959",
+    "category_id": 4,
+    "difficulty": "beginner",
+    "description": "-",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1Ju411r7XJ",
+    "video_url": "/videos/prem_BV1Ju411r7XJ.mp4",
+    "cover_image": "//i1.hdslb.com/bfs/archive/9f4780fd307b01e427da37a351e6c79c7965a0e3.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "日本顶流美甲师 设计的美甲我会喜欢吗？",
+    "slug": "日本顶流美甲师 设计的美甲我会喜欢吗-07310959",
+    "category_id": 2,
+    "difficulty": "intermediate",
+    "description": "Chieko Nakayama 油管地址: https://www.youtube.com/channel/UCG0W_rua4tCWTlhY7RfF32A\nIG: https://www.instagram.com/chiekonakayama/\nTwitter: https://twitter.com/chiekonakayama",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1q7411P7eF",
+    "video_url": "/videos/prem_BV1q7411P7eF.mp4",
+    "cover_image": "//i1.hdslb.com/bfs/archive/7dcff9e1d81a08f9746f89e7e29898240f34647e.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "日系"
+    ]
+  },
+  {
+    "title": "宫廷浮雕 新手必看",
+    "slug": "宫廷浮雕 新手必看-07310959",
+    "category_id": 1,
+    "difficulty": "beginner",
+    "description": "-",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1H3411i7qC",
+    "video_url": "/videos/prem_BV1H3411i7qC.mp4",
+    "cover_image": "//i0.hdslb.com/bfs/archive/3cde8e3120d71b87699e1aa586931f2f6c08b465.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "海莉美甲审美像10年前？！我第一个不同意！",
+    "slug": "海莉美甲审美像10年前我第一个不同意-07310959",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "-",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV19D5TzaEN1",
+    "video_url": "/videos/prem_BV19D5TzaEN1.mp4",
+    "cover_image": "//i0.hdslb.com/bfs/archive/8c22a8d116d5d0e41e4b01907d4515ddca460dc9.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "我猜这里有你推的原神美甲！‖卡维富人那维莱特流浪者钟离魈宝温迪莱欧斯利胡桃版（好长）",
+    "slug": "我猜这里有你推的原神美甲卡维富人那维莱特流浪者钟离魈宝温迪莱欧斯利胡桃版好长-07310959",
+    "category_id": 2,
+    "difficulty": "intermediate",
+    "description": "想要的宝宝tt我的自动回复找到我！评论区许愿你推噢~部分设计by合作设计师：画霜 孙孙乳 繁饰兮（排名不分先后） 除繁饰兮老师作品外已协商不开放自用授权",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV16x4y147hZ",
+    "video_url": "/videos/prem_BV16x4y147hZ.mp4",
+    "cover_image": "//i1.hdslb.com/bfs/archive/8530b167e09faa831771ec035ee51f0066b248f6.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "安娜喜｜包边1分钟，持久度翻倍！指甲油包边快看这～",
+    "slug": "安娜喜包边1分钟持久度翻倍指甲油包边快看这-07310959",
+    "category_id": 1,
+    "difficulty": "beginner",
+    "description": "底油和顶油是SHAREYDVA\n指甲油是Nail Holic RO602",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1Qt4y1677m",
+    "video_url": "/videos/prem_BV1Qt4y1677m.mp4",
+    "cover_image": "//i2.hdslb.com/bfs/archive/3b4c5fcbe921ee3bccd782a7b178a28cb575e955.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "软薄甲到健康厚指甲的逆袭｜指甲变厚方案",
+    "slug": "软薄甲到健康厚指甲的逆袭指甲变厚方案-07310959",
+    "category_id": 1,
+    "difficulty": "beginner",
+    "description": "-",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1zQGvzmEhn",
+    "video_url": "/videos/prem_BV1zQGvzmEhn.mp4",
+    "cover_image": "//i1.hdslb.com/bfs/archive/1af3d14c8fbc08b549c97e9040411b6af4ca389c.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "【超级干货】我水晶延长的步骤～问题指甲我都靠它！",
+    "slug": "超级干货我水晶延长的步骤问题指甲我都靠它-07310959",
+    "category_id": 8,
+    "difficulty": "advanced",
+    "description": "这次主要想让准备入坑水晶的小伙伴们\n了解一下我平时做水晶时的大致步骤，\n一期视频实在是很难提及所有技巧和注意事项，\n毕竟确实是很多内容。。。多多包涵哈哈哈\n以后会继续分享的～",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1w5411M7tq",
+    "video_url": "/videos/prem_BV1w5411M7tq.mp4",
+    "cover_image": "//i2.hdslb.com/bfs/archive/33fb1a53a248d95f8e7ee869a6477f6c283826b7.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "进阶技法"
+    ]
+  },
+  {
+    "title": "魔镜粉美甲技法教程",
+    "slug": "魔镜粉美甲技法教程-07310959",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "-",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1aP4y1q7jW",
+    "video_url": "/videos/prem_BV1aP4y1q7jW.mp4",
+    "cover_image": "//i2.hdslb.com/bfs/archive/cc0906730f69eafe711799001faa11d254639262.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "【宿宿】美甲教程 早期合集1-12期",
+    "slug": "宿宿美甲教程 早期合集1-12期-07310959",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "从2019年下半年开始陆续在red book上分享自己做美甲的视频，到现在已经一年多了，陆续剪了170个，之前有小伙伴让我搬运下合集。为大家把B站没有发过的都补上吧.",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1wv411C7M7",
+    "video_url": "/videos/prem_BV1wv411C7M7.mp4",
+    "cover_image": "//i0.hdslb.com/bfs/archive/de2c9599cdfabad2e4d5583e3e697dc878df70a9.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "美甲流程158甲片二次利用",
+    "slug": "美甲流程158甲片二次利用-07310959",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "-",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1Yz4y117vu",
+    "video_url": "/videos/prem_BV1Yz4y117vu.mp4",
+    "cover_image": "//i2.hdslb.com/bfs/archive/1bf861bed61f6041046f33a6e8398a7b3a6743e7.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "如何卸钻美甲教程",
+    "slug": "如何卸钻美甲教程-07310959",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "-",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1sg411o7Ha",
+    "video_url": "/videos/prem_BV1sg411o7Ha.mp4",
+    "cover_image": "//i0.hdslb.com/bfs/archive/c17c1c5db726c9d07c3496e4de04aabff130d5b7.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "【萌新】高达魔镜粉伪电镀教程",
+    "slug": "萌新高达魔镜粉伪电镀教程-07310959",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "请原谅咱超浓重的东北口音qwq",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1Vy4y1K78q",
+    "video_url": "/videos/prem_BV1Vy4y1K78q.mp4",
+    "cover_image": "//i2.hdslb.com/bfs/archive/42b77d1c3a8c1473180d299be5ec1c27f8772868.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "深度解析！到底是包边还是不包？",
+    "slug": "深度解析到底是包边还是不包-07310959",
+    "category_id": 1,
+    "difficulty": "beginner",
+    "description": "-",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1vP4y1T7LA",
+    "video_url": "/videos/prem_BV1vP4y1T7LA.mp4",
+    "cover_image": "//i1.hdslb.com/bfs/archive/34be44f245ef695b8bc16b68f288fc6a742899fb.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "黄黑皮都给我去冲，原相机美甲32色上手实拍",
+    "slug": "黄黑皮都给我去冲原相机美甲32色上手实拍-07310959",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "-",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1P24y1P7kW",
+    "video_url": "/videos/prem_BV1P24y1P7kW.mp4",
+    "cover_image": "//i0.hdslb.com/bfs/archive/c0c69de00fd23e4ae638bbaaa5696cedfa2a7063.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "25课|简约黑白大理石纹美甲，基础晕染美甲入门级！",
+    "slug": "25课简约黑白大理石纹美甲基础晕染美甲入门级-07310959",
+    "category_id": 1,
+    "difficulty": "beginner",
+    "description": "",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1Cr4y1t7z3",
+    "video_url": "/videos/prem_BV1Cr4y1t7z3.mp4",
+    "cover_image": "//i1.hdslb.com/bfs/archive/5c06b0e502eac68d71f8f7b4efdc4a3878f61335.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "[韩国美甲VLOG]美甲师的日常生活，秋季新品颜色又是...",
+    "slug": "韩国美甲vlog美甲师的日常生活秋季新品颜色又是-07310959",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "https://www.youtube.com/watch?v=v9zjPNyU7qY\n求关注，求点赞，求三连\n搬运只为学习交流分享，请勿用作商业用途。",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1Pf4y1P7PC",
+    "video_url": "/videos/prem_BV1Pf4y1P7PC.mp4",
+    "cover_image": "//i0.hdslb.com/bfs/archive/105ff4d550a10eaa1f3a5b76515fba1aace27b04.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "韩系",
+      "日常通勤"
+    ]
+  },
+  {
+    "title": "美甲知识大科普！‖兔兔小课堂开课啦",
+    "slug": "美甲知识大科普兔兔小课堂开课啦-07310959",
+    "category_id": 2,
+    "difficulty": "intermediate",
+    "description": "\n兔言兔语：今天就让小兔来给大家讲解一下美甲常见技法和店内现有的甲型吧，还不快拿起小本本记下来\n聪明蛋知道在哪加入小兔教获得甲片设计和美丽甲片ww\n本设计属原创设计，线下美甲、自制、其他穿戴甲店铺制作请先行联系我们授权～",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV14p4y1J7A2",
+    "video_url": "/videos/prem_BV14p4y1J7A2.mp4",
+    "cover_image": "//i0.hdslb.com/bfs/archive/9913551a3d8de5d434f7b9039715042200873ea5.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "《美甲姐妹的秘密》第一集：姐姐从小镶钻，妹妹却只能锉刀打磨",
+    "slug": "美甲姐妹的秘密第一集姐姐从小镶钻妹妹却只能锉刀打磨-08020703",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1MV326gEHr",
+    "video_url": "/videos/prem_BV1MV326gEHr.mp4",
+    "cover_image": "//i0.hdslb.com/bfs/archive/668b478c50eebef4486ce48d61d467d90a4d87fc.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "不要用美甲印章画法式！",
+    "slug": "不要用美甲印章画法式-08020703",
+    "category_id": 3,
+    "difficulty": "beginner",
+    "description": "-",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1Ck4y1n7Lr",
+    "video_url": "/videos/prem_BV1Ck4y1n7Lr.mp4",
+    "cover_image": "//i1.hdslb.com/bfs/archive/a289c0dd42774a6f24d693043465dd7573ccf1b8.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "韩国美甲师如果治理向往里面长的指甲",
+    "slug": "韩国美甲师如果治理向往里面长的指甲-08020703",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "https://www.youtube.com/",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1XT4y1578y",
+    "video_url": "/videos/prem_BV1XT4y1578y.mp4",
+    "cover_image": "//i2.hdslb.com/bfs/archive/e8c716ddf4ebdaadf894b59e6a39503443cdc0e8.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "韩系"
+    ]
+  },
+  {
+    "title": "美甲姐妹的秘密》第四集：姐姐的怀疑",
+    "slug": "美甲姐妹的秘密第四集姐姐的怀疑-08020703",
+    "category_id": 2,
+    "difficulty": "beginner",
+    "description": "",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV11W3t6SEpP",
+    "video_url": "/videos/prem_BV11W3t6SEpP.mp4",
+    "cover_image": "//i1.hdslb.com/bfs/archive/8d55a7452e2161e2de34994c3c2330db9618d550.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "猫眼吸得好，建构少不了｜前建构+玻璃珠猫眼教程｜三步教会你吸猫眼",
+    "slug": "猫眼吸得好建构少不了前建构玻璃珠猫眼教程三步教会你吸猫眼-08020703",
+    "category_id": 5,
+    "difficulty": "beginner",
+    "description": "-",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1wF4m1A7TL",
+    "video_url": "/videos/prem_BV1wF4m1A7TL.mp4",
+    "cover_image": "//i1.hdslb.com/bfs/archive/9956378fab56fd211aaf756bdc351089ff398aca.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "【芝士烤居崽】五分钟教会你用纸巾做延长甲，小白也能做的无纸托延长指甲",
+    "slug": "芝士烤居崽五分钟教会你用纸巾做延长甲小白也能做的无纸托延长指甲-08020703",
+    "category_id": 8,
+    "difficulty": "advanced",
+    "description": "这个方法延长的指甲，效果和使用感都挺ok的哟，如果是想延很长的指甲的小姐妹就不推荐用这个方法啦！",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1M4411T7GY",
+    "video_url": "/videos/prem_BV1M4411T7GY.mp4",
+    "cover_image": "//i2.hdslb.com/bfs/archive/52f8d20bc716f682345905d8f97ac682ddb7f18b.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "美甲新手‼️在家也能快速拥有白女美甲😎",
+    "slug": "美甲新手在家也能快速拥有白女美甲-08020703",
+    "category_id": 1,
+    "difficulty": "beginner",
+    "description": "-",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1o7QbYyEEK",
+    "video_url": "/videos/prem_BV1o7QbYyEEK.mp4",
+    "cover_image": "//i2.hdslb.com/bfs/archive/69f5bc42b5ab978e8c3b96d7c709d135c0cae084.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
+    ]
+  },
+  {
+    "title": "美甲彩绘之童话故事公主篇",
+    "slug": "美甲彩绘之童话故事公主篇-08020703",
+    "category_id": 9,
+    "difficulty": "beginner",
+    "description": "-",
+    "steps": "[]",
+    "tips": "[]",
+    "tools_needed": "[]",
+    "materials_needed": "[]",
+    "source_type": "auto_collected",
+    "source_url": "https://www.bilibili.com/video/BV1DbGg6jE3S",
+    "video_url": "/videos/prem_BV1DbGg6jE3S.mp4",
+    "cover_image": "//i2.hdslb.com/bfs/archive/269e16b32cc3d31cfdb3ac1b20a2d7f88e535d18.jpg",
+    "duration_minutes": 15,
+    "tags": [
+      "新手入门"
     ]
   }
 ]
