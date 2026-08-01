@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>美甲学院 - AI美甲设计</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'PingFang SC',-apple-system,BlinkMacSystemFont,sans-serif;background:#FDFBF9;display:flex;justify-content:center;min-height:100vh}
+.app{width:100%;max-width:375px;min-height:100vh;background:#FDFBF9;position:relative;padding-bottom:70px}
+/* Status Bar */
+.status-bar{height:44px;display:flex;align-items:center;justify-content:space-between;padding:0 20px;font-size:12px;color:#4A3B38;font-weight:600}
+.status-bar .time{font-weight:700}
+.status-bar .icons{display:flex;gap:6px;align-items:center}
+/* Header */
+.header{height:60px;display:flex;align-items:center;padding:0 16px;gap:10px}
+.header .title{font-size:20px;font-weight:700;color:#4A3B38;white-space:nowrap}
+.header .search{flex:1;height:36px;border-radius:18px;background:#F6F0EC;border:none;padding:0 16px;font-size:12px;color:#8C7B77;outline:none}
+.header .search::placeholder{color:#BFB0AA}
+.header .icon-btn{width:36px;height:36px;border-radius:50%;background:#F6F0EC;border:none;display:flex;align-items:center;justify-content:center;cursor:pointer;font-size:16px;transition:all .2s}
+.header .icon-btn:hover{background:#F0E5E0}
+/* Section */
+.section-title{text-align:center;padding:24px 20px 16px}
+.section-title h2{font-size:24px;font-weight:700;color:#4A3B38;margin-bottom:4px}
+.section-title p{font-size:14px;color:#8C7B77}
+/* Upload Area */
+.upload-area{margin:0 16px;background:linear-gradient(135deg,#FCE4E0,#F8D8D5);border-radius:24px;padding:24px;display:flex;align-items:center;gap:20px}
+.upload-placeholder{width:80px;height:80px;border-radius:20px;border:2px dashed #EAA5A0;display:flex;align-items:center;justify-content:center;flex-shrink:0;cursor:pointer;transition:all .2s;background:rgba(255,255,255,.4)}
+.upload-placeholder:hover{background:rgba(255,255,255,.6);transform:scale(1.03)}
+.upload-placeholder .hand-icon{font-size:36px;opacity:.7}
+.upload-info{flex:1}
+.upload-info .btn-upload{display:inline-block;background:#EAA5A0;color:#FFF;font-size:16px;font-weight:700;padding:10px 20px;border-radius:20px;border:none;cursor:pointer;transition:all .2s;margin-top:8px}
+.upload-info .btn-upload:hover{background:#E0928D;transform:translateY(-1px);box-shadow:0 4px 12px rgba(234,165,160,.4)}
+.upload-info .btn-upload:active{transform:scale(.97)}
+/* Options Grid */
+.options-grid{display:flex;gap:12px;margin:20px 16px}
+.option-card{flex:1;background:#FFF;border-radius:16px;padding:20px 12px;text-align:center;box-shadow:0 2px 8px rgba(0,0,0,.04);cursor:pointer;transition:all .2s;border:1.5px solid transparent}
+.option-card:hover{transform:translateY(-2px);box-shadow:0 6px 20px rgba(0,0,0,.08);border-color:#F6DCD3}
+.option-card:active{transform:scale(.97)}
+.option-card .opt-icon{font-size:32px;margin-bottom:8px;display:block}
+.option-card .opt-label{font-size:14px;color:#4A3B38;font-weight:600}
+.option-card.selected{border-color:#EAA5A0;background:#FFF5F3}
+/* Generate Button */
+.btn-generate{display:block;width:calc(100% - 32px);margin:24px 16px;padding:16px;border:none;border-radius:30px;background:linear-gradient(135deg,#F0C5C0,#EAA5A0);color:#FFF;font-size:18px;font-weight:700;cursor:pointer;transition:all .2s;box-shadow:0 4px 16px rgba(234,165,160,.25)}
+.btn-generate:hover{box-shadow:0 8px 24px rgba(234,165,160,.4);transform:translateY(-2px)}
+.btn-generate:active{transform:scale(.97)}
+.btn-generate:disabled{opacity:.5;cursor:not-allowed;transform:none;box-shadow:none}
+/* Preview Area */
+.preview-area{margin:0 16px 24px;background:#FFF;border-radius:24px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.04)}
+.preview-area img{width:100%;height:240px;object-fit:cover;display:block}
+.preview-area .preview-label{padding:12px 16px;font-size:14px;color:#4A3B38;font-weight:600;text-align:center;background:#FFF5F3}
+/* Toast */
+.toast{position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);background:rgba(74,59,56,.9);color:#FFF;padding:12px 24px;border-radius:12px;font-size:14px;z-index:999;opacity:0;pointer-events:none;transition:opacity .3s}
+.toast.show{opacity:1}
+/* Bottom Nav */
+.nav-bar{position:fixed;bottom:0;left:50%;transform:translateX(-50%);width:100%;max-width:375px;height:60px;background:#FFF;display:flex;align-items:center;justify-content:space-around;padding:0 8px 6px;box-shadow:0 -1px 8px rgba(0,0,0,.04);z-index:100}
+.nav-item{display:flex;flex-direction:column;align-items:center;gap:2px;cursor:pointer;transition:all .2s;padding:4px 12px;border:none;background:none;font-size:10px;color:#8C7B77}
+.nav-item .nav-icon{font-size:22px}
+.nav-item.active{color:#EAA5A0}
+.nav-item:hover{color:#EAA5A0}
+/* Upload hidden input */
+#fileInput{display:none}
+/* Style dropdown */
+.style-chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
+.style-chip{padding:6px 14px;border-radius:20px;border:1px solid #F0E5E0;background:#FFF;font-size:12px;color:#4A3B38;cursor:pointer;transition:all .15s}
+.style-chip:hover{border-color:#EAA5A0}
+.style-chip.selected{background:#EAA5A0;color:#FFF;border-color:#EAA5A0}
+</style>
+</head>
+<body>
+<div class="app">
+  <!-- Status Bar -->
+  <div class="status-bar">
+    <span class="time">9:41</span>
+    <span class="icons">📶 🔋</span>
+  </div>
+
+  <!-- Header -->
+  <div class="header">
+    <span class="title">美甲学院</span>
+    <input class="search" placeholder="上传手部照片，生成专属美甲方案" readonly>
+    <button class="icon-btn" title="分享">📤</button>
+  </div>
+
+  <!-- Section Title -->
+  <div class="section-title">
+    <h2>AI美甲设计</h2>
+    <p>上传手部照片，生成专属美甲方案</p>
+  </div>
+
+  <!-- Upload Area -->
+  <div class="upload-area">
+    <div class="upload-placeholder" id="uploadTrigger">
+      <span class="hand-icon">✋</span>
+    </div>
+    <div class="upload-info">
+      <p style="font-size:14px;color:#4A3B38;font-weight:600">添加手部照片</p>
+      <p style="font-size:12px;color:#8C7B77;margin-top:2px">光线充足 · 手指自然伸展</p>
+      <button class="btn-upload" id="uploadBtn">添加手照生成款式</button>
+    </div>
+    <input type="file" id="fileInput" accept="image/*">
+  </div>
+
+  <!-- Options Grid -->
+  <div class="options-grid" id="optionsGrid">
+    <div class="option-card selected" data-opt="style">
+      <span class="opt-icon">🎨</span>
+      <span class="opt-label">选择风格</span>
+    </div>
+    <div class="option-card" data-opt="color">
+      <span class="opt-icon">🖌️</span>
+      <span class="opt-label">选择颜色</span>
+    </div>
+    <div class="option-card" data-opt="shape">
+      <span class="opt-icon">💅</span>
+      <span class="opt-label">选择甲型</span>
+    </div>
+  </div>
+
+  <!-- Style Chips (shown when style selected) -->
+  <div class="style-chips" id="styleChips" style="margin:0 16px">
+    <span class="style-chip selected" data-style="法式">法式</span>
+    <span class="style-chip" data-style="猫眼">猫眼</span>
+    <span class="style-chip" data-style="渐变">渐变</span>
+    <span class="style-chip" data-style="国风">国风</span>
+    <span class="style-chip" data-style="冰透">冰透</span>
+    <span class="style-chip" data-style="花卉">花卉</span>
+  </div>
+
+  <!-- Preview -->
+  <div class="preview-area" id="previewArea" style="display:none">
+    <img id="previewImg" src="" alt="预览">
+    <div class="preview-label">✨ AI生成效果预览</div>
+  </div>
+
+  <!-- Generate Button -->
+  <button class="btn-generate" id="btnGenerate">立即生成方案</button>
+
+  <!-- Toast -->
+  <div class="toast" id="toast"></div>
+
+  <!-- Bottom Nav -->
+  <nav class="nav-bar">
+    <button class="nav-item"><span class="nav-icon">🏠</span>首页</button>
+    <button class="nav-item active"><span class="nav-icon">💖</span>AI设计</button>
+    <button class="nav-item"><span class="nav-icon">💬</span>教程库</button>
+    <button class="nav-item"><span class="nav-icon">📖</span>材料库</button>
+    <button class="nav-item"><span class="nav-icon">👤</span>我的</button>
+  </nav>
+</div>
+
+<script>
+// Upload
+const uploadTrigger = document.getElementById('uploadTrigger');
+const uploadBtn = document.getElementById('uploadBtn');
+const fileInput = document.getElementById('fileInput');
+const previewArea = document.getElementById('previewArea');
+const previewImg = document.getElementById('previewImg');
+const toast = document.getElementById('toast');
+
+function triggerUpload() { fileInput.click(); }
+uploadTrigger.addEventListener('click', triggerUpload);
+uploadBtn.addEventListener('click', triggerUpload);
+
+fileInput.addEventListener('change', (e) => {
+  const file = e.target.files[0];
+  if (file) {
+    const reader = new FileReader();
+    reader.onload = (ev) => {
+      previewImg.src = ev.target.result;
+      previewArea.style.display = 'block';
+      showToast('✅ 照片已上传');
+    };
+    reader.readAsDataURL(file);
+  }
+});
+
+// Options Grid
+document.querySelectorAll('.option-card').forEach(card => {
+  card.addEventListener('click', function() {
+    document.querySelectorAll('.option-card').forEach(c => c.classList.remove('selected'));
+    this.classList.add('selected');
+    showToast('选中: ' + this.querySelector('.opt-label').textContent);
+  });
+});
+
+// Style Chips
+document.querySelectorAll('.style-chip').forEach(chip => {
+  chip.addEventListener('click', function() {
+    document.querySelectorAll('.style-chip').forEach(c => c.classList.remove('selected'));
+    this.classList.add('selected');
+    showToast('选中模板: ' + this.dataset.style);
+  });
+});
+
+// Generate
+document.getElementById('btnGenerate').addEventListener('click', function() {
+  const style = document.querySelector('.style-chip.selected')?.dataset.style || '未选';
+  const opt = document.querySelector('.option-card.selected .opt-label')?.textContent || '未选';
+  showToast('🎉 正在生成「' + style + '」风格美甲方案...');
+
+  if (!previewImg.src) {
+    showToast('⚠️ 请先上传手部照片');
+    return;
+  }
+
+  // Pulse animation on button
+  this.style.transform = 'scale(0.95)';
+  setTimeout(() => { this.style.transform = ''; }, 200);
+});
+
+// Toast
+function showToast(msg) {
+  toast.textContent = msg;
+  toast.classList.add('show');
+  clearTimeout(toast._timeout);
+  toast._timeout = setTimeout(() => toast.classList.remove('show'), 1800);
+}
+
+// Nav
+document.querySelectorAll('.nav-item').forEach(item => {
+  item.addEventListener('click', function() {
+    document.querySelectorAll('.nav-item').forEach(i => i.classList.remove('active'));
+    this.classList.add('active');
+    showToast('切换到: ' + this.textContent.trim());
+  });
+});
+</script>
+</body>
+</html>

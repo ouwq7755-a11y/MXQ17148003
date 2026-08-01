@@ -51,8 +51,8 @@ export default function TemplateAnalyzer() {
       for (let x = 0; x < w; x += sampleStep) {
         const i = (y * w + x) * 4
         const r = pixels[i], g = pixels[i+1], b = pixels[i+2]
-        // Quantize to nearest 8 for grouping
-        const qr = Math.round(r/8)*8, qg = Math.round(g/8)*8, qb = Math.round(b/8)*8
+        // Quantize to nearest 8 (clamp to 248 max)
+        const qr = Math.min(248, Math.round(r/8)*8), qg = Math.min(248, Math.round(g/8)*8), qb = Math.min(248, Math.round(b/8)*8)
         const key = `${qr},${qg},${qb}`
         colorMap.set(key, (colorMap.get(key) || 0) + 1)
       }

@@ -10,6 +10,8 @@ import SearchPage from './pages/Search'
 import AIDesign from './pages/AIDesign'
 import Profile from './pages/Profile'
 import TemplateAnalyzer from './pages/TemplateAnalyzer'
+import ContentEditor from './pages/ContentEditor'
+import ThemeStore from './pages/ThemeStore'
 
 export const API_BASE = import.meta.env.VITE_API_URL || '/api'
 
@@ -39,6 +41,8 @@ export default function App() {
           <Route path="/search" element={<SearchPage />} />
           <Route path="/profile" element={<Profile />} />
           <Route path="/analyzer" element={<TemplateAnalyzer />} />
+          <Route path="/editor" element={<ContentEditor />} />
+          <Route path="/themes" element={<ThemeStore />} />
         </Routes>
       </main>
       {!isDetailPage && (

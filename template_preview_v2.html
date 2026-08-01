@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>美甲学院 - AI美甲设计</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'PingFang SC',-apple-system,BlinkMacSystemFont,sans-serif;background:#FCF6EB;display:flex;justify-content:center;min-height:100vh}
+.app{width:100%;max-width:375px;min-height:100vh;background:#FCF6EB;position:relative;padding-bottom:80px}
+
+/* Status Bar */
+.status-bar{height:28px;display:flex;align-items:center;justify-content:space-between;padding:0 20px;font-size:11px;color:#593933;font-weight:600}
+.status-bar .time{font-weight:700}
+.status-bar .icons{display:flex;gap:5px;align-items:center;font-size:10px}
+
+/* Header */
+.header{height:60px;display:flex;align-items:center;padding:0 14px;gap:8px}
+.header .title{font-size:18px;font-weight:700;color:#593933;flex-shrink:0}
+.header .search{flex:1;height:34px;border-radius:17px;background:#F5EDE0;border:none;padding:0 14px;font-size:12px;color:#B89F9A;outline:none}
+.header .search::placeholder{color:#CBB5AE}
+.header .share-btn{width:34px;height:34px;border-radius:50%;background:#F5EDE0;border:none;display:flex;align-items:center;justify-content:center;cursor:pointer;font-size:15px;transition:all .2s;flex-shrink:0}
+.header .share-btn:hover{background:#EDE0D5;transform:scale(1.05)}
+
+/* Section Title */
+.section-title{text-align:center;padding:20px 20px 4px}
+.section-title h1{font-size:42px;font-weight:700;color:#593933;line-height:1.15;margin-bottom:6px}
+.section-title p{font-size:18px;color:#7A5A54;font-weight:400}
+
+/* Upload Card */
+.upload-card{margin:20px 16px;background:linear-gradient(135deg,#FCE8E0,#FDDDD5);border-radius:20px;padding:20px 18px;display:flex;align-items:center;gap:16px}
+.hand-illust{width:72px;height:72px;border-radius:18px;border:2px dashed #E8A8A0;display:flex;align-items:center;justify-content:center;flex-shrink:0;cursor:pointer;transition:all .2s;background:rgba(255,255,255,.35)}
+.hand-illust:hover{background:rgba(255,255,255,.55);transform:scale(1.04)}
+.hand-illust svg{width:36px;height:36px;opacity:.55}
+.card-right{flex:1;display:flex;flex-direction:column;gap:8px}
+.card-right .btn-upload{display:inline-flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#EDB5A8,#E8A8A0);color:#FFF;font-size:14px;font-weight:700;padding:10px 18px;border-radius:30px;border:none;cursor:pointer;transition:all .2s;align-self:flex-start;box-shadow:0 3px 10px rgba(232,168,160,.25)}
+.card-right .btn-upload:hover{transform:translateY(-1px);box-shadow:0 5px 16px rgba(232,168,160,.4)}
+.card-right .btn-upload:active{transform:scale(.96)}
+
+/* Option Cards */
+.options-group{display:flex;gap:18px;margin:18px 16px}
+.opt-card{flex:1;background:#FFF;border-radius:16px;border:1px solid #E8DCD5;padding:18px 10px 14px;text-align:center;cursor:pointer;transition:all .2s}
+.opt-card:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(0,0,0,.06);border-color:#E8A8A0}
+.opt-card:active{transform:scale(.97)}
+.opt-card .opt-icon{font-size:30px;display:block;margin-bottom:8px}
+.opt-card .opt-label{font-size:13px;color:#593933;font-weight:600}
+.opt-card.selected{border-color:#E8A8A0;background:#FFF7F5;box-shadow:0 2px 8px rgba(232,168,160,.15)}
+
+/* Style Chips */
+.style-chips{display:flex;flex-wrap:wrap;gap:8px;margin:0 16px 4px}
+.style-chip{padding:8px 16px;border-radius:20px;border:1px solid #E8DCD5;background:#FFF;font-size:13px;color:#593933;cursor:pointer;transition:all .15s;font-weight:500}
+.style-chip:hover{border-color:#E8A8A0}
+.style-chip.selected{background:#E8A8A0;color:#FFF;border-color:#E8A8A0}
+
+/* Preview */
+.preview-area{display:none;margin:16px 16px;background:#FFF;border-radius:20px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.04)}
+.preview-area img{width:100%;height:220px;object-fit:cover;display:block}
+.preview-label{padding:10px;text-align:center;font-size:14px;color:#593933;font-weight:600;background:#FFF7F5}
+
+/* Generate Button */
+.btn-generate{display:block;width:calc(100% - 32px);margin:22px 16px;padding:16px;border:none;border-radius:32px;background:linear-gradient(135deg,#EDB5A8,#E29890);color:#FFF;font-size:18px;font-weight:700;cursor:pointer;transition:all .2s;box-shadow:0 4px 16px rgba(232,168,160,.3);letter-spacing:1px}
+.btn-generate:hover{box-shadow:0 8px 24px rgba(232,168,160,.45);transform:translateY(-2px)}
+.btn-generate:active{transform:scale(.97)}
+
+/* Toast */
+.toast{position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);background:rgba(89,57,51,.92);color:#FFF;padding:12px 22px;border-radius:14px;font-size:14px;z-index:999;opacity:0;pointer-events:none;transition:opacity .3s;font-weight:500}
+.toast.show{opacity:1}
+
+/* Bottom Nav */
+.nav-bar{position:fixed;bottom:0;left:50%;transform:translateX(-50%);width:100%;max-width:375px;height:72px;background:#FFF;display:flex;align-items:flex-start;justify-content:space-around;padding:10px 4px 8px;box-shadow:0 -1px 8px rgba(0,0,0,.04);z-index:100}
+.nav-item{display:flex;flex-direction:column;align-items:center;gap:3px;cursor:pointer;transition:all .2s;padding:2px 10px;border:none;background:none;font-size:10px;color:#B89F9A;font-weight:500}
+.nav-item .nav-icon{font-size:20px;line-height:1}
+.nav-item.active{color:#E8A8A0}
+.nav-item:hover{color:#E8A8A0}
+
+#fileInput{display:none}
+</style>
+</head>
+<body>
+<div class="app">
+  <div class="status-bar">
+    <span class="time">9:41</span>
+    <span class="icons">📶 📡 🔋</span>
+  </div>
+
+  <div class="header">
+    <span class="title">美甲学院</span>
+    <input class="search" placeholder="上传手部照片，生成专属美甲方案" readonly>
+    <button class="share-btn">📤</button>
+  </div>
+
+  <div class="section-title">
+    <h1>AI美甲设计</h1>
+    <p>上传手部照片，生成专属美甲方案</p>
+  </div>
+
+  <div class="upload-card">
+    <div class="hand-illust" id="uploadTrigger">
+      <svg viewBox="0 0 24 24" fill="none" stroke="#E8A8A0" stroke-width="1.8">
+        <path d="M18 10V6a2 2 0 0 0-4 0v1M14 7V4a2 2 0 0 0-4 0v3M10 9V5a2 2 0 0 0-4 0v6M6 12v-2a2 2 0 0 0-4 0v4c0 4 3 8 10 8s10-4 10-8v-3a2 2 0 0 0-4 0v1"/>
+      </svg>
+    </div>
+    <div class="card-right">
+      <p style="font-size:13px;color:#7A5A54;line-height:1.4">上传清晰手部照片<br>AI 即刻生成美甲效果预览</p>
+      <button class="btn-upload" id="uploadBtn">添加手照生成款式</button>
+    </div>
+  </div>
+  <input type="file" id="fileInput" accept="image/*">
+
+  <div class="options-group" id="optionsGroup">
+    <div class="opt-card selected" data-opt="style">
+      <span class="opt-icon">🎨</span><span class="opt-label">选择风格</span>
+    </div>
+    <div class="opt-card" data-opt="color">
+      <span class="opt-icon">🖌️</span><span class="opt-label">选择颜色</span>
+    </div>
+    <div class="opt-card" data-opt="shape">
+      <span class="opt-icon">💅</span><span class="opt-label">选择甲型</span>
+    </div>
+  </div>
+
+  <div class="style-chips" id="styleChips">
+    <span class="style-chip selected" data-style="法式">法式</span>
+    <span class="style-chip" data-style="猫眼">猫眼</span>
+    <span class="style-chip" data-style="渐变">渐变</span>
+    <span class="style-chip" data-style="国风">国风</span>
+    <span class="style-chip" data-style="冰透">冰透</span>
+    <span class="style-chip" data-style="花卉">花卉</span>
+    <span class="style-chip" data-style="镜面">镜面</span>
+    <span class="style-chip" data-style="磨砂">磨砂</span>
+  </div>
+
+  <div class="preview-area" id="previewArea">
+    <img id="previewImg" src="" alt="预览">
+    <div class="preview-label">✨ AI 生成效果预览</div>
+  </div>
+
+  <button class="btn-generate" id="btnGenerate">立即生成方案</button>
+
+  <div class="toast" id="toast"></div>
+
+  <nav class="nav-bar">
+    <button class="nav-item"><span class="nav-icon">🏠</span>首页</button>
+    <button class="nav-item active"><span class="nav-icon">💖</span>AI设计</button>
+    <button class="nav-item"><span class="nav-icon">💬</span>教程库</button>
+    <button class="nav-item"><span class="nav-icon">📖</span>材料库</button>
+    <button class="nav-item"><span class="nav-icon">👤</span>我的</button>
+  </nav>
+</div>
+
+<script>
+const $=id=>document.getElementById(id);
+const toast=$('toast'), previewArea=$('previewArea'), previewImg=$('previewImg');
+
+function showToast(msg){
+  toast.textContent=msg;toast.classList.add('show');
+  clearTimeout(toast._t);toast._t=setTimeout(()=>toast.classList.remove('show'),1800);
+}
+
+// Upload
+$('uploadTrigger').addEventListener('click',()=>$('fileInput').click());
+$('uploadBtn').addEventListener('click',()=>$('fileInput').click());
+$('fileInput').addEventListener('change',e=>{
+  const f=e.target.files[0];
+  if(!f)return;
+  const r=new FileReader();
+  r.onload=ev=>{previewImg.src=ev.target.result;previewArea.style.display='block';showToast('✅ 照片已上传');};
+  r.readAsDataURL(f);
+});
+
+// Options
+document.querySelectorAll('.opt-card').forEach(c=>c.addEventListener('click',function(){
+  document.querySelectorAll('.opt-card').forEach(x=>x.classList.remove('selected'));
+  this.classList.add('selected');
+  showToast('选中: '+this.querySelector('.opt-label').textContent);
+}));
+
+// Chips
+document.querySelectorAll('.style-chip').forEach(c=>c.addEventListener('click',function(){
+  document.querySelectorAll('.style-chip').forEach(x=>x.classList.remove('selected'));
+  this.classList.add('selected');
+  showToast('选中: '+this.dataset.style);
+}));
+
+// Generate
+$('btnGenerate').addEventListener('click',function(){
+  const style=document.querySelector('.style-chip.selected')?.dataset.style||'未选';
+  if(!previewImg.src){showToast('⚠️ 请先上传手部照片');return;}
+  this.style.transform='scale(.95)';
+  setTimeout(()=>this.style.transform='',200);
+  showToast('🎉 正在生成「'+style+'」风格方案...');
+});
+
+// Nav
+document.querySelectorAll('.nav-item').forEach(n=>n.addEventListener('click',function(){
+  document.querySelectorAll('.nav-item').forEach(x=>x.classList.remove('active'));
+  this.classList.add('active');
+  showToast('切换到: '+this.textContent.trim());
+}));
+</script>
+</body>
+</html>
