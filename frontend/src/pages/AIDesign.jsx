@@ -63,7 +63,7 @@ export default function AIDesign() {
       img.onerror = () => {
         setGenerating(false)
         setResult({ style: selectedStyle, tone: selectedTone, image: uploadedImage || imageUrl })
-        showToast('AI生成完成，点击查看效果')
+        setResult({ style: selectedStyle, tone: selectedTone, image: imageUrl })
       }
       img.src = imageUrl
     } catch {
