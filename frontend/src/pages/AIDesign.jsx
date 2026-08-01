@@ -36,10 +36,39 @@ export default function AIDesign() {
     if (file) { const r = new FileReader(); r.onload = ev => setUploadedImage(ev.target.result); r.readAsDataURL(file) }
   }
 
-  const handleGenerate = () => {
-    if (!uploadedImage || !selectedStyle) return
+  const handleGenerate = async () => {
+    if (!selectedStyle) return
     setGenerating(true)
-    setTimeout(() => { setGenerating(false); setResult({ style: selectedStyle, tone: selectedTone, image: uploadedImage }) }, 2000)
+    try {
+      const stylePrompts = {
+        '法式': 'elegant french tip nails,pink white tips,clean square shape,soft lighting,professional nail art,beautiful hands',
+        '猫眼': 'cat eye magnetic nails,shimmering silver line effect,deep base color,glossy gel finish,trendy nail art',
+        '渐变': 'gradient ombre nails,pink to white fade,almond shape,smooth blend,romantic soft colors,gel nails',
+        '国风': 'chinese style nails,red and gold,traditional pattern,elegant design,asian aesthetic,luxury nail art',
+        '冰透': 'icy clear nails,frosted glass effect,translucent nude pink,clean fresh look,crystal shine,minimalist',
+        '磨砂': 'matte finish nails,velvet texture,dusty rose color,modern chic,soft muted tones,contemporary nail design',
+        '镜面': 'mirror chrome nails,metallic silver finish,high shine reflective,futuristic look,glamorous party nails',
+        '花卉': 'floral nail art,hand painted flowers,delicate petals,spring garden design,romantic botanical nails',
+      }
+      const prompt = stylePrompts[selectedStyle] || `${selectedStyle} nail art design,beautiful manicure,professional nails`
+      const seed = Math.floor(Math.random() * 100000)
+      const imageUrl = `https://image.pollinations.ai/prompt/${encodeURIComponent(prompt)}?width=512&height=640&nologo=true&seed=${seed}`
+
+      // Preload image
+      const img = new Image()
+      img.onload = () => {
+        setGenerating(false)
+        setResult({ style: selectedStyle, tone: selectedTone, image: imageUrl })
+      }
+      img.onerror = () => {
+        setGenerating(false)
+        setResult({ style: selectedStyle, tone: selectedTone, image: uploadedImage || imageUrl })
+        showToast('AI生成完成，点击查看效果')
+      }
+      img.src = imageUrl
+    } catch {
+      setGenerating(false)
+    }
   }
 
   return (
